@@ -1,35 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* NavbarArea CSS*/
+.is-sticky {
+  @apply fixed transition duration-500 top-0 left-0 w-full py-4 z-20;
+}
+.is-sticky.sticky-style-1 {
+  @apply bg-slate-800 text-neutral-200
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+.offcanvas-menu-wrap {
+  @apply before:absolute before:w-0 before:h-full before:top-0 before:right-0 before:bg-black before:z-10 before:opacity-90 before:ease-linear before:duration-[500ms] delay-[300ms];
 }
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.offcanvas-menu-wrap.active {
+  @apply before:w-full before:visible before:opacity-90;
+}
+.offcanvas-menu-wrap .offcanvas-menu {
+  @apply opacity-90 bg-white fixed top-0 right-[-300px] w-[300px] h-full ease-in-out duration-[450ms] delay-[350ms] p-5 z-20;
+}
+.offcanvas-menu-wrap.active .offcanvas-menu {
+  @apply right-0 opacity-100;
+}
+.offcanvas-text {
+  @apply pt-[15px] pb-[15px] border-t last:border-b text-[15px] leading-6 uppercase font-semibold;
 }
