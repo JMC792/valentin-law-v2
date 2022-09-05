@@ -13,19 +13,6 @@ import Events from "@components/Homepage/Events";
 export default function Home() {
   return (
     <Fragment>
-<<<<<<< HEAD
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-      </Head>
-
-      <main>
-          <Hero/>
-
-      </main>
-
-=======
         <Navbar/>
         <Hero/>
         <Quote/>
@@ -34,7 +21,6 @@ export default function Home() {
         <Events/>
         <Giving/>
         <Team/>
->>>>>>> navbar
     </Fragment>
   )
 }
