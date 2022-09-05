@@ -40,26 +40,50 @@ function Navbar() {
 
                             {/*----------------------- Link list ----------------------- */}
                             <div className="hidden lg:flex gap-x-6 text-white">
-                                <a className="text-[20px] hover:text-yellow-600 transition-colors delay-100">Mision</a>
-                                <a className="text-[20px] hover:text-yellow-600 transition-colors delay-100">Nosotros</a>
-                                <a className="text-[20px] hover:text-yellow-600 transition-colors delay-100">Donacion</a>
-                                <a className="text-[20px] hover:text-yellow-600 transition-colors delay-100">Contactenos</a>
+
+                                    <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                        <Link href="#mission">
+                                            Mission
+                                        </Link>
+                                    </div>
+
+
+                                    <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                        <Link href="#about">
+                                            Nosotros
+                                        </Link>
+                                    </div>
+
+
+                                    <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                        <Link href="#donation">
+                                            Donacion
+                                        </Link>
+                                    </div>
+
+
+                                    <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                        <Link href="#contact">
+                                            Conactctenos
+                                        </Link>
+                                    </div>
+
                             </div>
 
                             {/*----------------------- Language ----------------------- */}
                             <div className="hidden lg:flex">
-                                <a className="text-[20px] text-white hover:text-yellow-600 transition-colors delay-100">English</a>
+                                <div className="text-[20px] text-white hover:text-yellow-600 transition-colors delay-100">
+                                    <Link href="es" locale="es">
+                                        English
+                                    </Link>
+                                </div>
                             </div>
 
                             {/*----------------------- Contact Us ----------------------- */}
-                            <div className="hidden lg:block text-white hover:text-yellow-600 transition-colors delay-100">
-                                <i className="fa-solid fa-phone"></i>
-                                <span className="ml-2 text-center">Llamanos:</span>
-                                <br></br>
-                                <a href="tel: 404-919-0443" className="text-center">
-                                    (+1) 404-919-0443{" "}
-                                </a>
-                            </div>
+                                <div className="hidden lg:grid text-white hover:text-yellow-600 transition-colors delay-100">
+                                    <h1 className="ml-2 text-center">Llamenos:</h1>
+                                    <Link href="tel: 980-920-7074" className="ml-2 text-center">(980)290-7074</Link>
+                                </div>
 
                             {/*----------------------- Off-canvas Menu ----------------------- */}
                             <div className="xs:flex">

@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '1rem'
+      padding: '1.5rem'
     },
     extend: {
       backgroundImage: {
-        'back-1': "url('..//public/images/bible.jpg')",
+        'back-1': "url('..//public/images/qr-code.png')",
         'back-2': "url('..//public/images/raised-hands.jpg')",
         'back-3': "url('..//public/images/youthGroup.jpg')",
-        'back-4': "url('..//public/images/dad.jpg')",
+        'back-4': "url('..//public/images/bible.jpg')",
       }
     },
   },

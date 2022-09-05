@@ -7,6 +7,8 @@ import Quote from "@components/Homepage/Quote";
 import Giving from "@components/Homepage/Giving";
 import Services from "@components/Homepage/Services";
 import Team from "@components/Homepage/Team";
+import Testimonials from "@components/Homepage/Testimonials";
+import Events from "@components/Homepage/Events";
 
 export default function Home() {
   return (
@@ -15,8 +17,9 @@ export default function Home() {
         <Hero/>
         <Quote/>
         <About/>
-        <Giving/>
         <Services/>
+        <Events/>
+        <Giving/>
         <Team/>
     </Fragment>
   )

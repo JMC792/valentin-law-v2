@@ -5,10 +5,8 @@ function Logo() {
 
     return (
         <Fragment>
-                <h1 className="text-2xl text-center font-medium font-serif text-white">
-                    Encuentro
-                    <br></br>
-                    Church
+                <h1 className="text-2xl text-center text-white">
+                    Encuentro Church
                 </h1>
         </Fragment>
     )

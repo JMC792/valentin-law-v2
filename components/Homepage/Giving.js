@@ -1,17 +1,19 @@
-import {Fragment} from "react";
+import React, {Fragment} from "react";
+import Image from 'next/image'
+import qrCode from "public/images/qr-code.png"
 
 function Giving(){
 
     return(
         <Fragment>
             {/* Giving */}
-            <div className='bg-neutral-100'>
-                <div className='container flex justify-center py-36'>
-                    <div className='grid md:grid-cols-2'>
-                        <div className="grid gap-y-8 text-right p-12">
-                            <div className="italic">Donation</div>
-                            <div className="text-4xl">Help us Make a Change</div>
-                            <div className="md:text-[1rem]">
+            <section className='bg-white' id="donation">
+                <div className='container py-20'>
+                    <div className='grid md:grid-cols-2 gap-y-32'>
+                        <div className="text-center grid gap-y-8 md:text-right md:p-32">
+                            <div className="text-2xl text-yellow-600 font-bold">Donation</div>
+                            <div className="text-5xl font-bold">Help us Make Change</div>
+                            <div className="text-xl">
                                 Dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmo tempor incididunt ut labore et dolore magna aliqua.
                                 Ut enim ad minim veniam,
@@ -19,22 +21,17 @@ function Giving(){
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse.
                             </div>
                             <a href="https://tithe.ly/give?c=5922800">
-                                <button
-                                    type="button"
-                                    className="border rounded-lg bg-sky-500 p-4"
-                                >
-                                    Donate Online
-                                </button>
+                                <button type="button" className="border rounded-lg bg-sky-500 p-4">Donate Online</button>
                             </a>
-
                         </div>
 
-                        <div className="bg-back-1 border rounded-xl">
-
+                        <div className="">
+                            <Image src={qrCode}  alt="Qr Code" className="rounded-xl"/>
                         </div>
+
                     </div>
                 </div>
-            </div>
+            </section>
         </Fragment>
     )
 }

@@ -1,102 +1,128 @@
 import { Fragment } from "react";
 import Logo from "@components/Navbar/Logo";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <Fragment>
-      <footer className=" bg-slate-800 shadow md:px-6 md:py-8 dark:bg-gray-800">
-        <div className="container mx-auto">
-        
-        {/*----------------------- Row 1 ----------------------- */}
-        <div className="lg:flex sm:items-center sm:justify-between">
+      <footer className="bg-slate-800">
+        <div className="container text-white">
+          {/*----------------------- Row 1 ----------------------- */}
+          <div className="py-20">
+            <div className="grid gap-x-24 gap-y-20 sm:items-center lg:flex">
 
-          {/*----------------------- Column 1 / Logo ----------------------- */}
+              {/*----------------------- Encuentro Church ----------------------- */}
+              <div className="basis-1/4 grid gap-y-8">
 
-            <div className="grid gap-y-4">
-              <a href="#header" className="flex justify-start">
-                <Logo/>
-                <span className="self-center text-2xl text-neutral-200 px-4">Encuentro Church</span>
-              </a>
-              <p className="text-white">
-                Welcome to Chapel, a modern theme for church and religion websites.
-              </p>
-
-              {/*============= List Column ============= */}
-              <div className="grid gap-y-4 text-white">
-
-                {/*============= Phone Number Row ============= */}
-                <div>
-                  <span className="material-symbols-outlined">call</span>
-                  <span>(980)290-7074</span>
+                <div className="text-[1.5rem] text-neutral-200">
+                  <Link href="/">Encuentro Church</Link>
                 </div>
 
-                {/*============= Email Row ============= */}
-                <div className="">
-                  <i className="fa-solid fa-envelope"></i>
-                  <a className="">jesus@encuentro.church</a>
+                <div className="text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Non tellus orci ac auctor augue mauris augue neque. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet.
+                  Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla.
                 </div>
+
+                <div className="grid gap-y-4 text-white">
+
+                  <div className="flex gap-x-2 hover:text-neutral-300">
+                    <span className="material-symbols-outlined">call</span>
+                    <Link href="tel: 980-290-7074">(980)290-7074</Link>
+                  </div>
+
+                  <div className="flex gap-x-2 hover:text-neutral-300">
+                    <span className="material-symbols-outlined">mail</span>
+                    <Link href="mailto: jesus@encuentro.church">jesus@encuentro.church</Link>
+                  </div>
+
+                  <div className="flex gap-x-2 hover:text-neutral-300">
+                    <span className="material-symbols-outlined">location_on</span>
+                    <Link href="https://www.google.com/maps/place/Albemarle+Road+Middle+School/@35.1988335,-80.7309605,17z/data=!3m1!4b1!4m5!3m4!1s0x885421f0843cef05:0xfc0b30c5cc54b6e7!8m2!3d35.1988291!4d-80.7287718">6900 Democracy Dr, Charlotte, NC 28212</Link>
+                  </div>
+
+                </div>
+
               </div>
+
+              {/*----------------------- Links ----------------------- */}
+              <div className="basis-1/4 grid gap-y-8">
+                <label className="text-[1.5rem] font-bold">Useful Links</label>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#about" >About</Link>
+                </div>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#services" >Services</Link>
+                </div>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="https://tithe.ly/give?c=5922800">Donate</Link>
+                </div>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#team">Team</Link>
+                </div>
+
+              </div>
+
+              {/*----------------------- Follow Our Socials ----------------------- */}
+              <div className="basis-1/4 grid gap-y-8">
+                <label className="text-[1.5rem] font-bold">Follow Our Socials</label>
+                <div className="hover:text-neutral-300">
+                  <Link href="https://www.instagram.com/atlimmigration/" >Instagram</Link>
+                </div>
+                <div className="hover:text-neutral-300">
+                  <Link href="https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"  >Youtube</Link>
+                </div>
+                <div className="hover:text-neutral-300">
+                  <Link href="https://www.facebook.com/encuentrochurch1">Facebook</Link>
+                </div>
+                <div className="hover:text-neutral-300">
+                  <Link href="https://twitter.com/valentinlawllc">Twitter</Link>
+                </div>
+
+              </div>
+
+              {/*----------------------- Private Policy ----------------------- */}
+              <div className="basis-1/4 grid gap-y-8">
+                <label className="text-[1.5rem] font-bold">Legal</label>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#about">About</Link>
+                </div >
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#">Privacy Policy</Link>
+                </div>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#">Licensing</Link>
+                </div>
+
+                <div className="hover:text-neutral-300">
+                  <Link href="#contact-us">Contact</Link>
+                </div>
+
+              </div>
+
             </div>
-
-
-          <div  className="flex justify-center gap-x-20" >
-            <a href="https://www.instagram.com/atlimmigration/" className="text-white">
-              <i className="fa-brands fa-instagram fa-2x"></i>
-            </a>
-
-            <a href="https://www.youtube.com/channel/UCw9NjJpXBRKdm9ch_kj1wDQ" className="text-white">
-              <i className="fa-brands fa-youtube fa-2x"></i>
-            </a>
-
-            <a href="https://www.tiktok.com/@immigrationatl" className="text-white">
-              <i className="fa-brands fa-tiktok fa-2x"></i>
-            </a>
-
-            <a href="https://twitter.com/valentinlawllc" className="text-white">
-              <i className="fa-brands fa-twitter fa-2x"></i>
-            </a>
-
           </div>
 
-          {/*----------------------- Column 2 ----------------------- */}
-          <ul className="flex justify-evenly items-center mb-6 text-sm text-neutral-200 py-8 ">
-            <li>
-              <a href="#about" className="mr-4 hover:underline md:mr-6 ">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6">
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
-                Licensing
-              </a>
-            </li>
-            <li>
-              <a href="#contact-us" className="hover:underline">
-                Contact
-              </a>
-            </li>
-          </ul>
+          {/*----------------------- Dividing Line ----------------------- */}
+          <hr className="border-neutral-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
+          {/*----------------------- Trademark ----------------------- */}
+          <span className="flex justify-center text-sm text-neutral-200 sm:text-center dark:text-gray-400 py-4">
+            © 2022{" "}
+            <a href="https://flowbite.com" className="hover:underline px-2">
+              Encuentro Church
+            </a>
+            . All Rights Reserved.
+          </span>
         </div>
-
-        {/*----------------------- Row 2 ----------------------- */}
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-
-        {/*----------------------- Row 3 ----------------------- */}
-        <span className="flex justify-center text-sm text-neutral-200 sm:text-center dark:text-gray-400 py-4">
-          © 2022{" "}
-          <a href="https://flowbite.com" className="hover:underline px-2">
-            Encuentro Church
-          </a>
-          . All Rights Reserved.
-        </span>
-      </div>
-        {/*----------------------- Row 1 ----------------------- */}
-    </footer>
+      </footer>
     </Fragment>
-  )
+  );
 }
