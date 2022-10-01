@@ -1,13 +1,17 @@
 import React, {Fragment} from "react";
+import Image from "next/image";
+import Link from "next/link";
+import logo from "public/icons/logo.svg"
 
 
 function Logo() {
 
     return (
         <Fragment>
-                <h1 className="text-2xl text-center text-white">
-                    Encuentro Church
-                </h1>
+            <Link href={"/"} >
+                <Image src={logo} height={60} width={100} alt={"logo"}/>
+            </Link>
+
         </Fragment>
     )
 }

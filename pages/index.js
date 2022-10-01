@@ -5,7 +5,7 @@ import youthGroup from "public/images/youthGroup.jpg"
 import About from "@components/Homepage/About";
 import Quote from "@components/Homepage/Quote";
 import Giving from "@components/Homepage/Giving";
-import Services from "@components/Homepage/Services";
+import Sermons from "@components/Homepage/Sermons";
 import Team from "@components/Homepage/Team";
 import Testimonials from "@components/Homepage/Testimonials";
 import Events from "@components/Homepage/Events";
@@ -17,7 +17,7 @@ export default function Home() {
         <Hero/>
         <Quote/>
         <About/>
-        <Services/>
+        <Sermons/>
         <Events/>
         <Giving/>
         <Team/>

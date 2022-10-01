@@ -1,13 +1,16 @@
 import {Fragment} from "react";
 import Image from "next/image";
-import bible from "public/images/bible.jpg"
+import bible from "public/images/audience.jpg"
+import bible2 from "public/images/bible2.jpg"
+import hands from "public/images/hands.jpg"
+import santaCena from "public/images/santa-cena.jpg"
 
 export default function Events(){
 
     return(
         <Fragment>
             <div>
-                <div className="container py-12">
+                <div className="container py-20">
 
                     {/* Event title */}
                     <div className="grid gap-y-4">
@@ -24,7 +27,7 @@ export default function Events(){
 
                                 {/* Event Card Image */}
                                 <div className="p-4">
-                                    <Image src={bible} alt={"bible"} className="rounded-xl"/>
+                                    <Image src={santaCena} alt={"bible"} className="rounded-xl"/>
                                 </div>
 
                                 {/* Event Card Information */}
@@ -49,7 +52,7 @@ export default function Events(){
 
                                 {/* Event Card Image */}
                                 <div className="p-4">
-                                    <Image src={bible} alt={"bible"} className="rounded-xl"/>
+                                    <Image src={bible2} alt={"bible"} className="rounded-xl"/>
                                 </div>
 
                                 {/* Event Card Information */}
@@ -74,7 +77,7 @@ export default function Events(){
 
                                 {/* Event Card Image */}
                                 <div className="p-4">
-                                    <Image src={bible} alt={"bible"} className="rounded-xl"/>
+                                    <Image src={hands} alt={"bible"} className="rounded-xl"/>
                                 </div>
 
                                 {/* Event Card Information */}

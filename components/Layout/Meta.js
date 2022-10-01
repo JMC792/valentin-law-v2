@@ -7,7 +7,7 @@ function Meta(){
     return(
             <Head>
                 <title>Encuentro Church</title>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/icons/logo2.svg"/>
             </Head>
     )
 }

@@ -7,7 +7,7 @@ import arianeMacias from "public/images/arianeMacias.jpg"
 function Team(){
     return(
         <Fragment>
-            <div className="container py-32" id="team">
+            <div className="container py-20" id="team">
                 <div className="grid gap-y-5">
                     <div className="grid gap-y-4 text-center">
                         <h2 className="text-2xl font-bold text-yellow-600">Our Team Members</h2>
