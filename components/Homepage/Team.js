@@ -3,15 +3,25 @@ import Image from 'next/image'
 import jesusChavez from "public/images/jesusChavez.jpg"
 import johnMcCarthy from "public/images/johnMcCarthy.jpg"
 import arianeMacias from "public/images/arianeMacias.jpg"
+import indexEnglish from "public/locales/english/index.js"
+import indexSpanish from "public/locales/spanish/index.js"
+import {useRouter} from "next/router";
 
 function Team(){
+
+    const router = useRouter();
+    const {locale} = router;
+    const t =locale === 'en-US'
+        ? indexEnglish
+        : indexSpanish
+
     return(
         <Fragment>
             <div className="container py-20" id="team">
                 <div className="grid gap-y-5">
                     <div className="grid gap-y-4 text-center">
-                        <h2 className="text-2xl font-bold text-yellow-600">Our Team Members</h2>
-                        <h1 className="text-6xl font-bold">We Build Hope </h1>
+                        <h2 className="text-2xl font-bold text-yellow-600">{t.teamHeading}</h2>
+                        <h1 className="text-6xl font-bold">{t.teamTitle}</h1>
                     </div>
                     <div className="grid lg:grid-cols-3 gap-20 pt-12">
 

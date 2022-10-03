@@ -1,8 +1,17 @@
 import { Fragment } from "react";
-import Logo from "@components/Navbar/Logo";
 import Link from "next/link";
+import footerEnglish from "public/locales/english/footer.js"
+import footerSpanish from "public/locales/spanish/footer.js"
+import {useRouter} from "next/router";
 
 export default function Footer() {
+
+  const router = useRouter();
+  const {locale} = router;
+  const t =locale === 'en-US'
+      ? footerEnglish
+      :footerSpanish
+
   return (
     <Fragment>
       <footer className="bg-slate-800">
@@ -14,29 +23,27 @@ export default function Footer() {
               {/*----------------------- Encuentro Church ----------------------- */}
               <div className="basis-1/4 grid gap-y-8">
 
-                <div className="text-[1.5rem] text-neutral-200">
-                  <Link href="/">Encuentro Church</Link>
+                <div className="text-[1.5rem] text-neutral-200 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                  <Link href="/">{t.overviewTitle}</Link>
                 </div>
 
                 <div className="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Non tellus orci ac auctor augue mauris augue neque. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet.
-                  Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla.
+                  {t.overviewParagraph}
                 </div>
 
                 <div className="grid gap-y-4 text-white">
 
-                  <div className="flex gap-x-2 hover:text-neutral-300">
+                  <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                     <span className="material-symbols-outlined">call</span>
                     <Link href="tel: 980-290-7074">(980)290-7074</Link>
                   </div>
 
-                  <div className="flex gap-x-2 hover:text-neutral-300">
+                  <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                     <span className="material-symbols-outlined">mail</span>
                     <Link href="mailto: jesus@encuentro.church">jesus@encuentro.church</Link>
                   </div>
 
-                  <div className="flex gap-x-2 hover:text-neutral-300">
+                  <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                     <span className="material-symbols-outlined">location_on</span>
                     <Link href="https://www.google.com/maps/place/Albemarle+Road+Middle+School/@35.1988335,-80.7309605,17z/data=!3m1!4b1!4m5!3m4!1s0x885421f0843cef05:0xfc0b30c5cc54b6e7!8m2!3d35.1988291!4d-80.7287718">6900 Democracy Dr, Charlotte, NC 28212</Link>
                   </div>
@@ -47,21 +54,21 @@ export default function Footer() {
 
               {/*----------------------- Links ----------------------- */}
               <div className="basis-1/4 grid gap-y-8">
-                <label className="text-[1.5rem] font-bold">Useful Links</label>
+                <label className="text-[1.5rem] font-bold">{t.usefulLinkTitle}</label>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#about" >About</Link>
                 </div>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#services" >Services</Link>
                 </div>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="https://tithe.ly/give?c=5922800">Donate</Link>
                 </div>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#team">Team</Link>
                 </div>
 
@@ -69,17 +76,17 @@ export default function Footer() {
 
               {/*----------------------- Follow Our Socials ----------------------- */}
               <div className="basis-1/4 grid gap-y-8">
-                <label className="text-[1.5rem] font-bold">Follow Our Socials</label>
-                <div className="hover:text-neutral-300">
+                <label className="text-[1.5rem] font-bold">{t.socialMediaTitle}</label>
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="https://www.instagram.com/atlimmigration/" >Instagram</Link>
                 </div>
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"  >Youtube</Link>
                 </div>
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="https://www.facebook.com/encuentrochurch1">Facebook</Link>
                 </div>
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="https://twitter.com/valentinlawllc">Twitter</Link>
                 </div>
 
@@ -89,19 +96,19 @@ export default function Footer() {
               <div className="basis-1/4 grid gap-y-8">
                 <label className="text-[1.5rem] font-bold">Legal</label>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#about">About</Link>
                 </div >
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#">Privacy Policy</Link>
                 </div>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#">Licensing</Link>
                 </div>
 
-                <div className="hover:text-neutral-300">
+                <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="#contact-us">Contact</Link>
                 </div>
 
