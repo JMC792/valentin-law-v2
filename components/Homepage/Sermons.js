@@ -27,7 +27,7 @@ function Sermons(){
                             return (
 
                                 // Sermon Card Wrapper
-                                <div className="grid gap-y-4 md:p-4">
+                                <div key={index} className="grid gap-y-4 md:p-4">
 
                                     {/* Sermon Card Image */}
                                     <Link href={"https://youtube.com"}>

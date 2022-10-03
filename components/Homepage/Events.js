@@ -33,10 +33,10 @@ export default function Events(){
                         <div className="grid gap-y-10 md:grid-cols-2">
 
                             {/* Event Card Data */}
-                            {eventsData.map((item,index) => {
+                            {eventsData.map( (item,index) => {
                                 return(
                                 // Event Card Wrapper
-                                <div className="grid md:grid-cols-2">
+                                <div key={index} className="grid md:grid-cols-2">
 
                                     {/* Event Card Image */}
                                     <div className="p-4">
