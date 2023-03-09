@@ -16,7 +16,7 @@ module.exports = {
     eventsTitle : "Donde Nos Puede Encontrar",
     donationsHeading : "Donacion",
     donationsTitle : "Ayúdanos Hacer El Cambio",
-    donationParagraph : "Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse",
+    donationParagraph : "Alentamos a todos los que son parte de nuestra familia de la iglesia a dar, no por obligación sino por un espíritu de adoración. Tus dones permiten que la obra de Dios se haga entre nosotros, en nuestra comunidad y en el mundo que nos rodea.",
     donationButton : "Donar en línea",
     teamHeading : "Nuestro Equipo",
     teamTitle : "Construimos Esperanza",
