@@ -8,7 +8,7 @@ module.exports = {
     quoteAuthorPosition : "Lead Pastor",
     aboutHeading : "About Us",
     aboutTitle : "Jesus Taught Us to Love Like God Loves",
-    aboutParagraph : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    aboutParagraph : "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
     aboutButton : "Read More",
     sermonHeading : "Our Sermons",
     sermonTitle : "Our Previous Sermons",

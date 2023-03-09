@@ -18,7 +18,7 @@ function About(){
         <Fragment>
             {/* About */}
             <div className="container py-20" id="about">
-                <div className="grid md:grid-cols-2 gap-y-20">
+                <div className="grid lg:grid-cols-2 lg:gap-y-20">
 
                     {/* ----------- Image ----------- */}
                     <div className="">
