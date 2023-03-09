@@ -30,7 +30,7 @@ function Sermons(){
                                 <div key={index} className="grid gap-y-4 md:p-4">
 
                                     {/* Sermon Card Image */}
-                                    <Link href={"https://youtube.com"}>
+                                    <Link href={item.href}>
                                         <Image src={audience2} height={430} className={"cursor-pointer"}/>
                                     </Link>
 
