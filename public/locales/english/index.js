@@ -3,7 +3,7 @@ module.exports = {
     heroSubtitle : "Connecting everyone in the name of the Lord",
     heroButton : "Learn More",
     quoteTitle : "Our Church",
-    quote : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    quote : "Church is not an organization you join. It's a family where you belong, a home where you are loved and a hospital where you find healing",
     quoteAuthor : "Jesus Chavez",
     quoteAuthorPosition : "Lead Pastor",
     aboutHeading : "About Us",

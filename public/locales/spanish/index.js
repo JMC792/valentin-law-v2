@@ -3,7 +3,7 @@ module.exports = {
     heroSubtitle : "Conectando a todos por el amor de dios",
     heroButton : "Aprende Mas",
     quoteTitle : "Nuestra Iglesia",
-    quote : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    quote : "La iglesia no es una organización a la que te unes. Es una familia a la que perteneces, un hogar donde eres amado y un hospital donde encuentras sanación.",
     quoteAuthor : "Jesus Chavez",
     quoteAuthorPosition : "Pastor Principal",
     aboutHeading : "De Nosotros",
