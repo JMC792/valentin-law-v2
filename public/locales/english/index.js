@@ -12,6 +12,8 @@ module.exports = {
     aboutButton : "Read More",
     sermonHeading : "Our Sermons",
     sermonTitle : "Our Previous Sermons",
+    sermonParagraph: "Our church wants to make sure that the Lords word the you and the world. With the help of technology, you can watch our sermons via live stream from our various platforms such as Facebook, Youtube, ect.",
+    sermonButton: "Watch Our Sermons",
     eventsSubtitle : "Upcoming Events",
     eventsTitle : "Where to Find Us",
     donationsHeading : "Donation",

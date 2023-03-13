@@ -12,6 +12,8 @@ module.exports = {
     aboutButton : "Aprende Mas",
     sermonHeading : "Nuestro Sermones",
     sermonTitle : "Nuestros Mensajes Previa",
+    sermonParagraph: "Nuestra iglesia quiere asegurarse de mostrar a usted y al mundo sobre la palabra de nuestro Señor. Con la ayuda de la tecnología, puede ver nuestros sermones a través de transmisión en vivo desde nuestras diversas plataformas, como Facebook, Youtube, etc.",
+    sermonButton: "Mire Nuestro Sermones",
     eventsSubtitle : "Próximos Eventos",
     eventsTitle : "Donde Nos Puede Encontrar",
     donationsHeading : "Donacion",
