@@ -8,7 +8,7 @@ module.exports = {
     quoteAuthorPosition : "Pastor Principal",
     aboutHeading : "De Nosotros",
     aboutTitle : "Jesús Nos Enseñó a Amar Como Dios Ama",
-    aboutParagraph : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    aboutParagraph : "Somos una iglesia cristiana multicultural y multilingüe ubicada en Charlotte, Carolina del Norte. Estamos dedicados a ayudar a personas de todos los ámbitos de la vida a encontrar al Señor y vivir en su nombre todos los días. Los servicios comienzan el domingo a las 11:00 a. m. en nuestro campus de Charlotte y en línea",
     aboutButton : "Aprende Mas",
     sermonHeading : "Nuestro Sermones",
     sermonTitle : "Nuestros Mensajes Previa",
