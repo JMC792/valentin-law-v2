@@ -4,7 +4,7 @@ import aboutUsPicture from "public/images/youthGroup.jpg"
 import Link from "next/link";
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
-import svg from "public/icons/ola.svg"
+import svg from "public/icons/ola1.svg"
 import {useRouter} from "next/router";
 
 function About(){
