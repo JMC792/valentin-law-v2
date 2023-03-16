@@ -1,8 +1,10 @@
-import { Fragment } from "react";
-import Link from "next/link";
+import { Fragment } from "react"
+import Link from "next/link"
+import Image from "next/image"
 import footerEnglish from "public/locales/english/footer.js"
 import footerSpanish from "public/locales/spanish/footer.js"
 import {useRouter} from "next/router";
+import logo from "../../public/icons/logo.svg"
 
 export default function Footer() {
 
@@ -29,7 +31,9 @@ export default function Footer() {
 
                 {/* Overview Title */}
                 <div className="text-[1.5rem] text-neutral-200 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                  <Link href="/">{t.overviewTitle}</Link>
+                  <Link href="/">
+                    <Image src={logo} height={60} width={300} alt={"logo"} className={"cursor-pointer"}/>
+                  </Link>
                 </div>
 
                   {/* Overview Paragraph*/}

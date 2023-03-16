@@ -2,7 +2,7 @@ module.exports = {
 
     //Overview 
     overviewTitle : "Encuentro Church",
-        overviewParagraph : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non tellus orci ac auctor augue mauris augue neque. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla",
+        overviewParagraph : "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
         overviewPhoneNumber : "(980)-290-7074",
         overviewEmail : "jesus@encuentro.church",
         overviewAddress : "7568 Ruben Linker Rd NW, Concord, NC 28027",
