@@ -23,7 +23,7 @@ function About(){
 
                     {/* ----------- Image ----------- */}
                     <div className="lg:pt-28">
-                        <Image src={svg} alt="Youth Group" className="rounded-xl"/>
+                        <Image src={svg} alt="2 people" className="rounded-xl"/>
                     </div>
 
                     {/* ----------- Text ----------- */}
