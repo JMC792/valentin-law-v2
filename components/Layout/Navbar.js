@@ -56,11 +56,11 @@ function Navbar() {
                                         <Link href="#about">
                                             {t.button_1}
                                         </Link>
-                                    </div>
+                                </div>
 
                                 {/* Sermons */}
                                 <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href="#about">
+                                    <Link href="#sermon">
                                         {t.button_7}
                                     </Link>
                                 </div>
@@ -77,14 +77,14 @@ function Navbar() {
                                         <Link href="#donation">
                                             {t.button_3}
                                         </Link>
-                                    </div>
+                                </div>
 
                                 {/*Contact */}
                                 <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
                                         <Link href="#team">
                                             {t.button_4}
                                         </Link>
-                                    </div>
+                                </div>
 
                             </div>
 
@@ -101,7 +101,7 @@ function Navbar() {
                             <div className="hidden lg:grid hover:text-yellow-600 transition-colors delay-100">
                                     <h1 className="ml-2 text-center">{t.button_6}</h1>
                                     <Link href="tel: 980-920-7074" className="ml-2 text-center">(980)290-7074</Link>
-                                </div>
+                            </div>
 
                             {/* Off-canvas Menu */}
                             <div className="xs:flex">
@@ -129,16 +129,13 @@ function Navbar() {
                                     <Image src={logo} height={60} width={100} alt={"logo"}/>
                                 </Link>
                             </div>
-                            <button
-                                className="menu-bars text-[24px] opacity-80 hover:opacity-50 transition-all"
-                                aria-label="Right Align"
-                            >
+                            <button className="menu-bars text-[24px] opacity-80 hover:opacity-50 transition-all" aria-label="Right Align">
                                 <span className="material-symbols-outlined">close</span>
                             </button>
                         </li>
                         {OffcanvasData.map((item, index) => {
                             return (
-                                <li key={index} className={item.cName}>
+                                <li key={index} className='offcanvas-text'>
                                     <Link href={item.path}>
                                         <a>{item.title}</a>
                                     </Link>
