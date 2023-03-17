@@ -1,7 +1,7 @@
 import {Fragment} from "react";
 import Image from 'next/image'
 import jesusChavez from "public/images/jesusChavez.jpg"
-import johnMcCarthy from "public/images/johnMcCarthy.jpg"
+import image2 from "public/images/mauricio.jpeg"
 import arianeMacias from "public/images/arianeMacias.jpg"
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
@@ -19,37 +19,42 @@ function Team(){
         <Fragment>
             <div className="container py-20" id="team">
                 <div className="grid gap-y-5">
+
+                    {/* Header */}
                     <div className="grid gap-y-4 text-center">
                         <h2 className="text-2xl font-bold text-yellow-600">{t.teamHeading}</h2>
                         <h1 className="text-6xl font-bold">{t.teamTitle}</h1>
                     </div>
+
+                    {/* Team Members */}
                     <div className="grid lg:grid-cols-3 gap-20 pt-12">
 
-                        <div className="grid gap-y-1.5">
+                        {/* Pastor */}
+                        <div className="grid">
                             <Image src={jesusChavez} alt="Jesus Chavez" className="rounded-xl"/>
-                            <div className="text-3xl pt-12">Jesus Chavez</div>
-                            <div className="italic">Lead Pastor</div>
-                            <div className="pt-4">Lorem ipsum dolor sit amet, co secte penatibus ullamcorp, id.</div>
+                            <div className="gap-y-1.5">
+                                <div className="text-3xl pt-12">{t.teamMember1}</div>
+                                <div className="italic">{t.teamMember1Title}</div>
+                            </div>
                         </div>
 
-                        <div className="grid gap-y-1.5">
-                            <Image src={johnMcCarthy}
-                                   alt="John McCarthy"
-                                   height={730}
-                                   className="rounded-xl" />
-                            <div className="text-3xl pt-12">John McCarthy</div>
-                            <div className="italic">Co-Pastor</div>
-                            <div className="pt-4">Lorem ipsum dolor sit amet, co secte penatibus ullamcorp, id.</div>
+                        {/* Administrator */}
+                        <div className="grid">
+                            <Image src={image2} alt="Mauricio Chavez" height={1100} className="rounded-xl"/>
+                            <div className="gap-y-1.5">
+                                <div className="text-3xl pt-12">{t.teamMember2}</div>
+                                <div className="italic">{t.teamMember2Title}</div>
+                            </div>
                         </div>
 
-                        <div className="grid gap-y-1.5">
-                            <Image src={arianeMacias}
-                                   alt="Ariane Macias"
-                                   height={1950}
-                                   className="rounded-xl"/>
-                            <div className="text-3xl pt-12">Ariane Macias</div>
-                            <div className="italic">Band Director</div>
-                            <div className="pt-4">Lorem ipsum dolor sit amet, co secte penatibus ullamcorp, id.</div>
+                        {/* Band Director */}
+                        <div className="grid">
+                            <Image src={arianeMacias} alt="Ariane Macias" height={1950} className="rounded-xl"/>
+                            <div className="gap-y-1.5">
+                                <div className="text-3xl pt-12">{t.teamMember3}</div>
+                                <div className="italic">{t.teamMember3Title}</div>
+                            </div>
+                            
                         </div>
 
                     </div>

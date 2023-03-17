@@ -22,4 +22,10 @@ module.exports = {
     donationButton : "Donar en línea",
     teamHeading : "Nuestro Equipo",
     teamTitle : "Construimos Esperanza",
+    teamMember1: "Jesus Chavez",
+    teamMember1Title: "Pastor",
+    teamMember2: "Mauricio Chavez",
+    teamMember2Title: "Produccion",
+    teamMember3: "Ariane Macias",
+    teamMember3Title: "Directora de banda",
 }

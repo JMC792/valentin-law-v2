@@ -1,6 +1,5 @@
 import React, {Fragment} from "react";
 import Image from "next/image";
-import aboutUsPicture from "public/images/youthGroup.jpg"
 import Link from "next/link";
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"

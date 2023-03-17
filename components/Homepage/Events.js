@@ -1,7 +1,6 @@
 import {Fragment} from "react";
 import Image from "next/image";
 import image1 from "public/icons/homeOffice.svg"
-import santaCena from "public/images/santa-cena.jpg"
 import {useRouter} from "next/router";
 import indexEnglish from "../../public/locales/english";
 import indexSpanish from "../../public/locales/spanish";

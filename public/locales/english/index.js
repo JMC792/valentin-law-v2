@@ -22,4 +22,10 @@ module.exports = {
     donationButton : "Donate Online",
     teamHeading : "Our Team Members",
     teamTitle : "We Build Hope",
+    teamMember1: "Jesus Chavez",
+    teamMember1Title: "Pastor",
+    teamMember2: "Mauricio Chavez",
+    teamMember2Title: "Production",
+    teamMember3: "Ariane Macias",
+    teamMember3Title: "Band Director",
 }
