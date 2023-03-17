@@ -17,7 +17,7 @@ function Sermons(){
     return(
         <Fragment>
             {/* Giving */}
-            <section className='bg-white' id="donation">
+            <section className='bg-white' id="sermon">
                 <div className='container py-20'>
                     <div className='grid lg:grid-cols-2 gap-y-32'>
                         <div className="text-center grid gap-y-8 md:text-right md:px-28 lg:py-44">
