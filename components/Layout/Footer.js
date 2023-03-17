@@ -1,8 +1,10 @@
-import { Fragment } from "react";
-import Link from "next/link";
+import { Fragment } from "react"
+import Link from "next/link"
+import Image from "next/image"
 import footerEnglish from "public/locales/english/footer.js"
 import footerSpanish from "public/locales/spanish/footer.js"
 import {useRouter} from "next/router";
+import logo from "../../public/icons/logo.svg"
 
 export default function Footer() {
 
@@ -29,7 +31,9 @@ export default function Footer() {
 
                 {/* Overview Title */}
                 <div className="text-[1.5rem] text-neutral-200 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                  <Link href="/">{t.overviewTitle}</Link>
+                  <Link href="/">
+                    <Image src={logo} height={60} width={300} alt={"logo"} className={"cursor-pointer"}/>
+                  </Link>
                 </div>
 
                   {/* Overview Paragraph*/}
@@ -43,19 +47,21 @@ export default function Footer() {
                         {/* Overview Phone Number */}
                         <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                           <span className="material-symbols-outlined">call</span>
-                          <Link href="tel: 980-290-7074">(980)290-7074</Link>
+                          <Link href="tel: 980-290-7074">{t.overviewPhoneNumber}</Link>
                         </div>
 
                           {/* Overview Email */}
                           <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                             <span className="material-symbols-outlined">mail</span>
-                            <Link href="mailto: jesus@encuentro.church">jesus@encuentro.church</Link>
+                            <Link href="mailto: jesus@encuentro.church">{t.overviewEmail}</Link>
                           </div>
 
                             {/* Overview Address */}
                             <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                               <span className="material-symbols-outlined">location_on</span>
-                              <Link href="https://www.google.com/maps/place/Albemarle+Road+Middle+School/@35.1988335,-80.7309605,17z/data=!3m1!4b1!4m5!3m4!1s0x885421f0843cef05:0xfc0b30c5cc54b6e7!8m2!3d35.1988291!4d-80.7287718">6900 Democracy Dr, Charlotte, NC 28212</Link>
+                              <Link href= {t.overviewAddressLink}>
+                                {t.overviewAddress}
+                              </Link>
                             </div>
 
                 </div>
@@ -70,23 +76,23 @@ export default function Footer() {
 
                   {/* About Link */}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <Link href="#about" >{t.usefulLink1}</Link>
+                    <Link href={t.usefulLink1Path}>{t.usefulLink1}</Link>
                   </div>
 
-                    {/* Sermons Link */}
-                    <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                      <Link href="#services" >{t.usefulLink2}</Link>
-                    </div>
+                  {/* Sermons Link */}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href={t.usefulLink2Path}>{t.usefulLink2}</Link>
+                  </div>
 
-                      {/* Donation Link */}
-                      <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                        <Link href="https://tithe.ly/give?c=5922800">{t.usefulLink3}</Link>
-                      </div>
+                  {/* Donation Link */}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href={t.usefulLink3Path}>{t.usefulLink3}</Link>
+                  </div>
 
-                        {/* Team Link*/}
-                        <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                          <Link href="#team">{t.usefulLink4}</Link>
-                        </div>
+                  {/* Team Link*/}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href={t.usefulLink4Path}>{t.usefulLink4}</Link>
+                  </div>
 
               </div>
 
@@ -95,6 +101,13 @@ export default function Footer() {
 
                 {/* Social Media Title */}
                 <label className="text-[1.5rem] font-bold">{t.socialMediaTitle}</label>
+                  
+                  {/* Facebook Link*/}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href="https://www.facebook.com/encuentrochurch1">
+                      {t.socialMedia3}
+                    </Link>
+                  </div>
 
                   {/* Instagram Link */}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
@@ -103,26 +116,19 @@ export default function Footer() {
                     </Link>
                   </div>
 
-                    {/* Youtube Link */}
-                    <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                      <Link href="https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ">
-                        {t.socialMedia2}
-                      </Link>
-                    </div>
+                  {/* Youtube Link */}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href="https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ">
+                      {t.socialMedia2}
+                    </Link>
+                  </div>
 
-                      {/* Facebook Link*/}
-                      <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                        <Link href="https://www.facebook.com/encuentrochurch1">
-                          {t.socialMedia3}
-                        </Link>
-                      </div>
-
-                        {/* Twitter Link */}
-                        <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                          <Link href="https://twitter.com/valentinlawllc">
-                            {t.socialMedia4}
-                          </Link>
-                        </div>
+                  {/* Twitter Link */}
+                  <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
+                    <Link href="https://twitter.com/valentinlawllc">
+                      {t.socialMedia4}
+                    </Link>
+                  </div>
 
               </div>
 

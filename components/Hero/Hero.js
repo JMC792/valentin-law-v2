@@ -38,7 +38,10 @@ function Hero() {
 
                             {/* Hero Button */}
                             <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                {t.heroButton}
+                                <a href="https://www.facebook.com/encuentrochurch1">
+                                    {t.heroButton}
+                                </a>
+                                
                             </button>
 
                         </div>

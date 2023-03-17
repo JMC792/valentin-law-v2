@@ -18,8 +18,8 @@ function Giving(){
             {/* Giving */}
             <section className='bg-white' id="donation">
                 <div className='container py-20'>
-                    <div className='grid md:grid-cols-2 gap-y-32'>
-                        <div className="text-center grid gap-y-8 md:text-right md:px-28 md:py-44">
+                    <div className='grid lg:grid-cols-2 gap-y-32'>
+                        <div className="text-center grid gap-y-8 md:text-right md:px-28 lg:py-44">
                             <div className="text-2xl text-yellow-600 font-bold">{t.donationsHeading}</div>
                             <div className="text-5xl font-bold">{t.donationsTitle}</div>
                             <div className="text-xl">

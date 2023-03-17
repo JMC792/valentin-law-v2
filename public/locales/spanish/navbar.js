@@ -1,5 +1,6 @@
 module.exports = {
     button_1 : "Nosotros",
+    button_8 : "Sermon",
     button_2 : "Eventos",
     button_3 : "Donacion",
     button_4 : "Equipo",
