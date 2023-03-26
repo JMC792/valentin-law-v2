@@ -3,7 +3,8 @@ import Image from 'next/image'
 import qrCode from "public/images/qr-code.png"
 
 function Giving({
-    language
+    language,
+    donationButton
 }){
 
     return(
@@ -18,7 +19,7 @@ function Giving({
                             <div className="text-xl">
                                 {language.donationParagraph}
                             </div>
-                            <a href="https://tithe.ly/give?c=5922800">
+                            <a href= {donationButton}>
                                 <button type="button" className="border rounded-lg bg-amber-900 p-4 text-white">{language.donationButton}</button>
                             </a>
                         </div>

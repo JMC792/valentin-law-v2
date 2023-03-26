@@ -4,7 +4,8 @@ import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
 
 function Hero({
-    language
+    language,
+    heroButton,
 }) {
 
     const router = useRouter();
@@ -40,7 +41,7 @@ function Hero({
 
                             {/* Hero Button */}
                             <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                <a href="https://www.facebook.com/encuentrochurch1">
+                                <a href = {heroButton} >
                                     {language.heroButton}
                                 </a>
                                 

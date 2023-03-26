@@ -6,7 +6,10 @@ import footerSpanish from "public/locales/spanish/footer.js"
 import {useRouter} from "next/router";
 import logo from "../../public/icons/logo.svg"
 
-export default function Footer() {
+export default function Footer({
+  smButton1,
+  smButton2,
+}) {
 
   const router = useRouter();
   const {locale} = router;
@@ -104,9 +107,9 @@ export default function Footer() {
                   
                   {/* Facebook Link*/}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <Link href="https://www.facebook.com/encuentrochurch1">
+                    <a href={smButton1}>
                       {t.socialMedia3}
-                    </Link>
+                    </a>
                   </div>
 
                   {/* Instagram Link */}

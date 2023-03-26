@@ -4,7 +4,8 @@ import Image from "next/image";
 import relaxing from "public/icons/relaxing.svg"
 
 function Sermons({
-    language
+    language,
+    sermonButton
 }){
     return(
         <Fragment>
@@ -22,7 +23,7 @@ function Sermons({
                             <div className="text-xl">
                                 {language.sermonParagraph}
                             </div>
-                            <Link href="https://www.facebook.com/encuentrochurch1">
+                            <Link href= {sermonButton}>
                                 <button type="button" className="border rounded-lg bg-amber-900 py-4 mx-24 text-white">
                                     {language.sermonButton}
                                 </button>

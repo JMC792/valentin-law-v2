@@ -10,6 +10,7 @@ import Events from "@components/Homepage/Events";
 import {useRouter} from "next/router";
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
+import { facebook,tithely } from "public/data/links"
 
 export default function Home() {
 
@@ -21,14 +22,14 @@ export default function Home() {
 
   return (
     <Fragment>
-        <Navbar language = {language}/>
-        <Hero language = {language}/>
-        <Quote language = {language}/>
-        <About language = {language}/>
-        <Sermons language = {language}/>
-        <Events language = {language}/>
-        <Giving language = {language}/>
-        <Team language = {language}/>
+        <Navbar language={language}/>
+        <Hero language={language} heroButton={facebook}/>
+        <Quote language={language}/>
+        <About language={language} aboutButton={facebook}/>
+        <Sermons language={language} sermonButton={facebook} />
+        <Events language={language}/>
+        <Giving language={language} donationButton={tithely}/>
+        <Team language={language}/>
     </Fragment>
   )
 }

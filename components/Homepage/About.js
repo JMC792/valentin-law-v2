@@ -5,7 +5,8 @@ import svg from "public/icons/ola1.svg"
 
 
 function About({
-    language
+    language,
+    aboutButton
 }){
 
 
@@ -25,7 +26,7 @@ function About({
                         <div className="text-2xl font-bold text-yellow-600">{language.aboutHeading}</div>
                         <div className="text-5xl font-bold">{language.aboutTitle}</div>
                         <div className="text-xl text-neutral-800">{language.aboutParagraph}</div>
-                        <Link href="https://www.facebook.com/encuentrochurch1">
+                        <Link href= {aboutButton}>
                             <button type="button" className="border rounded-lg bg-amber-900 py-4 mx-24 md:mx- text-white">{language.aboutButton}</button>
                         </Link>
                     </div>
