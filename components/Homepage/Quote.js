@@ -1,15 +1,8 @@
 import {Fragment} from "react";
-import {useRouter} from "next/router";
-import indexEnglish from "public/locales/english/index.js"
-import indexSpanish from "public/locales/spanish/index.js"
 
-function Quote(){
-
-    const router = useRouter();
-    const {locale} = router;
-    const t =locale === 'en-US'
-        ? indexEnglish
-        : indexSpanish
+function Quote({
+    language
+}){
 
     return(
         <Fragment>
@@ -17,10 +10,10 @@ function Quote(){
             <div className='bg-neutral-100'>
                 <div className='container flex justify-center py-32'>
                     <div className='text-center grid gap-y-6'>
-                        <div className='md:text-2xl'>{t.quoteTitle}</div>
-                        <div className="text-[2rem] italic">{t.quote}</div>
-                        <div className="text-[1.5rem]">{t.quoteAuthor}</div>
-                        <div>{t.quoteAuthorPosition}</div>
+                        <div className='md:text-2xl'>{language.quoteTitle}</div>
+                        <div className="text-[2rem] italic">{language.quote}</div>
+                        <div className="text-[1.5rem]">{language.quoteAuthor}</div>
+                        <div>{language.quoteAuthorPosition}</div>
                     </div>
                 </div>
             </div>

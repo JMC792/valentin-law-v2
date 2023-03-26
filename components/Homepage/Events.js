@@ -7,15 +7,10 @@ import indexSpanish from "../../public/locales/spanish";
 import eventsData from "lib/eventsCardData.js"
 import Link from "next/link";
 
-export default function Events(){
-
-    const router = useRouter();
-    const {locale} = router;
-    const t =locale === 'en-US'
-        ? indexEnglish
-        : indexSpanish
-
-
+export default function Events({
+    language
+})
+{
     return(
         <Fragment>
             <div className={"bg-neutral-100"} id={"events"}>
@@ -23,8 +18,8 @@ export default function Events(){
 
                     {/* Event title */}
                     <div className="grid gap-y-4 text-center">
-                        <h1 className="text-xl text-yellow-600 font-bold">{t.eventsSubtitle}</h1>
-                        <h3 className="text-5xl font-bold">{t.eventsTitle}</h3>
+                        <h1 className="text-xl text-yellow-600 font-bold">{language.eventsSubtitle}</h1>
+                        <h3 className="text-5xl font-bold">{language.eventsTitle}</h3>
                     </div>
 
                     <div className="grid lg:grid-cols-2">
