@@ -11,6 +11,13 @@ import {useRouter} from "next/router";
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
 import { facebook,tithely } from "public/data/links"
+import aboutSvg from "public/icons/ola1.svg"
+import relaxing from "public/icons/relaxing.svg"
+import homeOffice from "public/icons/homeOffice.svg"
+import qrCode from "public/images/qr-code.png"
+import jesusChavez from "public/images/jesusChavez.jpg"
+import image2 from "public/images/mauricio.jpeg"
+import arianeMacias from "public/images/arianeMacias.jpg"
 
 export default function Home() {
 
@@ -25,11 +32,11 @@ export default function Home() {
         <Navbar language={language}/>
         <Hero language={language} heroButton={facebook}/>
         <Quote language={language}/>
-        <About language={language} aboutButton={facebook}/>
-        <Sermons language={language} sermonButton={facebook} />
-        <Events language={language}/>
-        <Giving language={language} donationButton={tithely}/>
-        <Team language={language}/>
+        <About language={language} aboutButton={facebook} svg={aboutSvg}/>
+        <Sermons language={language} sermonButton={facebook} svg={relaxing}/>
+        <Events language={language} svg={homeOffice}/>
+        <Giving language={language} donationButton={tithely} svg={qrCode}/>
+        <Team language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
     </Fragment>
   )
 }

@@ -1,5 +1,10 @@
 module.exports = {
 
+    //Contact
+    phone: "(980)-290-7074",
+    email: "jesus@encuentro.church",
+    address: "7568 Ruben Linker Rd NW, Concord, NC 28027",
+
     //Social Media
     facebook : "https://www.facebook.com/encuentrochurch1",
     youtube : "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ",
@@ -8,7 +13,10 @@ module.exports = {
 
     //Donation
     tithely : "https://tithe.ly/give_new/www/#/tithely/give-one-time/5922800",
+    cashapp: "",
+    venmo: "",
+    zelle: "",
 
-    //Indoor
+    //Legal
 
 }

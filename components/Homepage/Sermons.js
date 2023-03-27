@@ -1,11 +1,11 @@
 import React, {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import relaxing from "public/icons/relaxing.svg"
 
 function Sermons({
     language,
-    sermonButton
+    sermonButton,
+    svg
 }){
     return(
         <Fragment>
@@ -32,7 +32,7 @@ function Sermons({
 
                         <div className="">
                             <Image 
-                                src={relaxing}  
+                                src={svg}  
                                 alt="Watching laptop" 
                                 className="rounded-xl"
                             />

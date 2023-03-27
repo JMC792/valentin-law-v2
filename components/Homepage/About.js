@@ -1,12 +1,12 @@
 import React, {Fragment} from "react";
 import Image from "next/image";
 import Link from "next/link";
-import svg from "public/icons/ola1.svg"
 
 
 function About({
     language,
-    aboutButton
+    aboutButton,
+    svg
 }){
 
 

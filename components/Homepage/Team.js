@@ -1,11 +1,11 @@
 import {Fragment} from "react";
 import Image from 'next/image'
-import jesusChavez from "public/images/jesusChavez.jpg"
-import image2 from "public/images/mauricio.jpeg"
-import arianeMacias from "public/images/arianeMacias.jpg"
 
 function Team({
-    language
+    language,
+    svg1,
+    svg2,
+    svg3,
 }){
     return(
         <Fragment>
@@ -23,7 +23,7 @@ function Team({
 
                         {/* Pastor */}
                         <div className="grid">
-                            <Image src={jesusChavez} alt="Jesus Chavez" className="rounded-xl"/>
+                            <Image src={svg1} alt="Jesus Chavez" height={1000} className="rounded-xl"/>
                             <div className="gap-y-1.5">
                                 <div className="text-3xl pt-12">{language.teamMember1}</div>
                                 <div className="italic">{language.teamMember1Title}</div>
@@ -32,7 +32,7 @@ function Team({
 
                         {/* Administrator */}
                         <div className="grid">
-                            <Image src={image2} alt="Mauricio Chavez" height={1100} className="rounded-xl"/>
+                            <Image src={svg2} alt="Mauricio Chavez" height={1100} className="rounded-xl"/>
                             <div className="gap-y-1.5">
                                 <div className="text-3xl pt-12">{language.teamMember2}</div>
                                 <div className="italic">{language.teamMember2Title}</div>
@@ -41,7 +41,7 @@ function Team({
 
                         {/* Band Director */}
                         <div className="grid">
-                            <Image src={arianeMacias} alt="Ariane Macias" height={1950} className="rounded-xl"/>
+                            <Image src={svg3} alt="Ariane Macias" height={2000} className="rounded-xl"/>
                             <div className="gap-y-1.5">
                                 <div className="text-3xl pt-12">{language.teamMember3}</div>
                                 <div className="italic">{language.teamMember3Title}</div>

@@ -1,11 +1,11 @@
 import {Fragment} from "react";
 import Image from "next/image";
-import image1 from "public/icons/homeOffice.svg"
-import eventsData from "lib/eventsCardData.js"
+import eventsData from "public/data/eventsCardData.js"
 import Link from "next/link";
 
 export default function Events({
-    language
+    language,
+    svg
 })
 {
     return(
@@ -22,7 +22,7 @@ export default function Events({
                     <div className="grid lg:grid-cols-2">
 
                         <div className="py-20 lg:py-40">
-                        <Image src={image1} alt="people cooking"/>
+                        <Image src={svg} alt="people cooking"/>
                         </div>
 
                         {/* Event Card(s) */}

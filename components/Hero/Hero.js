@@ -40,12 +40,11 @@ function Hero({
                             </div>
 
                             {/* Hero Button */}
-                            <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                <a href = {heroButton} >
+                            <a href = {heroButton} >
+                                <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
                                     {language.heroButton}
-                                </a>
-                                
-                            </button>
+                                </button>
+                            </a>
 
                         </div>
                     </div>

@@ -1,10 +1,10 @@
 import React, {Fragment} from "react";
 import Image from 'next/image'
-import qrCode from "public/images/qr-code.png"
 
 function Giving({
     language,
-    donationButton
+    donationButton,
+    svg
 }){
 
     return(
@@ -25,7 +25,7 @@ function Giving({
                         </div>
 
                         <div className="">
-                            <Image src={qrCode}  alt="Qr Code" className="rounded-xl"/>
+                            <Image src={svg}  alt="Qr Code" className="rounded-xl"/>
                         </div>
 
                     </div>
