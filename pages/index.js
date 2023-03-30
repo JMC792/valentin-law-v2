@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <Fragment>
-        <Navbar language={language}/>
+        <Navbar/>
         <Hero language={language} heroButton={facebook}/>
         <Quote language={language}/>
         <About language={language} aboutButton={facebook} svg={aboutSvg}/>
