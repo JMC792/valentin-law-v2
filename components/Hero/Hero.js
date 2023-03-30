@@ -3,7 +3,10 @@ import {useRouter} from "next/router";
 import indexEnglish from "public/locales/english/index.js"
 import indexSpanish from "public/locales/spanish/index.js"
 
-function Hero() {
+function Hero({
+    language,
+    heroButton,
+}) {
 
     const router = useRouter();
     const {locale} = router;
@@ -28,21 +31,20 @@ function Hero() {
 
                             {/* Hero Title */}
                             <div className="text-7xl">
-                                {t.heroTitle}
+                                {language.heroTitle}
                             </div>
 
                             {/* Hero Subtitle */}
                             <div className="text-xl lg:text-2xl ">
-                                {t.heroSubtitle}
+                                {language.heroSubtitle}
                             </div>
 
                             {/* Hero Button */}
-                            <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                <a href="https://www.facebook.com/encuentrochurch1">
-                                    {t.heroButton}
-                                </a>
-                                
-                            </button>
+                            <a href = {heroButton} >
+                                <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
+                                    {language.heroButton}
+                                </button>
+                            </a>
 
                         </div>
                     </div>

@@ -1,21 +1,13 @@
 import {Fragment} from "react";
 import Image from "next/image";
-import image1 from "public/icons/homeOffice.svg"
-import {useRouter} from "next/router";
-import indexEnglish from "../../public/locales/english";
-import indexSpanish from "../../public/locales/spanish";
-import eventsData from "lib/eventsCardData.js"
+import eventsData from "public/data/eventsCardData.js"
 import Link from "next/link";
 
-export default function Events(){
-
-    const router = useRouter();
-    const {locale} = router;
-    const t =locale === 'en-US'
-        ? indexEnglish
-        : indexSpanish
-
-
+export default function Events({
+    language,
+    svg
+})
+{
     return(
         <Fragment>
             <div className={"bg-neutral-100"} id={"events"}>
@@ -23,14 +15,14 @@ export default function Events(){
 
                     {/* Event title */}
                     <div className="grid gap-y-4 text-center">
-                        <h1 className="text-xl text-yellow-600 font-bold">{t.eventsSubtitle}</h1>
-                        <h3 className="text-5xl font-bold">{t.eventsTitle}</h3>
+                        <h1 className="text-xl text-yellow-600 font-bold">{language.eventsSubtitle}</h1>
+                        <h3 className="text-5xl font-bold">{language.eventsTitle}</h3>
                     </div>
 
                     <div className="grid lg:grid-cols-2">
 
                         <div className="py-20 lg:py-40">
-                        <Image src={image1} alt="people cooking"/>
+                        <Image src={svg} alt="people cooking"/>
                         </div>
 
                         {/* Event Card(s) */}
