@@ -24,29 +24,41 @@ function Hero({
                 <div className="container flex justify-center">
 
                     {/* Hero Margin and Padding */}
-                    <div className="pt-[13rem] md:pt-[15rem] lg:pt-[23rem]">
+                    <div className="pt-[13rem] md:pt-[15rem] lg:pt-[20rem]">
 
                         {/* Hero Text Config */}
-                        <div className="text-center text-neutral-100 space-y-10">
+                        <div className="text-center text-neutral-100">
+                            <div className="space-y-10">
 
                             {/* Hero Title */}
-                            <div className="text-7xl">
-                                {language.heroTitle}
+                            <div className="text-6xl">
+                                <div className="font-medium">
+                                    {language.heroTitle}
+                                </div>
                             </div>
+                            
 
                             {/* Hero Subtitle */}
-                            <div className="text-xl lg:text-2xl ">
-                                {language.heroSubtitle}
+                            <div className="lg:px-[14rem] xl:px-[24rem]">
+                                <div className="text-lg">
+                                    {language.heroSubtitle}
+                                </div>
                             </div>
+                            
 
                             {/* Hero Button */}
-                            <a href = {heroButton} >
-                                <button type="button" className="bg-yellow-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                    {language.heroButton}
-                                </button>
-                            </a>
+                            <div>
+                                <a href = {heroButton} >
+                                    <button type="button" className="bg-sky-700 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
+                                        {language.heroButton}
+                                    </button>
+                                </a>
+                            </div>
+                            
 
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

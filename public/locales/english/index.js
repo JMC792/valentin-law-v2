@@ -1,9 +1,9 @@
 module.exports = {
 
     //Hero
-    heroTitle : "Encuentro Church",
-    heroSubtitle : "Connecting everyone in the name of the Lord",
-    heroButton : "Learn More",
+    heroTitle : "Rise to Empowerment",
+    heroSubtitle : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
+    heroButton : "Get Started",
     
     //Quote
     quoteTitle : "Our Church",
@@ -12,8 +12,8 @@ module.exports = {
     quoteAuthorPosition : "Lead Pastor",
     
     //About
-    aboutHeading : "About Us",
-    aboutTitle : "Jesus Taught Us to Love Like God Loves",
+    aboutHeading : "WHO WE ARE",
+    aboutTitle : "Leading Ladies Inspiring Women's Empowerment in NC",
     aboutParagraph : "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
     aboutButton : "Read More",
     
