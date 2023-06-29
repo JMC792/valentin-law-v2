@@ -14,22 +14,44 @@ function About({
         <Fragment>
             {/* About */}
             <div className="container py-20" id="about">
-                <div className="grid lg:grid-cols-2 lg:gap-y-20">
+                <div className="grid lg:grid-cols-2">
 
                     {/* ----------- Image ----------- */}
-                    <div className="lg:pt-28">
+                    <div className="xl:pl-[10rem]">
                         <Image src={svg} alt="2 people" className="rounded-xl"/>
                     </div>
 
-                    {/* ----------- Text ----------- */}
-                    <div className="grid gap-y-10 md:p-32">
-                        <div className="text-2xl font-bold text-yellow-600">{language.aboutHeading}</div>
-                        <div className="text-5xl font-bold">{language.aboutTitle}</div>
-                        <div className="text-xl text-neutral-800">{language.aboutParagraph}</div>
-                        <Link href= {aboutButton}>
-                            <button type="button" className="border rounded-lg bg-amber-900 py-4 mx-24 md:mx- text-white">{language.aboutButton}</button>
-                        </Link>
+                    {/* Text */}
+                    <div className="lg:p-10 xl:p-20 tracking-tight"> {/* Padding */}
+                        
+                        {/* Subheading */}
+                        <div className="text-purple-700">
+                            <div className="text-lg font-medium">{language.aboutHeading}</div>
+                        </div>
+                        
+                        {/* Text and button */}
+                        <div className="pt-2">
+                            <div className="grid gap-y-8">
+                                
+                                {/* Title */}
+                                <div className="text-[3rem]">
+                                    <div className="font-bold leading-tight">{language.aboutTitle}</div>
+                                </div>
+                                
+                                {/* Paragraph */}
+                                <div className="text-md text-neutral-800">{language.aboutParagraph}</div>
+                                {/* Button */}
+                                <div className="">
+                                    <Link href= {aboutButton}>
+                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{language.aboutButton}</button>
+                                    </Link>
+                                </div>
+                                    
+                            </div>
+                        </div>
+                            
                     </div>
+                    
                 </div>
             </div>
         </Fragment>

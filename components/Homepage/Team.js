@@ -13,7 +13,7 @@ function Team({
                 <div className="grid gap-y-5">
 
                     {/* Header */}
-                    <div className="grid gap-y-4 text-center">
+                    <div className="grid gap-y-4">
                         <h2 className="text-2xl font-bold text-yellow-600">{language.teamHeading}</h2>
                         <h1 className="text-6xl font-bold">{language.teamTitle}</h1>
                     </div>

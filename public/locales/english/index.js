@@ -1,12 +1,12 @@
 module.exports = {
 
     //Hero
-    heroTitle : "Rise to Empowerment",
+    heroTitle : "Rise to Empowerment Embrace Your Voice: Empowering Women",
     heroSubtitle : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
     heroButton : "Get Started",
     
     //Quote
-    quoteTitle : "Our Church",
+    quoteTitle : "Projects Completed",
     quote : "Church is not an organization you join. It's a family where you belong, a home where you are loved and a hospital where you find healing",
     quoteAuthor : "Jesus Chavez",
     quoteAuthorPosition : "Lead Pastor",
@@ -14,24 +14,24 @@ module.exports = {
     //About
     aboutHeading : "WHO WE ARE",
     aboutTitle : "Leading Ladies Inspiring Women's Empowerment in NC",
-    aboutParagraph : "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
-    aboutButton : "Read More",
+    aboutParagraph : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    aboutButton : "Contact Us",
     
     //Sermon
-    sermonHeading : "Our Sermons",
-    sermonTitle : "Our Previous Sermons",
-    sermonParagraph: "Our church wants to make sure that the Lords word the you and the world. With the help of technology, you can watch our sermons via live stream from our various platforms such as Facebook, Youtube, ect.",
-    sermonButton: "Watch Our Sermons",
+    sermonHeading : "Our Mission",
+    sermonTitle : "Unlocking the Potential of Women In NC",
+    sermonParagraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+    sermonButton: "Contact Us",
     
     //Events
     eventsSubtitle : "Upcoming Events",
     eventsTitle : "Where to Find Us",
     
     //Donation
-    donationsHeading : "Donation",
+    donationsHeading : "Contact Us",
     donationsTitle : "Help Us Make Change",
     donationParagraph : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
-    donationButton : "Donate Online",
+    donationButton : "Submit",
     
     //Team
     teamHeading : "Our Team Members",
