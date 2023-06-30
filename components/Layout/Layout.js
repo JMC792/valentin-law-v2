@@ -11,10 +11,7 @@ export default function Layout ({ children }){
             <Meta/>
             <Navbar/>
             <main>{children}</main>
-            <Footer 
-                smButton1={links.facebook} 
-                smbutton2={links.instagram}
-            />
+            <Footer smButton1={links.facebook} smbutton2={links.instagram}/>
         </Fragment>
     )
 
