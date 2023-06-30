@@ -18,7 +18,7 @@ function About({
 
                     {/* ----------- Image ----------- */}
                     <div className="xl:pl-[10rem]">
-                        <Image src={svg} alt="2 people" className="rounded-xl"/>
+                        <Image src={svg} alt="2 people" className="rounded-xl" decoding="async"/>
                     </div>
 
                     {/* Text */}

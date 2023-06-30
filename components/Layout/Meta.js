@@ -6,7 +6,7 @@ function Meta(){
 
     return(
             <Head>
-                <title>Encuentro Church</title>
+                <title>Women AdvaNCe</title>
                 <link rel="icon" href="/icons/logo2.svg"/>
             </Head>
     )
