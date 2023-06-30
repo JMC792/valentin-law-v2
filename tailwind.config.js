@@ -14,6 +14,9 @@ module.exports = {
       }
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)']
+      },
       backgroundImage: {
         'back-1': "url('..//public/images/qr-code.png')",
         'back-2': "url('..//public/images/Hero-bg.webp')",
