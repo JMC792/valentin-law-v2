@@ -19,6 +19,7 @@ import jesusChavez from "public/images/jesusChavez.jpg"
 import image2 from "public/images/mauricio.jpeg"
 import arianeMacias from "public/images/arianeMacias.jpg"
 import Testimonials from "@components/Homepage/Testimonials";
+import Blog from "@components/Homepage/Blog";
 
 export default function Home() {
 
@@ -38,6 +39,7 @@ export default function Home() {
         <Testimonials/>
         {/* <Events language={language} svg={homeOffice}/> */}
         <Contact language={language} donationButton={tithely} svg={qrCode}/>
+        <Blog language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
         <Team language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
     </Fragment>
   )

@@ -32,6 +32,12 @@ module.exports = {
     donationsTitle : "Help Us Make Change",
     donationParagraph : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
     donationButton : "Submit",
+
+    //Blog
+    blogHeading: "News & Articles",
+    blogTitle: "Directly from the Latest",
+    blogDate: "07 Sept, 2022",
+    blogArticle: "Healthy hair tips: How to keep your locks looking luscious",
     
     //Team
     teamHeading : "Our Team Members",
@@ -42,4 +48,7 @@ module.exports = {
     teamMember2Title: "Production",
     teamMember3: "Ariane Macias",
     teamMember3Title: "Band Director",
+
+    //Button
+    viewAll: "View All"
 }

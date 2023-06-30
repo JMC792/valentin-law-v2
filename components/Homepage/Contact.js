@@ -63,7 +63,7 @@ function Contact({
                                                     <a href= {donationButton}>
                                                         <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{language.donationButton}</button>
                                                     </a>
-                                            </div>
+                                                </div>
 
                                             </div>
                                             
