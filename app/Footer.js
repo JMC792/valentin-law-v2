@@ -1,21 +1,13 @@
 import { Fragment } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import footerEnglish from "public/locales/english/footer.js"
-import footerSpanish from "public/locales/spanish/footer.js"
-import {useRouter} from "next/router";
-import logo from "../../public/icons/logo.svg"
+import t from "public/locales/english/footer.js"
+import logo from "public/icons/logo.svg"
 
 export default function Footer({
   smButton1,
   smButton2,
 }) {
-
-  const router = useRouter();
-  const {locale} = router;
-  const t =locale === 'en-US'
-      ? footerEnglish
-      :footerSpanish
 
   return (
     <Fragment>

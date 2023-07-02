@@ -37,7 +37,7 @@ function Contact({
 
                                 {/* Form */}
                                 <div className="bg-gray-100">
-                                        <form className="p-8" netlify>
+                                        <form className="p-8" data-netlify="true">
                                             <div className="grid gap-y-4">
                                                 <div className="grid gap-y-2">
                                                     <label htmlFor="name" className="block text-black font-bold">Name</label>

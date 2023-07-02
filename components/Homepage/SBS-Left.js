@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-function About({
+export default function sbsLeft({
     language,
     aboutButton,
     svg
@@ -57,5 +57,3 @@ function About({
         </Fragment>
     )
 }
-
-export default About

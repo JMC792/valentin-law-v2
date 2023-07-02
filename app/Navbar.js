@@ -1,20 +1,15 @@
+'use client'
+
 import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
-import {useRouter} from "next/router";
-import navbar_en from 'public/locales/english/navbar'
+import language from 'public/locales/english/navbar'
 import navbar_es from 'public/locales/spanish/navbar'
 import Image from "next/image";
-import logo from "../../public/icons/logo.svg";
+import logo from "/public/icons/logo.svg";
 import SideNav from './SideNav';
 
 function Navbar() {
 
-    //Determines Locales
-    const router = useRouter();
-    const {locale} = router;
-    const language = locale === 'en-US'
-        ? navbar_en
-        : navbar_es;
 
     //Off Canvas (mobile) menu hook
     const [offcanvas, setOffcanvas] = useState(false);
@@ -102,7 +97,7 @@ function Navbar() {
                             {/* Contact Us */}
                             <div className="hidden lg:grid hover:text-yellow-600 transition-colors delay-100">
                                     <h1 className="ml-2 text-center">{language.button_6}</h1>
-                                    <Link href="tel: 980-920-7074" className="ml-2 text-center">(980)-290-7074</Link>
+                                    <a href="tel: 980-920-7074" className="ml-2 text-center">(980)-290-7074</a>
                             </div>
 
                             {/* Off-canvas Menu */}

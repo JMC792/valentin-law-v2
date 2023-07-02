@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-function Sermons({
+export default function sbsRight({
     language,
     sermonButton,
     svg
@@ -57,4 +57,3 @@ function Sermons({
         </Fragment>
     )
 }
-export default Sermons

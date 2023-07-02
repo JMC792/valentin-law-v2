@@ -1,18 +1,9 @@
 import {Fragment} from "react";
-import {useRouter} from "next/router";
-import indexEnglish from "public/locales/english/index.js"
-import indexSpanish from "public/locales/spanish/index.js"
 
 function Hero({
     language,
     heroButton,
 }) {
-
-    const router = useRouter();
-    const {locale} = router;
-    const t =locale === 'en-US'
-        ? indexEnglish
-        : indexSpanish
 
     return(
         <Fragment>
