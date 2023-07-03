@@ -45,21 +45,21 @@ export default function Footer({
                         {/* Overview Phone Number */}
                         <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                           <Image src={call} alt="Phone"/>
-                          <Link href="tel: 980-290-7074">{t.overviewPhoneNumber}</Link>
+                          <a href="tel: 980-290-7074">{t.overviewPhoneNumber}</a>
                         </div>
 
                           {/* Overview Email */}
                           <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                           <Image src={email} alt="email"/>
-                            <Link href="mailto: jesus@encuentro.church">{t.overviewEmail}</Link>
+                            <a href="mailto: jesus@encuentro.church">{t.overviewEmail}</a>
                           </div>
 
                             {/* Overview Address */}
                             <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                             <Image src={location} alt="location Pin" />
-                              <Link href= {t.overviewAddressLink}>
+                              <a href= {t.overviewAddressLink}>
                                 {t.overviewAddress}
-                              </Link>
+                              </a>
                             </div>
 
                 </div>
