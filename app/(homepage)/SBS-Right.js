@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-function Sermons({
+export default function sbsRight({
     language,
     sermonButton,
     svg
@@ -41,7 +41,7 @@ function Sermons({
 
                             {/* Button */}
                             <div className="text-white">
-                                <Link href= {sermonButton}>
+                                <Link href= "/contact">
                                     <button type="button" className="border rounded-lg bg-sky-400 p-4">{language.sermonButton}</button>
                                 </Link>
                             </div>
@@ -57,4 +57,3 @@ function Sermons({
         </Fragment>
     )
 }
-export default Sermons

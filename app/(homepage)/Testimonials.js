@@ -1,4 +1,6 @@
+import Image from "next/image";
 import {Fragment} from "react";
+import littleCircle from "/public/icons/Homepage/littleCircle.svg"
 
 export default function Testimonials(){
 
@@ -28,7 +30,7 @@ export default function Testimonials(){
                                 {/* Title */}
                                 <div className="pb-8">
                                     <div className="md:flex">
-                                        <div>picture</div>
+                                        <Image src={littleCircle} alt="person"/>
                                         <div>
                                             <div className=" text-xl font-bold">John Mccarthy</div>
                                             <div className="font-medium">Founder of Yoko</div>
@@ -46,7 +48,7 @@ export default function Testimonials(){
                                 {/* Title */}
                                 <div className="pb-8">
                                     <div className="md:flex">
-                                        <div>picture</div>
+                                        <Image src={littleCircle} alt="person"/>
                                         <div>
                                             <div className=" text-xl font-bold">John Mccarthy</div>
                                             <div className="font-medium">Founder of Yoko</div>
@@ -64,11 +66,11 @@ export default function Testimonials(){
                                 {/* Title */}
                                 <div className="pb-8">
                                     <div className="md:flex">
-                                        <div>picture</div>
-                                        <div>
-                                            <div className=" text-xl font-bold">John Mccarthy</div>
-                                            <div className="font-medium">Founder of Yoko</div>
-                                        </div>
+                                        <Image src={littleCircle} alt="person"/>
+                                            <div>
+                                                <div className=" text-xl font-bold">John Mccarthy</div>
+                                                    <div className="font-medium">Founder of Yoko</div>
+                                            </div>
                                     </div>
                                 </div>
                                 {/* Text */}

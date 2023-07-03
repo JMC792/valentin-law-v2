@@ -1,12 +1,12 @@
 import {Fragment} from "react";
 
-function Quote({
+function stat({
     language
 }){
 
     return(
         <Fragment>
-            {/* Quote */}
+            {/* stat */}
             <div className="bg-purple-900 text-neutral-200">
                 <div className="container py-32">
                     <div className="flex justify-center">
@@ -14,21 +14,21 @@ function Quote({
 
                             <div className="">
                                 <div className="text-5xl font-medium">18K+</div>
-                                <div className='text-md'>{language.quoteTitle}</div>
+                                <div className='text-md'>{language.stat1}</div>
                             </div>
                             
                             <div className="">
                                 <div className="text-5xl font-medium">18K+</div>
-                                <div className='text-md'>{language.quoteTitle}</div>
+                                <div className='text-md'>{language.stat2}</div>
                             </div>
 
                             <div className="">
                                 <div className="text-5xl font-medium">18K+</div>
-                                <div className='text-md'>{language.quoteAuthor}</div>
+                                <div className='text-md'>{language.stat3}</div>
                             </div>
                             <div className="">
                                 <div className="text-5xl font-medium">18K+</div>
-                                <div className='text-md'>{language.quoteAuthorPosition}</div>
+                                <div className='text-md'>{language.stat4}</div>
                             </div>
                         </div>
                     </div>
@@ -39,4 +39,4 @@ function Quote({
     )
 }
 
-export default Quote
+export default stat

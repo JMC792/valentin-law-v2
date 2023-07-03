@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
       "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",],
   theme: {
@@ -14,6 +15,9 @@ module.exports = {
       }
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)']
+      },
       backgroundImage: {
         'back-1': "url('..//public/images/qr-code.png')",
         'back-2': "url('..//public/images/Hero-bg.webp')",

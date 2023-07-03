@@ -37,7 +37,7 @@ function Contact({
 
                                 {/* Form */}
                                 <div className="bg-gray-100">
-                                        <form className="p-8" netlify>
+                                        <form className="p-8" data-netlify="true">
                                             <div className="grid gap-y-4">
                                                 <div className="grid gap-y-2">
                                                     <label htmlFor="name" className="block text-black font-bold">Name</label>
@@ -63,7 +63,7 @@ function Contact({
                                                     <a href= {donationButton}>
                                                         <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{language.donationButton}</button>
                                                     </a>
-                                            </div>
+                                                </div>
 
                                             </div>
                                             

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import close from "/public/icons/close.svg";
 
 export default function SideNav({
     offcanvas,
@@ -32,7 +33,7 @@ export default function SideNav({
 
                             {/* Close Button */}
                             <button className="menu-bars text-[24px] opacity-80 hover:opacity-50 transition-all" aria-label="Right Align">
-                                <span className="material-symbols-outlined">close</span>
+                            <Image src={close} width={20} alt={"logo"}/>
                             </button>
                         </li>
 
@@ -70,11 +71,11 @@ export default function SideNav({
                                 </Link>
                             </div>
 
-                            <div className='offcanvas-text'>
+                            {/* <div className='offcanvas-text'>
                             <Link href={""} locale={language.page}>
                                     {language.button_5}
                                 </Link>
-                            </div>
+                            </div> */}
 
                             
                         </div>

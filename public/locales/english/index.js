@@ -5,11 +5,11 @@ module.exports = {
     heroSubtitle : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
     heroButton : "Get Started",
     
-    //Quote
-    quoteTitle : "Projects Completed",
-    quote : "Church is not an organization you join. It's a family where you belong, a home where you are loved and a hospital where you find healing",
-    quoteAuthor : "Jesus Chavez",
-    quoteAuthorPosition : "Lead Pastor",
+    //Stat
+    stat1 : "Projects Completed",
+    stat2 : "People Helped",
+    stat3 : "Sponsors",
+    stat4 : "Partnerships",
     
     //About
     aboutHeading : "WHO WE ARE",
@@ -32,6 +32,14 @@ module.exports = {
     donationsTitle : "Help Us Make Change",
     donationParagraph : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
     donationButton : "Submit",
+
+    //Blog
+    blogHeading: "News & Articles",
+    blogTitle: "Directly from the Latest",
+    blogDate: "07 Sept, 2022",
+    blogArticle: "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+    blogType: "Women's History Month",
+    blogSentence: "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds",
     
     //Team
     teamHeading : "Our Team Members",
@@ -42,4 +50,13 @@ module.exports = {
     teamMember2Title: "Production",
     teamMember3: "Ariane Macias",
     teamMember3Title: "Band Director",
+
+    //Newsletter
+    newsHeading: "Subscribe Us",
+    newsTitle : " Subscribe Your Email for Newsletter & Promotion",
+    newsSentence: "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+
+    //Button
+    Button1: "View All",
+    Button2: "Subscribe Now"
 }

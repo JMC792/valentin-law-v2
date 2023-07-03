@@ -3,9 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-function About({
+export default function sbsLeft({
     language,
-    aboutButton,
     svg
 }){
 
@@ -42,7 +41,7 @@ function About({
                                 <div className="text-md text-neutral-800">{language.aboutParagraph}</div>
                                 {/* Button */}
                                 <div className="">
-                                    <Link href= {aboutButton}>
+                                    <Link href= "/about">
                                         <button className="border rounded-lg p-4 bg-sky-400 text-white">{language.aboutButton}</button>
                                     </Link>
                                 </div>
@@ -57,5 +56,3 @@ function About({
         </Fragment>
     )
 }
-
-export default About

@@ -1,20 +1,15 @@
+'use client'
+
 import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
-import {useRouter} from "next/router";
-import navbar_en from 'public/locales/english/navbar'
-import navbar_es from 'public/locales/spanish/navbar'
+import language from 'public/locales/english/navbar'
 import Image from "next/image";
-import logo from "../../public/icons/logo.svg";
+import logo from "/public/icons/superwoman.svg";
 import SideNav from './SideNav';
+import menu from "/public/icons/menu.svg";
 
 function Navbar() {
 
-    //Determines Locales
-    const router = useRouter();
-    const {locale} = router;
-    const language = locale === 'en-US'
-        ? navbar_en
-        : navbar_es;
 
     //Off Canvas (mobile) menu hook
     const [offcanvas, setOffcanvas] = useState(false);
@@ -47,42 +42,42 @@ function Navbar() {
 
                             {/* Logo */}
                             <Link href={"/"} >
-                                <Image src={logo} height={60} width={100} alt={"logo"} className={"cursor-pointer"}/>
+                                <Image src={logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
                             </Link>
 
                             {/* Link list */}
                             <div className="hidden lg:flex gap-x-6">
 
                                 {/* About */}
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href="#about">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
+                                        <Link href="/about">
                                             {language.button_1}
                                         </Link>
                                 </div>
 
                                 {/* Sermons */}
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href="#sermon">
                                         {language.button_7}
                                     </Link>
                                 </div>
 
                                 {/* Events */}
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href="#events">
                                         {language.button_2}
                                     </Link>
                                 </div>
 
                                 {/* Donation */}
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                         <Link href="#donation">
                                             {language.button_3}
                                         </Link>
                                 </div>
 
                                 {/*Contact */}
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                         <Link href="#team">
                                             {language.button_4}
                                         </Link>
@@ -92,7 +87,7 @@ function Navbar() {
 
                             {/* Language */}
                             <div className="hidden lg:flex">
-                                <div className="text-[20px] hover:text-yellow-600 transition-colors delay-100">
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href="/" locale={language.page}>
                                         {language.button_5}
                                     </Link>
@@ -100,14 +95,19 @@ function Navbar() {
                             </div>
 
                             {/* Contact Us */}
-                            <div className="hidden lg:grid hover:text-yellow-600 transition-colors delay-100">
-                                    <h1 className="ml-2 text-center">{language.button_6}</h1>
-                                    <Link href="tel: 980-920-7074" className="ml-2 text-center">(980)-290-7074</Link>
+                            <div className="hidden lg:grid">
+                                <div className='hover:text-yellow-600 transition-colors delay-100'>
+                                    <div className="ml-2 text-center">{language.button_6}</div>
+                                    <a href="tel: 980-920-7074" className="ml-2 text-center">(980)-290-7074</a>
+                                </div>
+                                    
                             </div>
 
                             {/* Off-canvas Menu */}
                             <div className="flex lg:hidden">
-                                <div onClick={showOffcanvas} className="material-symbols-outlined cursor-pointer" id="toggle-button">menu</div>
+                                <div onClick={showOffcanvas} id="toggle-button">
+                                    <Image src={menu} width={30} alt={"logo"}/>
+                                </div>
                             </div>
 
                         </div>

@@ -1,35 +1,26 @@
 import {Fragment} from "react";
-import {useRouter} from "next/router";
-import indexEnglish from "public/locales/english/index.js"
-import indexSpanish from "public/locales/spanish/index.js"
 
-function Hero({
+export default function Hero2({
     language,
     heroButton,
 }) {
-
-    const router = useRouter();
-    const {locale} = router;
-    const t =locale === 'en-US'
-        ? indexEnglish
-        : indexSpanish
 
     return(
         <Fragment>
 
             {/* Hero Background */}
-            <div className="h-screen bg-back-2 bg-cover" id="header">
+            <div className="h-1/5 bg-back-2 bg-cover" id="header">
                 {/* Hero Container */}
                 <div className="container flex justify-center">
                     {/* Horizontal Margin and Padding */}
-                    <div className="pt-[13rem] md:pt-[15rem] lg:pt-[16rem]">
+                    <div className="py-[8rem] md:pt-[15rem] lg:pt-[10rem]">
                         {/* Vertical Margin and Padding */}
                         <div className="lg:px-[10rem] 2xl:px-[12rem]">
 
 
                             <div className="text-center text-neutral-100 ">
                                 {/* Text Wrapper */}
-                                <div className="space-y-10">
+                                <div className="space-y-5">
                                     
                                     {/* Hero Title */}
                                     <div className="lg:px-12">
@@ -47,15 +38,6 @@ function Hero({
                                             {language.heroSubtitle}
                                         </div>
                                     </div>
-                                    
-                                    {/* Hero Button */}
-                                    <div>
-                                        <a href = {heroButton} >
-                                            <button type="button" className="bg-sky-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                                {language.heroButton}
-                                            </button>
-                                        </a>
-                                    </div>
                                 
 
                                 </div>
@@ -69,4 +51,3 @@ function Hero({
         </Fragment>
     )
 }
-export default Hero
