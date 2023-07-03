@@ -19,6 +19,10 @@ import jesusChavez from "public/images/jesusChavez.jpg"
 import image2 from "public/images/mauricio.jpeg"
 import arianeMacias from "public/images/arianeMacias.jpg"
 
+export const metadata = {
+  description: ""
+};
+
 export default function Page() {
   return (
         <Fragment>
