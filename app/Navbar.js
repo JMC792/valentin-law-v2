@@ -3,10 +3,10 @@
 import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
 import language from 'public/locales/english/navbar'
-import navbar_es from 'public/locales/spanish/navbar'
 import Image from "next/image";
 import logo from "/public/icons/logo.svg";
 import SideNav from './SideNav';
+import menu from "/public/icons/menu.svg";
 
 function Navbar() {
 
@@ -105,7 +105,9 @@ function Navbar() {
 
                             {/* Off-canvas Menu */}
                             <div className="flex lg:hidden">
-                                <div onClick={showOffcanvas} className="material-symbols-outlined cursor-pointer" id="toggle-button">menu</div>
+                                <div onClick={showOffcanvas} id="toggle-button">
+                                    <Image src={menu} width={30} alt={"logo"}/>
+                                </div>
                             </div>
 
                         </div>
