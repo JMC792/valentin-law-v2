@@ -1,13 +1,13 @@
 import {Fragment} from "react";
 //Components
 import Hero from "app/(homepage)/Hero";
-import About from "@components/Homepage/SBS-Left";
-import Stat from "@components/Homepage/Stat";
-import Contact from "@components/Homepage/Contact";
-import Mission from "@components/Homepage/SBS-Right";
-import Testimonials from "@components/Homepage/Testimonials";
-import Blog from "@components/Homepage/Blog";
-import Newsletter from "@components/Homepage/Newsletter";
+import About from "app/(homepage)/SBS-Left";
+import Stat from "app/(homepage)/Stat";
+import Contact from "app/(homepage)/Contact";
+import Mission from "app/(homepage)/SBS-Right";
+import Testimonials from "app/(homepage)/Testimonials";
+import Blog from "app/(homepage)/Blog";
+import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "public/locales/english/index.js"
 import { facebook,tithely } from "public/data/links"
@@ -18,6 +18,7 @@ import qrCode from "public/images/photo1.webp"
 import jesusChavez from "public/images/jesusChavez.jpg"
 import image2 from "public/images/mauricio.jpeg"
 import arianeMacias from "public/images/arianeMacias.jpg"
+import { donationButton } from "public/locales/spanish";
 
 export const metadata = {
   description: ""
@@ -32,7 +33,7 @@ export default function Page() {
             <Stat language={language}/>
             <Testimonials/>
             <Contact language={language} donationButton={tithely} svg={qrCode}/>
-            <Blog language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
+            <Blog language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias} donationButton={donationButton}/>
             <Newsletter language={language} heroButton={facebook}/>
         </Fragment>
   );
