@@ -2,8 +2,8 @@ module.exports = {
 
     //Contact
     phone: "(980)-290-7074",
-    email: "jesus@encuentro.church",
-    address: "7568 Ruben Linker Rd NW, Concord, NC 28027",
+    email: "nicki@womenadvance.org",
+    address: "PO Box 7725, Wilmington, NC 28406",
 
     //Social Media
     facebook : "https://www.facebook.com/encuentrochurch1",

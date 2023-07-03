@@ -29,12 +29,12 @@ function Blog({
                         
                     </div>
 
-                    {/* Team Members */}
+                    {/* Blog Posts */}
                     <div className="pt-12">
                         <div className="grid lg:grid-cols-3 gap-x-8">
 
                         {/* Pastor */}
-                        <div className="grid gap-y-5">
+                        <div className="grid gap-y-5" >
                             <Image src={svg1} alt="Jesus Chavez" height={1000} />
                             <div className="gap-y-1.5">
                                 <div className="text-3xl">{language.teamMember1}</div>

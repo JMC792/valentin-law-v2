@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import HomePage from "app/home-page";
+import HomePage from "app/page";
 
 export const metadata = {
   title: "My Page Title",

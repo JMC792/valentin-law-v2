@@ -1,13 +1,13 @@
 import {Fragment} from "react";
 //Components
-import Hero from "app/Hero";
+import Hero from "app/(homepage)/Hero";
 import About from "@components/Homepage/SBS-Left";
 import Stat from "@components/Homepage/Stat";
 import Contact from "@components/Homepage/Contact";
 import Mission from "@components/Homepage/SBS-Right";
-import Team from "@components/Homepage/Team";
 import Testimonials from "@components/Homepage/Testimonials";
 import Blog from "@components/Homepage/Blog";
+import Newsletter from "@components/Homepage/Newsletter";
 //Locales
 import language from "public/locales/english/index.js"
 import { facebook,tithely } from "public/data/links"
@@ -29,7 +29,7 @@ export default function Page() {
             <Testimonials/>
             <Contact language={language} donationButton={tithely} svg={qrCode}/>
             <Blog language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
-            <Team language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias}/>
+            <Newsletter language={language} heroButton={facebook}/>
         </Fragment>
   );
 }

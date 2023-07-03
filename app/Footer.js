@@ -3,6 +3,9 @@ import Link from "next/link"
 import Image from "next/image"
 import t from "public/locales/english/footer.js"
 import logo from "public/icons/logo.svg"
+import call from "public/icons/call2.svg"
+import email from "public/icons/email.svg"
+import location from "public/icons/location_on_white.svg"
 
 export default function Footer({
   smButton1,
@@ -11,7 +14,7 @@ export default function Footer({
 
   return (
     <Fragment>
-      <footer className="bg-slate-800">
+      <footer className="bg-neutral-800">
 
         {/* Footer Container */}
         <div className="container text-white">
@@ -41,19 +44,19 @@ export default function Footer({
 
                         {/* Overview Phone Number */}
                         <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                          <span className="material-symbols-outlined">call</span>
+                          <Image src={call} alt="Phone"/>
                           <Link href="tel: 980-290-7074">{t.overviewPhoneNumber}</Link>
                         </div>
 
                           {/* Overview Email */}
                           <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                            <span className="material-symbols-outlined">mail</span>
+                          <Image src={email} alt="email"/>
                             <Link href="mailto: jesus@encuentro.church">{t.overviewEmail}</Link>
                           </div>
 
                             {/* Overview Address */}
                             <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                              <span className="material-symbols-outlined">location_on</span>
+                            <Image src={location} alt="location Pin" />
                               <Link href= {t.overviewAddressLink}>
                                 {t.overviewAddress}
                               </Link>

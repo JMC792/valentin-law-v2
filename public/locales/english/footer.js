@@ -1,11 +1,11 @@
 module.exports = {
 
     //Overview 
-    overviewTitle : "Encuentro Church",
-        overviewParagraph : "We are a multi-cultural and multi-lingual christian church located in Charlotte, North Carolina. We are dedicated to helping people from all walks of life find the lord and live in his name everyday. Services begin Sunday at 11:00am at our Charlotte campus and online",
+    overviewTitle : "Women AdvaNCe",
+        overviewParagraph : "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity.",
         overviewPhoneNumber : "(980)-290-7074",
-        overviewEmail : "jesus@encuentro.church",
-        overviewAddress : "7568 Ruben Linker Rd NW, Concord, NC 28027",
+        overviewEmail : "nicki@womenadvance.org",
+        overviewAddress : "PO Box 7725, Wilmington, NC 28406",
         overviewAddressLink : "https://goo.gl/maps/8LrxauLEj5XFz5b38",
     
     //Useful Links

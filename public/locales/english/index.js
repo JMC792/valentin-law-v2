@@ -49,6 +49,12 @@ module.exports = {
     teamMember3: "Ariane Macias",
     teamMember3Title: "Band Director",
 
+    //Newsletter
+    newsHeading: "Subscribe Us",
+    newsTitle : " Subscribe Your Email for Newsletter & Promotion",
+    newsSentence: "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+
     //Button
-    viewAll: "View All"
+    Button1: "View All",
+    Button2: "Subscribe Now"
 }
