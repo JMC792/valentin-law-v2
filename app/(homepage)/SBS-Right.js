@@ -41,7 +41,7 @@ export default function sbsRight({
 
                             {/* Button */}
                             <div className="text-white">
-                                <Link href= {sermonButton}>
+                                <Link href= "/contact">
                                     <button type="button" className="border rounded-lg bg-sky-400 p-4">{language.sermonButton}</button>
                                 </Link>
                             </div>

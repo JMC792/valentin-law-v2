@@ -5,7 +5,6 @@ import Link from "next/link";
 
 export default function sbsLeft({
     language,
-    aboutButton,
     svg
 }){
 
@@ -42,7 +41,7 @@ export default function sbsLeft({
                                 <div className="text-md text-neutral-800">{language.aboutParagraph}</div>
                                 {/* Button */}
                                 <div className="">
-                                    <Link href= {aboutButton}>
+                                    <Link href= "/about">
                                         <button className="border rounded-lg p-4 bg-sky-400 text-white">{language.aboutButton}</button>
                                     </Link>
                                 </div>

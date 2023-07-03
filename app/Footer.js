@@ -2,14 +2,13 @@ import { Fragment } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import t from "public/locales/english/footer.js"
-import logo from "public/icons/logo.svg"
+import logo from "public/icons/superwoman.svg"
 import call from "public/icons/call2.svg"
 import email from "public/icons/email.svg"
 import location from "public/icons/location_on_white.svg"
 
 export default function Footer({
   smButton1,
-  smButton2,
 }) {
 
   return (
@@ -22,15 +21,15 @@ export default function Footer({
           <div className="py-20">
 
             {/* Footer Layout*/}
-            <div className="grid gap-x-24 gap-y-20 sm:items-center lg:flex">
+            <div className="grid gap-x-24 gap-y-20 items-center lg:flex">
 
-              {/* ----------- Overview Section ----------- */}
+              {/*  Overview Section  */}
               <div className="basis-1/4 grid gap-y-8">
 
                 {/* Overview Title */}
                 <div className="text-[1.5rem] text-neutral-200 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                   <Link href="/">
-                    <Image src={logo} height={60} width={300} alt={"logo"} className={"cursor-pointer"}/>
+                    <Image src={logo} width={200} alt={"logo"} className={"cursor-pointer"}/>
                   </Link>
                 </div>
 
@@ -44,19 +43,19 @@ export default function Footer({
 
                         {/* Overview Phone Number */}
                         <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                          <Image src={call} alt="Phone"/>
-                          <a href="tel: 980-290-7074">{t.overviewPhoneNumber}</a>
+                          <Image src={call} alt="Phone Icon"/>
+                          <a href = {"tel: " + [t.overviewPhoneNumber]} >{t.overviewPhoneNumber}</a>
                         </div>
 
                           {/* Overview Email */}
                           <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                          <Image src={email} alt="email"/>
-                            <a href="mailto: jesus@encuentro.church">{t.overviewEmail}</a>
+                          <Image src={email} alt="Email Icon" />
+                            <a href={"mailto: " + [t.overviewEmail]}>{t.overviewEmail}</a>
                           </div>
 
                             {/* Overview Address */}
                             <div className="flex gap-x-2 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                            <Image src={location} alt="location Pin" />
+                            <Image src={location} alt="Pin Icon" />
                               <a href= {t.overviewAddressLink}>
                                 {t.overviewAddress}
                               </a>
@@ -66,7 +65,7 @@ export default function Footer({
 
               </div>
 
-              {/* ----------- Useful Links Section ----------- */}
+              {/* Useful Links Section */}
               <div className="basis-1/4 grid gap-y-8">
 
                 {/* Links Title */}
@@ -74,12 +73,14 @@ export default function Footer({
 
                   {/* About Link */}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <Link href={t.usefulLink1Path}>{t.usefulLink1}</Link>
+                    <Link href={"/"+[t.usefulLink1.charAt(0).toLowerCase()]+[t.usefulLink1.slice(1)]}>
+                      {t.usefulLink1}
+                    </Link>
                   </div>
 
                   {/* Sermons Link */}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <Link href={t.usefulLink2Path}>{t.usefulLink2}</Link>
+                    <Link href={"/"+[t.usefulLink2.charAt(0).toLowerCase()]+[t.usefulLink2.slice(1)]}>{t.usefulLink2}</Link>
                   </div>
 
                   {/* Donation Link */}
@@ -89,12 +90,12 @@ export default function Footer({
 
                   {/* Team Link*/}
                   <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <Link href={t.usefulLink4Path}>{t.usefulLink4}</Link>
+                    <Link href={"/"+[t.usefulLink4.charAt(0).toLowerCase()]+[t.usefulLink4.slice(1)]}>{t.usefulLink4}</Link>
                   </div>
 
               </div>
 
-              {/* ----------- Social Media Section ----------- */}
+              {/* Social Media Section */}
               <div className="basis-1/4 grid gap-y-8">
 
                 {/* Social Media Title */}
@@ -130,7 +131,7 @@ export default function Footer({
 
               </div>
 
-              {/* ----------- Legal Section ----------- */}
+              {/* Legal Section */}
               <div className="basis-1/4 grid gap-y-8">
 
                 {/* Legal Title */}
@@ -174,7 +175,7 @@ export default function Footer({
           <span className="flex justify-center text-sm text-neutral-200 sm:text-center dark:text-gray-400 py-4">
             © 2022{" "}
             <a href="https://jesuschavez.dev" className="hover:underline px-2">
-              Encuentro Church
+              Women Advance
             </a>
             . All Rights Reserved.
           </span>

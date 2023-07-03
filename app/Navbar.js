@@ -4,7 +4,7 @@ import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
 import language from 'public/locales/english/navbar'
 import Image from "next/image";
-import logo from "/public/icons/logo.svg";
+import logo from "/public/icons/superwoman.svg";
 import SideNav from './SideNav';
 import menu from "/public/icons/menu.svg";
 
@@ -42,7 +42,7 @@ function Navbar() {
 
                             {/* Logo */}
                             <Link href={"/"} >
-                                <Image src={logo} height={60} width={100} alt={"logo"} className={"cursor-pointer"}/>
+                                <Image src={logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
                             </Link>
 
                             {/* Link list */}
@@ -50,7 +50,7 @@ function Navbar() {
 
                                 {/* About */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href="#about">
+                                        <Link href="/about">
                                             {language.button_1}
                                         </Link>
                                 </div>

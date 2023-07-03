@@ -5,11 +5,11 @@ module.exports = {
     heroSubtitle : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
     heroButton : "Get Started",
     
-    //Quote
-    quoteTitle : "Projects Completed",
-    quote : "Church is not an organization you join. It's a family where you belong, a home where you are loved and a hospital where you find healing",
-    quoteAuthor : "Jesus Chavez",
-    quoteAuthorPosition : "Lead Pastor",
+    //Stat
+    stat1 : "Projects Completed",
+    stat2 : "People Helped",
+    stat3 : "Sponsors",
+    stat4 : "Partnerships",
     
     //About
     aboutHeading : "WHO WE ARE",
@@ -37,7 +37,9 @@ module.exports = {
     blogHeading: "News & Articles",
     blogTitle: "Directly from the Latest",
     blogDate: "07 Sept, 2022",
-    blogArticle: "Healthy hair tips: How to keep your locks looking luscious",
+    blogArticle: "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+    blogType: "Women's History Month",
+    blogSentence: "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds",
     
     //Team
     teamHeading : "Our Team Members",

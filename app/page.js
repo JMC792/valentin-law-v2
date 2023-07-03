@@ -10,15 +10,12 @@ import Blog from "app/(homepage)/Blog";
 import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "public/locales/english/index.js"
-import { facebook,tithely } from "public/data/links"
+import { facebook } from "public/data/links"
 //images
 import aboutSvg from "public/images/SBS_Right.webp"
 import SBS_Left from "public/images/SBS_Left.webp"
 import qrCode from "public/images/photo1.webp"
-import jesusChavez from "public/images/jesusChavez.jpg"
-import image2 from "public/images/mauricio.jpeg"
-import arianeMacias from "public/images/arianeMacias.jpg"
-import { donationButton } from "public/locales/spanish";
+import blogPic3 from "public/images/arianeMacias.jpg"
 
 export const metadata = {
   description: ""
@@ -32,8 +29,8 @@ export default function Page() {
             <Mission language={language} sermonButton={facebook} svg={SBS_Left}/>
             <Stat language={language}/>
             <Testimonials/>
-            <Contact language={language} donationButton={tithely} svg={qrCode}/>
-            <Blog language={language} svg1={jesusChavez} svg2={image2} svg3={arianeMacias} donationButton={donationButton}/>
+            <Contact language={language} svg={qrCode}/>
+            <Blog language={language} svg3={blogPic3}/>
             <Newsletter language={language} heroButton={facebook}/>
         </Fragment>
   );

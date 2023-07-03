@@ -3,9 +3,6 @@ import Image from "next/image"
 
 function Blog({
     language,
-    donationButton,
-    svg1,
-    svg2,
     svg3
 }){
 
@@ -21,8 +18,8 @@ function Blog({
                         <div className="flex justify-between">
                             <h1 className="text-5xl font-bold">{language.blogTitle}</h1>
                             <div className="">
-                                    <a href= {donationButton}>
-                                        <button type="submit" className="border rounded-lg bg-amber-900 px-10 py-4 text-white">{language.viewAll}</button>
+                                    <a href= "/about">
+                                        <button type="submit" className="border rounded-lg bg-amber-900 px-10 py-4 text-white">{language.Button1}</button>
                                     </a>
                                 </div>
                         </div>
