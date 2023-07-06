@@ -38,7 +38,7 @@ export default function Newsletter({language,heroButton}){
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {language.heroSubtitle}
+                                            {language.newsSentence}
                                         </div>
                                     </div>
                                     

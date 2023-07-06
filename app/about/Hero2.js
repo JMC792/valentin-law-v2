@@ -1,9 +1,6 @@
 import {Fragment} from "react";
 
-export default function Hero2({
-    language,
-    heroButton,
-}) {
+export default function Hero2({language}) {
 
     return(
         <Fragment>
