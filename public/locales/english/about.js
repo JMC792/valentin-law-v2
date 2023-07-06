@@ -20,4 +20,21 @@ module.exports = {
     stat3 : "Sponsors",
     stat4 : "Partnerships",
 
+    //Team
+    teamHeading : "Meet Our Team",
+    teamTitle : "Empowering Women In Action",
+    teamSentence: "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum.",
+    teamMember1: "Jesus Chavez",
+    teamMember1Title: "Pastor",
+    teamMember2: "Mauricio Chavez",
+    teamMember2Title: "Production",
+    teamMember3: "Ariane Macias",
+    teamMember3Title: "Band Director",
+
+    //Contact
+    contactHeading : "Contact Us",
+    contactTitle : "Help Us Make Change",
+    contactParagraph : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+    contactButton : "Submit",
+
 }

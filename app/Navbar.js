@@ -50,37 +50,37 @@ function Navbar() {
 
                                 {/* About */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href="/about">
-                                            {language.button_1}
+                                        <Link href= {"/" }>
+                                        {[language.button_1.charAt(0).toUpperCase()]+[language.button_1.slice(1)]}
                                         </Link>
                                 </div>
 
                                 {/* Sermons */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href="#sermon">
-                                        {language.button_7}
+                                    <Link href={"/" + [language.button_2]}>
+                                        {[language.button_2.charAt(0).toUpperCase()]+[language.button_2.slice(1)]}
                                     </Link>
                                 </div>
 
-                                {/* Events */}
+                                {/* Sermons */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href="#events">
-                                        {language.button_2}
+                                    <Link href={"/" + [language.button_3]}>
+                                        {[language.button_3.charAt(0).toUpperCase()]+[language.button_3.slice(1)]}
                                     </Link>
                                 </div>
 
-                                {/* Donation */}
+                                {/* Sermons */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href="#donation">
-                                            {language.button_3}
-                                        </Link>
+                                    <Link href={"/" + [language.button_4]}>
+                                        {[language.button_4.charAt(0).toUpperCase()]+[language.button_4.slice(1)]}
+                                    </Link>
                                 </div>
 
-                                {/*Contact */}
+                                {/* Sermons */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href="#team">
-                                            {language.button_4}
-                                        </Link>
+                                    <Link href={"/" + [language.button_5]}>
+                                        {[language.button_5.charAt(0).toUpperCase()]+[language.button_5.slice(1)]}
+                                    </Link>
                                 </div>
 
                             </div>
@@ -89,7 +89,7 @@ function Navbar() {
                             <div className="hidden lg:flex">
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href="/" locale={language.page}>
-                                        {language.button_5}
+                                        {language.button_8}
                                     </Link>
                                 </div>
                             </div>
