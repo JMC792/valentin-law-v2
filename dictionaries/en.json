@@ -1,0 +1,230 @@
+{
+    "layout": {
+        "title": "Women AdvaNCe",
+        "description": "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity",
+        "applicationName": "Women Advance",
+        "creator": "Jesus Chavez",
+        "publisher": "Bold & Bright Media"
+    },
+    "navbar": {
+        "link1": "home",
+        "link2": "about",
+        "link3": "blog",
+        "link4": "contact",
+        "link5": "donate",
+        "locale": "Spanish",
+        "call": {
+            "title": "Call-Us",
+            "number": "980-290-7074"
+        }
+    },
+    "index": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title ": "Rise to Empowerment Embrace Your Voice: Empowering Women",
+            "subtitle" : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
+            "button" : {
+                "title": "Get Started",
+                "link": ""
+            }
+        },
+        "about": {
+            "heading" : "WHO WE ARE",
+            "title" : "Leading Ladies Inspiring Women's Empowerment in NC",
+            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "button" : {
+                "title": "Contact Us",
+                "link": ""
+            }
+        },
+        "stat": {
+            "stat1" : "Projects Completed",
+            "stat2" : "People Helped",
+            "stat3" : "Sponsors",
+            "stat4" : "Partnerships"
+        },
+        "sermon": {
+            "heading" : "Our Mission",
+            "title" : "Unlocking the Potential of Women In NC",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button": "Contact Us"
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        },
+        "blog": {
+            "heading": "News & Articles",
+            "title": "Directly from the Latest",
+            "button": {
+                "title": "View All",
+                "linkk": ""
+            },
+            "date": "07 Sept, 2022",
+            "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+            "blogType": "Women's History Month",
+            "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+        },
+        "newsletter": {
+            "heading": "Subscribe Us",
+            "title": " Subscribe Your Email for Newsletter & Promotion",
+            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced."
+        }
+    },
+    "about": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "About Us",
+            "subtitle": "Home > About Us"
+        },
+        "about1": {
+            "heading" : "Our Mission",
+            "title" : "Driving Change",
+            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "button" : {
+                "title": "Contact Us",
+                "link": ""
+            }
+        },
+        "about2": {
+            "heading" : "Our Vision",
+            "title" : "Empowering Women",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button": {
+                "title": "Contact Us",
+                "link": ""
+            }
+        },
+        "statistic": {
+            "stat1" : "Projects Completed",
+            "stat2" : "People Helped",
+            "stat3" : "Sponsors",
+            "stat4" : "Partnerships"
+        },
+        "about3": {
+            "heading" : "Our Vision",
+            "title" : "Empowering Women",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button" : {
+                "title": "Contact Us",
+                "links": ""
+            }
+        },
+        "team": {
+            "heading" : "Meet Our Team",
+            "title" : "Empowering Women In Action",
+            "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum.",
+            "member": {
+                "person1Name": "Jesus Chavez",
+                "person1Title": "Pastor",
+                "person2Name": "Mauricio Chavez",
+                "person2Title": "Production",
+                "person3Name": "Ariane Macias",
+                "person3Title": "Band Director"
+            }
+            
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        }
+    },
+    "blog": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        }
+    },
+    "contact": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Contact Us",
+            "subtitle": "Home > Contact Us"
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        },
+        "newsletter": {
+            "heading": "Subscribe Us",
+            "title" : " Subscribe Your Email for Newsletter & Promotion",
+            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+            "button2": {
+                "title": "Subscribe Now",
+                "link": ""
+            }
+        }
+    },
+    "donate": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        }
+    },
+    "footer": {
+        "overview": {
+            "title" : "Women AdvaNCe",
+            "paragraph" : "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity.",
+            "phoneNumber" : "(980)-290-7074",
+            "email" : "nicki@womenadvance.org",
+            "address" : "PO Box 7725, Wilmington, NC 28406",
+            "addressLink" : "https://goo.gl/maps/8LrxauLEj5XFz5b38"
+        },
+        "usefulLinks": {
+            "link1": "about",
+            "link2": "service",
+            "link3": "donate",
+            "link4": "team"
+        },
+        "socialMedia": {
+            "title" : "Follow Our Socials",
+            "media1" : {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/atlimmigration/"
+            },
+            "media2" : {
+                "title": "Youtube",
+                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+            },
+            "media3" : {
+                "title":"Facebook",
+                "link": "https://www.facebook.com/encuentrochurch1"
+            },
+            "media4" : {
+                "title":"Twitter",
+                "link": "https://twitter.com/valentinlawllc"
+            }
+        },
+        "legal": {
+            "title" : "Legal",
+            "link1" : "About",
+            "link2" : "Privacy Policy",
+            "link3" : "Licensing",
+            "link4" : "Contact"
+        }
+    }
+}
