@@ -1,6 +1,6 @@
 import {Fragment} from "react";
 
-export default function Hero2({language}) {
+export default function Hero2({language, heroTitle, heroSubtitle}) {
 
     return(
         <Fragment>
@@ -23,7 +23,7 @@ export default function Hero2({language}) {
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
-                                                {language.heroTitle}
+                                                {heroTitle}
                                             </div>
                                         </div>
                                     </div>
@@ -32,7 +32,7 @@ export default function Hero2({language}) {
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {language.heroSubtitle}
+                                            {heroSubtitle}
                                         </div>
                                     </div>
                                 

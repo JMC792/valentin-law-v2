@@ -13,6 +13,7 @@ import about3 from "public/images/about3.webp"
 import Team2 from "app/about/Team2.js";
 import about4 from "public/images/arianeMacias.jpg"
 import Contact2 from "app/about/Contact2.js";
+import en from "dictionaries/en.json"
 
 export const metadata = {
   
@@ -21,7 +22,7 @@ export const metadata = {
 export default function Page() {
   return (
     <Fragment>
-      <Hero2 language={language} heroButton={facebook}/>
+      <Hero2 heroTitle={en.about.hero.title} heroSubtitle={en.about.hero.subtitle} language={en} heroButton={facebook}/>
       <SBSLeft language={language} heroButton={facebook} svg ={aboutImage}/>
       <SBSRight language={language} heroButton={facebook} image ={about2}/>
       <Stat2 language={language} links={links} />

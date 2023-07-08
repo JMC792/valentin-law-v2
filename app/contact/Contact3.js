@@ -22,8 +22,8 @@ export default function Contact2({language,contactButton,image}){
                                 
                                 {/* Title and Heading */}
                                 <div className="text-neutral-900 flex flex-col items-center lg:items-start">
-                                    <div className="text-2xl">{language.contactHeading}</div>
-                                    <div className="text-[2.5rem] font-bold">{language.contactTitle}</div>
+                                    <div className="text-2xl">{language.contact.contact.heading}</div>
+                                    <div className="text-[2.5rem] font-bold">{language.contact.contact.title}</div>
                                 </div>
 
                                 {/* Form */}
@@ -53,7 +53,7 @@ export default function Contact2({language,contactButton,image}){
 
                                                 <div className="">
                                                     <a href= {contactButton}>
-                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contactButton}</button>
+                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contact.contact.button.title}</button>
                                                     </a>
                                                 </div>
 

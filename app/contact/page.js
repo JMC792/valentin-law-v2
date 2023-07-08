@@ -7,16 +7,41 @@ import { facebook } from "public/data/links"
 import Stat3 from "app/about/Stat2.js";
 import links from "public/data/links.js"
 import Newsletter from "app/(homepage)/Newsletter";
+import en from "dictionaries/en.json"
+
 
 export const metadata = {
-  
-};
+  title: 'Contact Us',
+  description: '...',
+}
 
-export default function Page() {
+async function getData(){
+
+  try{
+    const response = await fetch('/dictionaries/en.json')
+
+    console.log("response data")
+    console.log(response);
+
+    if (!response.ok) {
+      throw new Error('Failed to fetch data');
+    }
+    return await response.json();
+    } catch (error) {
+      console.error('Error fetching data', error);
+      throw error
+    }
+  
+}
+
+export default async function Page() {
+
+  // const data = await getData()
+
   return (
     <Fragment>
-      <Hero2 language={language} heroButton={facebook}/>
-      <Contact3 language={language} image={about2}/>
+      <Hero2 heroTitle={en.contact.hero.title} heroSubtitle={en.contact.hero.subtitle} language={en} heroButton={facebook}/>
+      <Contact3 language={en} image={about2}/>
       <Stat3 language={language} links={links}/>
       <Newsletter language={language} heroButton={facebook}/>
     </Fragment>
