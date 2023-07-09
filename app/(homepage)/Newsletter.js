@@ -1,6 +1,12 @@
 import { Fragment } from "react";
 
-export default function Newsletter({language,heroButton}){
+export default function Newsletter({
+    heading, 
+    title,
+    sentence,
+    button,
+    buttonLink
+}){
 
     return(
         <Fragment>
@@ -20,7 +26,7 @@ export default function Newsletter({language,heroButton}){
                                     <div>
                                         <div className="text-md">
                                             <div className="font-bold leading-tight">
-                                                {language.newsHeading}
+                                                {heading}
                                             </div>
                                         </div>
                                     </div>
@@ -29,7 +35,7 @@ export default function Newsletter({language,heroButton}){
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
-                                                {language.newsTitle}
+                                                {title}
                                             </div>
                                         </div>
                                     </div>
@@ -38,7 +44,7 @@ export default function Newsletter({language,heroButton}){
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {language.newsSentence}
+                                            {sentence}
                                         </div>
                                     </div>
                                     
@@ -51,8 +57,8 @@ export default function Newsletter({language,heroButton}){
 
                                         {/* Button */}
                                         <div className="">
-                                            <a href= {heroButton}>
-                                                <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{language.Button2}</button>
+                                            <a href= {buttonLink}>
+                                                <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{button}</button>
                                             </a>
                                         </div>
                                     </form>

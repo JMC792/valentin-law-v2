@@ -7,10 +7,6 @@ import Newsletter from "app/(homepage)/Newsletter";
 import language from "public/locales/english/contact"
 import { facebook } from "public/data/links"
 //images
-import aboutSvg from "public/images/SBS_Right.webp"
-import SBS_Left from "public/images/SBS_Left.webp"
-import qrCode from "public/images/photo1.webp"
-import blogPic3 from "public/images/arianeMacias.jpg"
 
 export const metadata = {
   description: ""

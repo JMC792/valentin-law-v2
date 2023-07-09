@@ -2,7 +2,7 @@ import Image from "next/image";
 import {Fragment} from "react";
 import littleCircle from "/public/icons/Homepage/littleCircle.svg"
 
-export default function Testimonials(){
+export default function Testimonials({heading, title}){
 
     return(
         <Fragment>
@@ -12,11 +12,11 @@ export default function Testimonials(){
                     {/* Title and Heading */}
                     <div className=" ">
                         <div className="text-purple-800">
-                            <div className="text-2xl text-center font-medium">Testimonials</div>
+                            <div className="text-2xl text-center font-medium">{heading}</div>
                         </div>
                     
                         <div className="pt-2">
-                            <div className="text-5xl font-bold text-center">Happy Customer Feedback <br/> About Our Service</div>
+                            <div className="text-5xl font-bold text-center">{title}</div>
                         </div>
                     </div>
                     

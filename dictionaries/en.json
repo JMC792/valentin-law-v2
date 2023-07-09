@@ -24,7 +24,7 @@
             "description": ""
         },
         "hero": {
-            "title ": "Rise to Empowerment Embrace Your Voice: Empowering Women",
+            "title": "Rise to Empowerment Embrace Your Voice: Empowering Women",
             "subtitle" : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
             "button" : {
                 "title": "Get Started",
@@ -41,16 +41,36 @@
             }
         },
         "stat": {
-            "stat1" : "Projects Completed",
-            "stat2" : "People Helped",
-            "stat3" : "Sponsors",
-            "stat4" : "Partnerships"
+            "stat1" : {
+                "number": "18k+",
+                "title": "Projects Completed"
+            },
+            "stat2" : {
+                "number": "18k+",
+                "title": "People helped"
+            },
+            "stat3" : {
+                "number": "18k+",
+                "title": "Sponsors"
+            },
+            "stat4" : {
+                "number": "18k+",
+                "title": "Partnerships"
+            }
         },
-        "sermon": {
+        "testimonial": {
+            "heading": "Testimonials",
+            "title": "Happy Customer Feedback About Our Service"
+
+        },
+        "mission": {
             "heading" : "Our Mission",
             "title" : "Unlocking the Potential of Women In NC",
             "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-            "button": "Contact Us"
+            "button": {
+                "title": "Contact Us",
+                "link": ""
+            }
         },
         "contact": {
             "heading" : "Contact Us",
@@ -68,15 +88,33 @@
                 "title": "View All",
                 "linkk": ""
             },
-            "date": "07 Sept, 2022",
-            "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
-            "blogType": "Women's History Month",
-            "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            "card1":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            },
+            "card2":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            },
+            "card3":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            }
         },
         "newsletter": {
             "heading": "Subscribe Us",
             "title": " Subscribe Your Email for Newsletter & Promotion",
-            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced."
+            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+            "button": {
+                "title": "Subscribe Now",
+                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+            }
         }
     },
     "about": {

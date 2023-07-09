@@ -3,9 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function sbsRight({
-    language,
-    sermonButton,
-    svg
+    heading,
+    title,
+    paragraph,
+    button,
+    buttonLink,
+    image
 }){
     return(
         <Fragment>
@@ -17,7 +20,7 @@ export default function sbsRight({
                     <div className="grid lg:grid-cols-2">
                         
                         {/* Image */}
-                        <div className="lg:order-2"><Image src={svg} alt="Watching laptop" className="rounded-xl"/></div>
+                        <div className="lg:order-2"><Image src={image} alt="Watching laptop" className="rounded-xl"/></div>
                         
                         {/* Text */}
                         <div className="py-8 lg:p-12">
@@ -26,23 +29,23 @@ export default function sbsRight({
                             
                             {/* Heading */}
                             <div className="text-lg text-purple-700 font-medium">
-                                {language.sermonHeading}
+                                {heading}
                             </div>
 
                             {/* Title */}
                             <div className="text-[2.5rem] font-bold leading-tight">
-                                {language.sermonTitle}
+                                {title}
                             </div>
 
                             {/* Text */}
                             <div className="text-md">
-                                {language.sermonParagraph}
+                                {paragraph}
                             </div>
 
                             {/* Button */}
                             <div className="text-white">
                                 <Link href= "/contact">
-                                    <button type="button" className="border rounded-lg bg-sky-400 p-4">{language.sermonButton}</button>
+                                    <button type="button" className="border rounded-lg bg-sky-400 p-4">{button}</button>
                                 </Link>
                             </div>
                             

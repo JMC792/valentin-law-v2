@@ -1,9 +1,7 @@
 import Link from "next/link";
 import {Fragment} from "react";
 
-export default function Hero({
-    language,
-}) {
+export default function Hero({title,subtitle,button,buttonLink,image}) {
 
     return(
         <Fragment>
@@ -26,7 +24,7 @@ export default function Hero({
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
-                                                {language.heroTitle}
+                                                {title}
                                             </div>
                                         </div>
                                     </div>
@@ -35,7 +33,7 @@ export default function Hero({
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {language.heroSubtitle}
+                                            {subtitle}
                                         </div>
                                     </div>
                                     
@@ -43,7 +41,7 @@ export default function Hero({
                                     <div>
                                         <Link href="/contact" >
                                             <button type="button" className="bg-sky-600 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
-                                                {language.heroButton}
+                                                {button}
                                             </button>
                                         </Link>
                                     </div>

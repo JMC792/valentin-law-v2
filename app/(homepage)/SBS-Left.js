@@ -4,8 +4,12 @@ import Link from "next/link";
 
 
 export default function sbsLeft({
-    language,
-    svg
+    heading,
+    title,
+    paragraph,
+    button,
+    buttonLink,
+    image
 }){
 
 
@@ -17,7 +21,7 @@ export default function sbsLeft({
 
                     {/* ----------- Image ----------- */}
                     <div className="xl:pl-[10rem]">
-                        <Image src={svg} alt="2 people" className="rounded-xl" decoding="async"/>
+                        <Image src={image} alt="2 people" className="rounded-xl" decoding="async"/>
                     </div>
 
                     {/* Text */}
@@ -25,7 +29,7 @@ export default function sbsLeft({
                         
                         {/* Subheading */}
                         <div className="text-purple-700">
-                            <div className="text-lg font-medium">{language.aboutHeading}</div>
+                            <div className="text-lg font-medium">{heading}</div>
                         </div>
                         
                         {/* Text and button */}
@@ -34,15 +38,15 @@ export default function sbsLeft({
                                 
                                 {/* Title */}
                                 <div className="text-[3rem]">
-                                    <div className="font-bold leading-tight">{language.aboutTitle}</div>
+                                    <div className="font-bold leading-tight">{title}</div>
                                 </div>
                                 
                                 {/* Paragraph */}
-                                <div className="text-md text-neutral-800">{language.aboutParagraph}</div>
+                                <div className="text-md text-neutral-800">{paragraph}</div>
                                 {/* Button */}
                                 <div className="">
                                     <Link href= "/about">
-                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{language.aboutButton}</button>
+                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{button}</button>
                                     </Link>
                                 </div>
                                     
