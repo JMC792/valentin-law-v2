@@ -124,7 +124,7 @@
         },
         "hero": {
             "title": "About Us",
-            "subtitle": "Home > About Us"
+            "subtitle": "Home > About"
         },
         "about1": {
             "heading" : "Our Mission",
@@ -187,6 +187,21 @@
         "metadata": {
             "title": "",
             "description": ""
+        },
+        "hero": {
+            "title": "Blog",
+            "subtitle": "Home > Blog"
+        },
+        "list":{
+            "title": "Our Articles",
+            "subtitle": "Take a looks at our things we did ",
+            "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum."
+        },
+        "post": {
+            "hero": {
+                "title": "blog post 1",
+                "subtitle": "blog post 1 subtitle"
+            }
         }
     },
     "contact": {
@@ -196,7 +211,7 @@
         },
         "hero": {
             "title": "Contact Us",
-            "subtitle": "Home > Contact Us"
+            "subtitle": "Home > Contact"
         },
         "contact": {
             "heading" : "Contact Us",
@@ -221,6 +236,10 @@
         "metadata": {
             "title": "",
             "description": ""
+        },
+        "hero": {
+            "title": "Donate",
+            "subtitle": "Home > Donate"
         }
     },
     "footer": {

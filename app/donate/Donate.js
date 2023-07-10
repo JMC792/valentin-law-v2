@@ -1,12 +1,7 @@
 import {Fragment} from "react";
 import Image from 'next/image'
 
-function Team({
-    language,
-    svg1,
-    svg2,
-    svg3,
-}){
+function Donate({}){
     return(
         <Fragment>
             
@@ -14,4 +9,4 @@ function Team({
     )
 }
 
-export default Team
+export default Donate
