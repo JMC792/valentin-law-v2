@@ -40,10 +40,19 @@ export default async function Page() {
 
   return (
     <Fragment>
-      <Hero2 heroTitle={en.contact.hero.title} heroSubtitle={en.contact.hero.subtitle} language={en} heroButton={facebook}/>
+      <Hero2 
+        heroTitle={en.contact.hero.title} 
+        heroSubtitle={en.contact.hero.subtitle}
+      />
       <Contact3 language={en} image={about2}/>
       <Stat3 language={language} links={links}/>
-      <Newsletter language={language} heroButton={facebook}/>
+      <Newsletter 
+        heading={en.index.newsletter.heading} 
+        title={en.index.newsletter.title} 
+        sentence={en.index.newsletter.sentence}
+        button={en.index.newsletter.button.title}
+        buttonLink={en.index.newsletter.button.link}
+      />
     </Fragment>
   );
 }

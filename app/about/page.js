@@ -22,7 +22,10 @@ export const metadata = {
 export default function Page() {
   return (
     <Fragment>
-      <Hero2 heroTitle={en.about.hero.title} heroSubtitle={en.about.hero.subtitle} language={en} heroButton={facebook}/>
+      <Hero2 
+        heroTitle={en.about.hero.title} 
+        heroSubtitle={en.about.hero.subtitle}  
+        heroButton={facebook}/>
       <SBSLeft language={language} heroButton={facebook} svg ={aboutImage}/>
       <SBSRight language={language} heroButton={facebook} image ={about2}/>
       <Stat2 language={language} links={links} />
