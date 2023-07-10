@@ -1,6 +1,9 @@
 import { Fragment } from "react";
 import Hero3 from "./Hero3";
 import en from "dictionaries/en.json"
+import Article from "./Article";
+import blogData from "public/data/articles.json"
+import about4 from "public/images/arianeMacias.jpg"
 
 export default function Page({slug}){
 
@@ -10,7 +13,11 @@ export default function Page({slug}){
                 heroTitle={en.blog.post.hero.title} 
                 heroSubtitle={en.blog.post.hero.subtitle} 
             />
-            <div>blog post 1</div>
+            <Article 
+                slug={slug} 
+                blogData={blogData} 
+                image={about4}
+            />
         </Fragment>
     )
 }
