@@ -4,14 +4,10 @@ import Hero2 from "app/about/Hero2";
 import Donate from "app/donate/Donate";
 import Newsletter from "app/(homepage)/Newsletter";
 //Locales
-import language from "public/locales/english/contact"
-import { facebook } from "public/data/links"
 import en from "dictionaries/en.json"
 //images
+import aboutImage from "public/images/sbsAbout.webp"
 
-export const metadata = {
-  description: ""
-};
 
 export default function Page() {
   return (
@@ -21,8 +17,8 @@ export default function Page() {
               heroSubtitle={en.donate.hero.subtitle}
             />
             <Donate 
-              language={language} 
-              heroButton={facebook}
+              language={en} 
+              svg ={aboutImage}
             />
             <Newsletter 
               heading={en.index.newsletter.heading} 
