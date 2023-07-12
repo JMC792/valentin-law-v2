@@ -24,24 +24,24 @@ export default function Article({
                         {/* Subheading */}
                         <div className="text-purple-700">
                             <div className="text-lg font-medium">
-                                {blogData.blog1.type}
+                                {blogData.type}
                             </div>
                         </div>
                         
-                        {/* wrapper */}
+                        {/* Wrapper */}
                         <div className="pt-2">
                             <div className="grid gap-y-8">
                                 
                                 {/* Title */}
                                 <div className="text-[3rem]">
                                     <div className="font-bold leading-tight">
-                                        {blogData.blog1.name}
+                                        {blogData.name}
                                     </div>
                                 </div>
                                 
                                 {/* Paragraph */}
                                 <div className="text-md text-neutral-800">
-                                    {blogData.blog1.content.p1}
+                                    {blogData.content.p1}
                                 </div>
                                 
                                 {/* Button */}

@@ -185,7 +185,7 @@
     },
     "blog": {
         "metadata": {
-            "title": "",
+            "title": "Blog",
             "description": ""
         },
         "hero": {
@@ -199,8 +199,8 @@
         },
         "post": {
             "hero": {
-                "title": "blog post 1",
-                "subtitle": "blog post 1 subtitle"
+                "title": "Blog",
+                "subtitle": "Home > Blog > Post"
             }
         }
     },
