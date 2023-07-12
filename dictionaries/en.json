@@ -12,7 +12,12 @@
         "link3": "blog",
         "link4": "contact",
         "link5": "donate",
-        "locale": "Spanish",
+        "locale": {
+            "spanish": {
+                "title": "spanish",
+                "code": "es"
+            }
+        },
         "call": {
             "title": "Call-Us",
             "number": "980-290-7074"
@@ -240,6 +245,15 @@
         "hero": {
             "title": "Donate",
             "subtitle": "Home > Donate"
+        },
+        "section1": {
+            "heading" : "Be a Changemaker",
+            "title" : "Support our Cause with a Single Click!",
+            "paragraph" : "Support our initiative and make a difference by clicking on the donation button provided. Your generous contribution through this button will directly impact the lives of those in need. With just a few clicks, you can join our community of donors and help us create a positive change. Every dollar donated through this button brings us closer to achieving our goals and making a lasting impact on the lives of many.",
+            "button" : {
+                "title": "Donate Now",
+                "link": "https://womenadvance-bloom.kindful.com"
+            }
         }
     },
     "footer": {

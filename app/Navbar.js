@@ -2,7 +2,7 @@
 
 import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
-import language from 'public/locales/english/navbar'
+import language from "dictionaries/en.json"
 import Image from "next/image";
 import logo from "/public/icons/superwoman.svg";
 import SideNav from './SideNav';
@@ -45,41 +45,51 @@ function Navbar() {
                                 <Image src={logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
                             </Link>
 
-                            {/* Link list */}
+                            {/* List */}
                             <div className="hidden lg:flex gap-x-6">
 
-                                {/* About */}
+                                {/* Link 1 */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                        <Link href= {"/" }>
-                                        {[language.button_1.charAt(0).toUpperCase()]+[language.button_1.slice(1)]}
-                                        </Link>
-                                </div>
-
-                                {/* Sermons */}
-                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href={"/" + [language.button_2]}>
-                                        {[language.button_2.charAt(0).toUpperCase()]+[language.button_2.slice(1)]}
+                                    <Link href= {"/" }>
+                                        <div className="capitalize">
+                                            {language.navbar.link1}
+                                        </div>
                                     </Link>
                                 </div>
 
-                                {/* Sermons */}
+                                {/* Link 2 */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href={"/" + [language.button_3]}>
-                                        {[language.button_3.charAt(0).toUpperCase()]+[language.button_3.slice(1)]}
+                                    <Link href= {"/" + [language.navbar.link2]}>
+                                        <div className="capitalize">
+                                            {language.navbar.link2}
+                                        </div>
                                     </Link>
                                 </div>
 
-                                {/* Sermons */}
+                                {/* Link 3 */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href={"/" + [language.button_4]}>
-                                        {[language.button_4.charAt(0).toUpperCase()]+[language.button_4.slice(1)]}
+                                    <Link href= {"/" + [language.navbar.link3]}>
+                                        <div className="capitalize">
+                                            {language.navbar.link3}
+                                        </div>
                                     </Link>
                                 </div>
 
-                                {/* Sermons */}
+                                {/* Link 4 */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href={"/" + [language.button_5]}>
-                                        {[language.button_5.charAt(0).toUpperCase()]+[language.button_5.slice(1)]}
+                                    <Link href= {"/" + [language.navbar.link4]}>
+                                        <div className="capitalize">
+                                            {language.navbar.link4}
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                {/* Link 5 */}
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
+                                    <Link href= {"/" + [language.navbar.link5]}>
+                                        <div className="capitalize">
+                                            {language.navbar.link5}
+                                        </div>
                                     </Link>
                                 </div>
 
@@ -88,8 +98,10 @@ function Navbar() {
                             {/* Language */}
                             <div className="hidden lg:flex">
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href="/" locale={language.page}>
-                                        {language.button_8}
+                                    <Link href="/" locale={language.navbar.locale.spanish.code}>
+                                        <div className="capitalize">
+                                            {language.navbar.locale.spanish.title}
+                                        </div>
                                     </Link>
                                 </div>
                             </div>
@@ -97,8 +109,13 @@ function Navbar() {
                             {/* Contact Us */}
                             <div className="hidden lg:grid">
                                 <div className='hover:text-yellow-600 transition-colors delay-100'>
-                                    <div className="ml-2 text-center">{language.button_6}</div>
-                                    <a href="tel: 980-920-7074" className="ml-2 text-center">(980)-290-7074</a>
+                                    <a href={"tel: " + [language.navbar.call.number]}>
+                                        <div className='flex flex-col items-center'>
+                                            <p>{language.navbar.call.title}</p>
+                                            <p>{language.navbar.call.number}</p>
+                                        </div>
+                                        
+                                    </a>
                                 </div>
                                     
                             </div>
