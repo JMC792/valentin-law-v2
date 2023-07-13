@@ -71,11 +71,11 @@ export default function SideNav(props){
                             </Link>
 
                             {/* Link 6 */}
-                            <Link href={'/'} locale={props.language.navbar.locale.spanish.code}>
+                            {/* <Link href={'/'} locale={props.language.navbar.locale.spanish.code}>
                                 <div className='offcanvas-text'>
                                     {props.language.navbar.locale.spanish.title}
                                 </div>
-                            </Link>
+                            </Link> */}
 
                             
                         </div>
