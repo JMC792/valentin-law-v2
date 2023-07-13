@@ -33,7 +33,7 @@
             "subtitle" : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
             "button" : {
                 "title": "Get Started",
-                "link": ""
+                "link": "/contact"
             }
         },
         "about": {
@@ -42,7 +42,7 @@
             "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "button" : {
                 "title": "Contact Us",
-                "link": ""
+                "link": "/contact"
             }
         },
         "stat": {
@@ -65,8 +65,24 @@
         },
         "testimonial": {
             "heading": "Testimonials",
-            "title": "Happy Customer Feedback About Our Service"
-
+            "title": "Happy Customer Feedback About Our Service",
+            "person":{
+                "first": {
+                    "name":"Samantha Johnson",
+                    "position": "Marketing Manager",
+                    "paragraph": "Women AdvaNCe has truly transformed my life and empowered me to reach new heights. Through their programs and support, I gained the confidence and skills needed to overcome challenges and become a leader in my community. Their dedication to uplifting women, especially those from marginalized backgrounds, is commendable. I am forever grateful for the opportunities they have provided and the positive impact they have made on my journey of empowerment"
+                },
+                "second": {
+                    "name":"Emily Rodriguez",
+                    "position": "Software Engineer",
+                    "paragraph": "I cannot say enough about the incredible work that Women AdvaNCe does for women's empowerment. Their commitment to amplifying the voices of underserved women in North Carolina is inspiring. Through their programs and advocacy efforts, they have created a supportive community where women can thrive and make a difference. Women AdvaNCe is truly a beacon of hope for all women seeking empowerment and equality"
+                },
+                "third": {
+                    "name":"Olivia Lee",
+                    "position": "Operations Coordinator",
+                    "paragraph": "Being part of Women AdvaNCe has been a life-changing experience. They have created a safe and inclusive space where women can come together, share their stories, and support each other. The programs and resources they offer are invaluable for personal and professional growth. Women AdvaNCe truly understands the unique challenges that women face and provides the tools and resources needed to overcome them. I am proud to be associated with such an incredible organization that is making a significant impact in the lives of women across North Carolina"
+                }
+            }
         },
         "mission": {
             "heading" : "Our Mission",
@@ -74,7 +90,7 @@
             "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
             "button": {
                 "title": "Contact Us",
-                "link": ""
+                "link": "/contact"
             }
         },
         "contact": {
@@ -254,6 +270,15 @@
                 "title": "Donate Now",
                 "link": "https://womenadvance-bloom.kindful.com"
             }
+        },
+        "email":{
+            "heading" : "Other Ways to Give",
+            "title" : "Connect with Our Donation Coordinator for Contributions",
+            "paragraph" : "If you are interested in making a donation to support our cause, we encourage you to reach out to our dedicated Donation Coordinator. Our Donation Coordinator is ready to assist you with any questions you may have regarding the donation process, different giving options, and the impact your contribution can make. Whether you have specific preferences or require further information, our Donation Coordinator will ensure that your donation experience is smooth and tailored to your needs. Feel free to email our Donation Coordinator at [email protected] and take the first step in making a meaningful difference through your generous support.",
+            "button" : {
+                "title": "Contact Us",
+                "link": "/contact"
+            }
         }
     },
     "footer": {
@@ -266,10 +291,12 @@
             "addressLink" : "https://goo.gl/maps/8LrxauLEj5XFz5b38"
         },
         "usefulLinks": {
-            "link1": "about",
-            "link2": "service",
-            "link3": "donate",
-            "link4": "team"
+            "title": "Useful Links",
+            "link1": "home",
+            "link2": "about",
+            "link3": "blog",
+            "link4": "contact",
+            "link5": "donate"
         },
         "socialMedia": {
             "title" : "Follow Our Socials",
@@ -292,10 +319,27 @@
         },
         "legal": {
             "title" : "Legal",
-            "link1" : "About",
-            "link2" : "Privacy Policy",
-            "link3" : "Licensing",
-            "link4" : "Contact"
+            "link1" : {
+                "title":"About",
+                "link": ""
+            },
+            "link2" : {
+                "title":"Privacy Policy",
+                "link": ""
+            },
+            "link3" : {
+                "title":"Licensing",
+                "link": ""
+            },
+            "link4" : {
+                "title":"Contact",
+                "link": ""
+            }
+        },
+        "trademark":{
+            "year": "2023 ",
+            "company": "Women Advance:",
+            "rights": "All Rights Reserved"
         }
     }
 }
