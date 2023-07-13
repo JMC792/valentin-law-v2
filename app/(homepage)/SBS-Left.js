@@ -3,13 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function sbsLeft({
-    heading,
-    title,
-    paragraph,
-    button,
-    image
-}){
+export default function sbsLeft(props){
 
 
     return (
@@ -20,7 +14,7 @@ export default function sbsLeft({
 
                     {/* ----------- Image ----------- */}
                     <div className="xl:pl-[10rem]">
-                        <Image src={image} alt="2 people" className="rounded-xl" decoding="async"/>
+                        <Image src={props.image} alt="2 people" className="rounded-xl" decoding="async"/>
                     </div>
 
                     {/* Text */}
@@ -28,7 +22,7 @@ export default function sbsLeft({
                         
                         {/* Subheading */}
                         <div className="text-purple-700">
-                            <div className="text-lg font-medium">{heading}</div>
+                            <div className="text-lg font-medium">{props.heading}</div>
                         </div>
                         
                         {/* Text and button */}
@@ -37,16 +31,16 @@ export default function sbsLeft({
                                 
                                 {/* Title */}
                                 <div className="text-[3rem]">
-                                    <div className="font-bold leading-tight">{title}</div>
+                                    <div className="font-bold leading-tight">{props.title}</div>
                                 </div>
                                 
                                 {/* Paragraph */}
-                                <div className="text-md text-neutral-800">{paragraph}</div>
+                                <div className="text-md text-neutral-800">{props.paragraph}</div>
                                 
                                 {/* Button */}
                                 <div className="">
-                                    <Link href= "/about">
-                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{button}</button>
+                                    <Link href= {props.buttonLink}>
+                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{props.button}</button>
                                     </Link>
                                 </div>
                                     
