@@ -1,6 +1,6 @@
 // These styles apply to every route in the application
-import Footer from 'app/Footer';
-import Navbar from 'app/Navbar';
+import Footer from 'app/(Footer)/Footer';
+import Navbar from 'app/(Navbar)/Navbar';
 import '@styles/globals.css'
 import { Inter } from "next/font/google"
 
