@@ -6,7 +6,7 @@ import Hero2 from "app/about/Hero2";
 import { facebook } from "public/data/links"
 import Stat3 from "app/about/Stat2.js";
 import links from "public/data/links.js"
-import Newsletter from "app/(homepage)/Newsletter";
+import Newsletter from "app/(Homepage)/Newsletter";
 import en from "dictionaries/en.json"
 
 
