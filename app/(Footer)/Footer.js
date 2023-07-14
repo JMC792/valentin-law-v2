@@ -24,14 +24,22 @@ export default function Footer(props) {
             {/* Footer Layout*/}
             <div className="grid gap-y-20 lg:flex lg:justify-between items-center">
               <Overview/>
-              <Internal/>
+              <Internal
+                links={[
+                  language.footer.usefulLinks.link1,
+                  language.footer.usefulLinks.link2,
+                  language.footer.usefulLinks.link3,
+                  language.footer.usefulLinks.link4,
+                  language.footer.usefulLinks.link5
+                ]}/>
               <Outgoing 
                 title= {language.footer.socialMedia.title}
                 links={[
                   [language.footer.socialMedia.media1.title, language.footer.socialMedia.media1.link],
                   [language.footer.socialMedia.media2.title, language.footer.socialMedia.media2.link],
                   [language.footer.socialMedia.media3.title, language.footer.socialMedia.media3.link],
-                  [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link]
+                  [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
+                  [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
               ]}/>
               <Outgoing 
                 title= {language.footer.legal.title}

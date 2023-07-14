@@ -5,6 +5,11 @@ import List from "./List";
 import about4 from "public/images/arianeMacias.jpg"
 import blogData from "public/data/articles.json"
 
+export const metadata = {
+    title: 'Blog',
+    description: '...',
+  }
+
 export default function Page(){
     
     return(

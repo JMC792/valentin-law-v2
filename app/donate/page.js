@@ -10,6 +10,11 @@ import language from "dictionaries/en.json"
 import aboutImage from "public/images/sbsAbout.webp"
 import SBS_Left from "public/images/SBS_Left.webp"
 
+export const metadata = {
+  title: 'Donate',
+  description: '...',
+}
+
 
 export default function Page() {
   return (

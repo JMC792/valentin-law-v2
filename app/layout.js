@@ -5,9 +5,13 @@ import '@styles/globals.css'
 import { Inter } from "next/font/google"
 
 export const metadata = {
-  title: {default: "Women AdvaNCe",},
+  title: {
+    template: "%s | Womens AdvaNCe",
+    default: "Women AdvaNCe",
+  },
   description: {default: "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity."},
   appliationName: "Womens Advance",
+  keywords: ["Women","Empowerment","Advance","NC"],
   creator: 'Jesus Chavez',
   publisher: 'Bold & Bright Media',
 };

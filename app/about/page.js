@@ -16,8 +16,9 @@ import Contact2 from "app/about/Contact2.js";
 import en from "dictionaries/en.json"
 
 export const metadata = {
-  
-};
+  title: 'About',
+  description: '...',
+}
 
 export default function Page() {
   return (
@@ -31,7 +32,6 @@ export default function Page() {
       <Stat2 language={language} links={links} />
       <SBSLeft3 language={language} heroButton={facebook} svg ={about3}/>
       <Team2 language={language} heroButton={facebook} svg1 ={about4} svg2 ={about3} svg3 ={about3}/>
-      {/* <Contact2 language={language} image={about2} /> */}
     </Fragment>
   );
 }
