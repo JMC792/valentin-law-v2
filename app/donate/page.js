@@ -1,14 +1,14 @@
 import {Fragment} from "react";
 //Components
 import Hero2 from "app/about/Hero2.js";
-import Donate from "app/donate/Donate.sj";
+import Donate from "app/donate/Donate.js";
 import Newsletter from "app/(Homepage)/Newsletter.js";
 import Email from "app/(Homepage)/SBS-Right.js";
 //Locales
-import language from "dictionaries/en.json"
+import language from "dictionaries/en.json";
 //images
-import aboutImage from "public/images/sbsAbout.webp"
-import SBS_Left from "public/images/SBS_Left.webp"
+import aboutImage from "public/images/sbsAbout.webp";
+import SBS_Left from "public/images/SBS_Left.webp";
 
 export const metadata = {
   title: 'Donate',

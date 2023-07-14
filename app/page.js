@@ -9,12 +9,12 @@ import Testimonials from "app/(Homepage)/Testimonials";
 import Blog from "app/(Homepage)/Blog";
 import Newsletter from "app/(Homepage)/Newsletter";
 //Locales
-import language from "dictionaries/en.json"
+import language from "dictionaries/en.json";
 //images
-import SBS_Right from "public/images/SBS_Right.webp"
-import SBS_Left from "public/images/SBS_Left.webp"
-import qrCode from "public/images/photo1.webp"
-import blogPic3 from "public/images/arianeMacias.jpg"
+import SBS_Right from "public/images/SBS_Right.webp";
+import SBS_Left from "public/images/SBS_Left.webp";
+import qrCode from "public/images/photo1.webp";
+import blogPic3 from "public/images/arianeMacias.jpg";
 
 export const metadata = {
   description: ""
