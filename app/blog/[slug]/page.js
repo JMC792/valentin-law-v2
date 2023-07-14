@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import Hero3 from "./Hero3";
+import Hero3 from "./Hero3.js";
 import en from "dictionaries/en.json"
-import Article from "./Article";
+import Article from "./Article.js";
 import about4 from "public/images/arianeMacias.jpg"
 import { getBlogBySlug } from "lib/api";
 

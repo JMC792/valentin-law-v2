@@ -2,11 +2,11 @@ import { Fragment } from "react";
 import Contact3 from "app/contact/Contact3.js";
 import language from "public/locales/english/contact.js"
 import about2 from "public/images/about2.png"
-import Hero2 from "app/about/Hero2";
+import Hero2 from "app/about/Hero2.js";
 import { facebook } from "public/data/links"
 import Stat3 from "app/about/Stat2.js";
 import links from "public/data/links.js"
-import Newsletter from "app/(Homepage)/Newsletter";
+import Newsletter from "app/(Homepage)/Newsletter.js";
 import en from "dictionaries/en.json"
 
 

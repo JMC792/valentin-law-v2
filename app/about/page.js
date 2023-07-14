@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import Hero2 from "./Hero2";
+import Hero2 from "./Hero2.js";
 import language from "public/locales/english/about.js"
 import { facebook } from "public/data/links"
 import aboutImage from "public/images/sbsAbout.webp"
-import Stat2 from "app/about/Stat2"
+import Stat2 from "app/about/Stat2.js"
 import links from "public/data/links.js"
 import SBSLeft from "app/about/SBS-Left-2.js";
 import SBSRight from "app/about/SBS-Right-2.js";
@@ -12,7 +12,6 @@ import SBSLeft3 from "app/about/SBS-Left-3.js";
 import about3 from "public/images/about3.webp"
 import Team2 from "app/about/Team2.js";
 import about4 from "public/images/arianeMacias.jpg"
-import Contact2 from "app/about/Contact2.js";
 import en from "dictionaries/en.json"
 
 export const metadata = {

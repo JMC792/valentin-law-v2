@@ -1,4 +1,4 @@
-import Hero2 from "app/about/Hero2";
+import Hero2 from "app/about/Hero2.js";
 import { Fragment } from "react";
 import en from "dictionaries/en.json"
 import List from "./List";
