@@ -1,19 +1,19 @@
-import React, {Fragment} from "react";
+import {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function sbsRight(props){
+export default function Donate(props){
     return(
         <Fragment>
             {/* Background*/}
-            <section className='bg-gray-50' id="sermon">
+            <section className='' id="sermon">
                 {/* Container */}
                 <div className='container py-20'>
                     {/* Layout */}
                     <div className="grid lg:grid-cols-2">
                         
                         {/* Image */}
-                        <div className="lg:order-2"><Image src={props.image} alt="Watching laptop" className="rounded-xl"/></div>
+                        <div className=""><Image src={props.svg} alt="Watching laptop" className="rounded-xl"/></div>
                         
                         {/* Text */}
                         <div className="py-8 lg:p-12">
@@ -21,25 +21,25 @@ export default function sbsRight(props){
                             <div className="grid gap-y-4">
                             
                             {/* Heading */}
-                            <div className="text-lg text-purple-700 font-medium">
-                                {props.heading}
+                            <div className="text-lg text-purple-700 font-medium uppercase">
+                                {props.language.donate.section1.heading}
                             </div>
 
                             {/* Title */}
-                            <div className="text-[2.5rem] font-bold leading-tight">
-                                {props.title}
+                            <div className="text-[2.5rem] font-bold leading-tight capitalize">
+                                {props.language.donate.section1.title}
                             </div>
 
                             {/* Text */}
                             <div className="text-md">
-                                {props.paragraph}
+                                {props.language.donate.section1.paragraph}
                             </div>
 
                             {/* Button */}
-                            <div className="text-white">
-                                <Link href= {props.buttonLink}>
-                                    <button type="button" className="border rounded-lg bg-sky-400 p-4">{props.button}</button>
-                                </Link>
+                            <div className="text-white pt-4">
+                                <a href= {props.language.donate.section1.button.link}>
+                                    <button type="button" className="border rounded-md bg-blue-400 p-4 w-60">{props.language.donate.section1.button.title}</button>
+                                </a>
                             </div>
                             
                             </div>

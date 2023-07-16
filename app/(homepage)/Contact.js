@@ -2,9 +2,12 @@ import React, {Fragment} from "react";
 import Image from 'next/image'
 
 function Contact({
-    language,
-    donationButton,
-    svg
+    heading,
+    title,
+    paragraph,
+    button,
+    buttonLink,
+    image
 }){
 
     return(
@@ -16,7 +19,7 @@ function Contact({
 
                         {/* Image */}
                         <div className="lg:order-2">
-                            <Image src={svg}  alt="Qr Code" className="rounded-xl"/>
+                            <Image src={image}  alt="Qr Code" className="rounded-xl"/>
                         </div>
 
                         {/* Text */}
@@ -26,13 +29,13 @@ function Contact({
                                 
                                 {/* Title and Heading */}
                                 <div>
-                                    <div className="text-2xl text-yellow-600 font-bold">{language.donationsHeading}</div>
-                                    <div className="text-[2.5rem] font-bold">{language.donationsTitle}</div>
+                                    <div className="text-2xl text-yellow-600 font-bold">{heading}</div>
+                                    <div className="text-[2.5rem] font-bold">{title}</div>
                                 </div>
                                 
                                 {/* Paragraph */}
                                 <div className="grid gap-y-4">
-                                    <div className="text-md">{language.donationParagraph}</div>
+                                    <div className="text-md">{paragraph}</div>
                                 </div>
 
                                 {/* Form */}
@@ -60,8 +63,8 @@ function Contact({
                                                 </div>
 
                                                 <div className="">
-                                                    <a href= {donationButton}>
-                                                        <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{language.donationButton}</button>
+                                                    <a href= {buttonLink}>
+                                                        <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{button}</button>
                                                     </a>
                                                 </div>
 

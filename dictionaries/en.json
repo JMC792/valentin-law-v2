@@ -1,0 +1,349 @@
+{
+    "layout": {
+        "title": "Women AdvaNCe",
+        "description": "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity",
+        "applicationName": "Women Advance",
+        "creator": "Jesus Chavez",
+        "publisher": "Bold & Bright Media"
+    },
+    "navbar": {
+        "link1": "home",
+        "link2": "about",
+        "link3": "blog",
+        "link4": "contact",
+        "link5": "donate",
+        "locale": {
+            "spanish": {
+                "title": "spanish",
+                "code": "es"
+            }
+        },
+        "call": {
+            "title": "Call-Us",
+            "number": "980-290-7074"
+        }
+    },
+    "index": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Rise to Empowerment Embrace Your Voice: Empowering Women",
+            "subtitle" : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
+            "button" : {
+                "title": "Get Started",
+                "link": "/contact"
+            }
+        },
+        "about": {
+            "heading" : "WHO WE ARE",
+            "title" : "Leading Ladies Inspiring Women's Empowerment in NC",
+            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "button" : {
+                "title": "Contact Us",
+                "link": "/contact"
+            }
+        },
+        "stat": {
+            "stat1" : {
+                "number": "18k+",
+                "title": "Projects Completed"
+            },
+            "stat2" : {
+                "number": "18k+",
+                "title": "People helped"
+            },
+            "stat3" : {
+                "number": "18k+",
+                "title": "Sponsors"
+            },
+            "stat4" : {
+                "number": "18k+",
+                "title": "Partnerships"
+            }
+        },
+        "testimonial": {
+            "heading": "Testimonials",
+            "title": "Happy Customer Feedback About Our Service",
+            "person":{
+                "first": {
+                    "name":"Samantha Johnson",
+                    "position": "Marketing Manager",
+                    "paragraph": "Women AdvaNCe has truly transformed my life and empowered me to reach new heights. Through their programs and support, I gained the confidence and skills needed to overcome challenges and become a leader in my community. Their dedication to uplifting women, especially those from marginalized backgrounds, is commendable. I am forever grateful for the opportunities they have provided and the positive impact they have made on my journey of empowerment"
+                },
+                "second": {
+                    "name":"Emily Rodriguez",
+                    "position": "Software Engineer",
+                    "paragraph": "I cannot say enough about the incredible work that Women AdvaNCe does for women's empowerment. Their commitment to amplifying the voices of underserved women in North Carolina is inspiring. Through their programs and advocacy efforts, they have created a supportive community where women can thrive and make a difference. Women AdvaNCe is truly a beacon of hope for all women seeking empowerment and equality"
+                },
+                "third": {
+                    "name":"Olivia Lee",
+                    "position": "Operations Coordinator",
+                    "paragraph": "Being part of Women AdvaNCe has been a life-changing experience. They have created a safe and inclusive space where women can come together, share their stories, and support each other. The programs and resources they offer are invaluable for personal and professional growth. Women AdvaNCe truly understands the unique challenges that women face and provides the tools and resources needed to overcome them. I am proud to be associated with such an incredible organization that is making a significant impact in the lives of women across North Carolina"
+                }
+            }
+        },
+        "mission": {
+            "heading" : "Our Mission",
+            "title" : "Unlocking the Potential of Women In NC",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button": {
+                "title": "Contact Us",
+                "link": "/contact"
+            }
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        },
+        "blog": {
+            "heading": "News & Articles",
+            "title": "Directly from the Latest",
+            "button": {
+                "title": "View All",
+                "linkk": ""
+            },
+            "card1":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            },
+            "card2":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            },
+            "card3":{
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
+                "blogType": "Women's History Month",
+                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            }
+        },
+        "newsletter": {
+            "heading": "Subscribe Us",
+            "title": " Subscribe Your Email for Newsletter & Promotion",
+            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+            "button": {
+                "title": "Subscribe Now",
+                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+            }
+        }
+    },
+    "about": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "About Us",
+            "subtitle": "Home > About"
+        },
+        "about1": {
+            "heading" : "Our Mission",
+            "title" : "Driving Change",
+            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "button" : {
+                "title": "Contact Us",
+                "link": ""
+            }
+        },
+        "about2": {
+            "heading" : "Our Vision",
+            "title" : "Empowering Women",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button": {
+                "title": "Contact Us",
+                "link": ""
+            }
+        },
+        "statistic": {
+            "stat1" : "Projects Completed",
+            "stat2" : "People Helped",
+            "stat3" : "Sponsors",
+            "stat4" : "Partnerships"
+        },
+        "about3": {
+            "heading" : "Our Vision",
+            "title" : "Empowering Women",
+            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "button" : {
+                "title": "Contact Us",
+                "links": ""
+            }
+        },
+        "team": {
+            "heading" : "Meet Our Team",
+            "title" : "Empowering Women In Action",
+            "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum.",
+            "member": {
+                "person1Name": "Jesus Chavez",
+                "person1Title": "Pastor",
+                "person2Name": "Mauricio Chavez",
+                "person2Title": "Production",
+                "person3Name": "Ariane Macias",
+                "person3Title": "Band Director"
+            }
+            
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        }
+    },
+    "blog": {
+        "metadata": {
+            "title": "Blog",
+            "description": ""
+        },
+        "hero": {
+            "title": "Blog",
+            "subtitle": "Home > Blog"
+        },
+        "list":{
+            "title": "Our Articles",
+            "subtitle": "Take a looks at our things we did ",
+            "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum."
+        },
+        "post": {
+            "hero": {
+                "title": "Blog",
+                "subtitle": "Home > Blog > Post"
+            }
+        }
+    },
+    "contact": {
+        "metadata": {
+            "title": "Contact Us",
+            "description": ""
+        },
+        "hero": {
+            "title": "Contact Us",
+            "subtitle": "Home > Contact"
+        },
+        "contact": {
+            "heading" : "Contact Us",
+            "title" : "Help Us Make Change",
+            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+            "button" : {
+                "title": "Submit",
+                "link": ""
+            }
+        },
+        "newsletter": {
+            "heading": "Subscribe Us",
+            "title" : " Subscribe Your Email for Newsletter & Promotion",
+            "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
+            "button2": {
+                "title": "Subscribe Now",
+                "link": ""
+            }
+        }
+    },
+    "donate": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Donate",
+            "subtitle": "Home > Donate"
+        },
+        "section1": {
+            "heading" : "Be a Changemaker",
+            "title" : "Support our Cause with a Single Click!",
+            "paragraph" : "Support our initiative and make a difference by clicking on the donation button provided. Your generous contribution through this button will directly impact the lives of those in need. With just a few clicks, you can join our community of donors and help us create a positive change. Every dollar donated through this button brings us closer to achieving our goals and making a lasting impact on the lives of many.",
+            "button" : {
+                "title": "Donate Now",
+                "link": "https://womenadvance-bloom.kindful.com"
+            }
+        },
+        "email":{
+            "heading" : "Other Ways to Give",
+            "title" : "Connect with Our Donation Coordinator for Contributions",
+            "paragraph" : "If you are interested in making a donation to support our cause, we encourage you to reach out to our dedicated Donation Coordinator. Our Donation Coordinator is ready to assist you with any questions you may have regarding the donation process, different giving options, and the impact your contribution can make. Whether you have specific preferences or require further information, our Donation Coordinator will ensure that your donation experience is smooth and tailored to your needs. Feel free to email our Donation Coordinator at [email protected] and take the first step in making a meaningful difference through your generous support.",
+            "button" : {
+                "title": "Contact Us",
+                "link": "/contact"
+            }
+        }
+    },
+    "footer": {
+        "overview": {
+            "title" : "Women AdvaNCe",
+            "paragraph" : "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity.",
+            "phoneNumber" : "(980)-290-7074",
+            "email" : "nicki@womenadvance.org",
+            "address" : "PO Box 7725, Wilmington, NC 28406",
+            "addressLink" : "https://goo.gl/maps/8LrxauLEj5XFz5b38"
+        },
+        "usefulLinks": {
+            "title": "Useful Links",
+            "link1": "home",
+            "link2": "about",
+            "link3": "blog",
+            "link4": "contact",
+            "link5": "donate"
+        },
+        "socialMedia": {
+            "title" : "Follow Our Socials",
+            "media1" : {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/atlimmigration/"
+            },
+            "media2" : {
+                "title": "Youtube",
+                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+            },
+            "media3" : {
+                "title":"Facebook",
+                "link": "https://www.facebook.com/encuentrochurch1"
+            },
+            "media4" : {
+                "title":"Twitter",
+                "link": "https://twitter.com/valentinlawllc"
+            },
+            "media5" : {
+                "title":"TikTok",
+                "link": "https://twitter.com/valentinlawllc"
+            }
+        },
+        "legal": {
+            "title" : "Legal",
+            "link1" : {
+                "title":"About",
+                "link": ""
+            },
+            "link2" : {
+                "title":"Privacy Policy",
+                "link": ""
+            },
+            "link3" : {
+                "title":"Licensing",
+                "link": ""
+            },
+            "link4" : {
+                "title":"Contact",
+                "link": ""
+            }
+        },
+        "trademark":{
+            "year": "2023 ",
+            "company": "Women Advance:",
+            "rights": "All Rights Reserved"
+        }
+    }
+}

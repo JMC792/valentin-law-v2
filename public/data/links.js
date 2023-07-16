@@ -3,7 +3,10 @@ module.exports = {
     //Contact
     phone: "(980)-290-7074",
     email: "nicki@womenadvance.org",
-    address: "PO Box 7725, Wilmington, NC 28406",
+    address: "PO Box 7725",
+    postalCode: "Wilmington, NC 28406",
+    openHourDate: "Monday to Saturday",
+    openHourTime: "9:00 AM - 10:30 PM",
 
     //Social Media
     facebook : "https://www.facebook.com/encuentrochurch1",

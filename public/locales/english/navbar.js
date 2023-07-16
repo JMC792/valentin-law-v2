@@ -1,11 +1,11 @@
 module.exports = {
-    button_1 : "About Us",
-    button_8 : "Our Work",
-    button_2 : "Events",
-    button_3 : "Donation",
-    button_4 : "Team",
-    button_5 : "Spanish",
+    button_1 : "home",
+    button_2 : "about",
+    button_3 : "blog",
+    button_4 : "contact",
+    button_5 : "donate",
     button_6 : "Call-Us:",
     button_7 : "Sermons",
+    button_8 : "Spanish",
     page : "es"
 }

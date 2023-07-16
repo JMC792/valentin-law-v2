@@ -3,7 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function sbsLeft(props){
+export default function SBSLeft2({
+    language,
+    image
+}){
 
 
     return (
@@ -13,8 +16,8 @@ export default function sbsLeft(props){
                 <div className="grid lg:grid-cols-2">
 
                     {/* ----------- Image ----------- */}
-                    <div className="xl:pl-[10rem]">
-                        <Image src={props.image} alt="2 people" className="rounded-xl" decoding="async"/>
+                    <div className="lg:order-2">
+                        <Image src={image} alt="2 people" className="rounded-xl" decoding="async"/>
                     </div>
 
                     {/* Text */}
@@ -22,7 +25,7 @@ export default function sbsLeft(props){
                         
                         {/* Subheading */}
                         <div className="text-purple-700">
-                            <div className="text-lg font-medium">{props.heading}</div>
+                            <div className="text-lg font-medium">{language.aboutHeading}</div>
                         </div>
                         
                         {/* Text and button */}
@@ -31,16 +34,15 @@ export default function sbsLeft(props){
                                 
                                 {/* Title */}
                                 <div className="text-[3rem]">
-                                    <div className="font-bold leading-tight">{props.title}</div>
+                                    <div className="font-bold leading-tight">{language.aboutTitle}</div>
                                 </div>
                                 
                                 {/* Paragraph */}
-                                <div className="text-md text-neutral-800">{props.paragraph}</div>
-                                
+                                <div className="text-md text-neutral-800">{language.aboutParagraph}</div>
                                 {/* Button */}
                                 <div className="">
-                                    <Link href= {props.buttonLink}>
-                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{props.button}</button>
+                                    <Link href= "/about">
+                                        <button className="border rounded-lg p-4 bg-sky-400 text-white w-52">{language.aboutButton}</button>
                                     </Link>
                                 </div>
                                     
