@@ -2,8 +2,8 @@ import {Fragment} from "react";
 //Components
 import Hero2 from "app/about/Hero2.js";
 import Donate from "app/donate/Donate.js";
-import Newsletter from "app/(Homepage)/Newsletter.js";
-import Email from "app/(Homepage)/SBS-Right.js";
+import Newsletter from "app/(homepage)/Newsletter.js";
+import Email from "app/(homepage)/SBS-Right.js";
 //Locales
 import language from "dictionaries/en.json";
 //images

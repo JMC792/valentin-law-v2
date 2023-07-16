@@ -1,13 +1,13 @@
 import {Fragment} from "react";
 //Components
-import Hero from "app/(Homepage)/Hero";
-import About from "app/(Homepage)/SBS-Left";
-import Stat from "app/(Homepage)/Stat";
-import Contact from "app/(Homepage)/Contact";
-import Mission from "app/(Homepage)/SBS-Right";
-import Testimonials from "app/(Homepage)/Testimonials";
-import Blog from "app/(Homepage)/Blog";
-import Newsletter from "app/(Homepage)/Newsletter";
+import Hero from "app/(homepage)/Hero";
+import About from "app/(homepage)/SBS-Left";
+import Stat from "app/(homepage)/Stat";
+import Contact from "app/(homepage)/Contact";
+import Mission from "app/(homepage)/SBS-Right";
+import Testimonials from "app/(homepage)/Testimonials";
+import Blog from "app/(homepage)/Blog";
+import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "dictionaries/en.json";
 //images
