@@ -28,7 +28,7 @@ export default function Testimonials(props){
                         {Object.values(props.language.index.testimonial.person).map((person, index) => (
                             <div className="p-12" key={index}>
                                 <div className="pb-8">
-                                    <div className="md:flex">
+                                    <div className="md:flex gap-x-4">
                                         <Image src={littleCircle} alt="person" />
                                         <div>
                                             <div className="text-xl font-bold">{person.name}</div>

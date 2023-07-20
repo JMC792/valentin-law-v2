@@ -25,7 +25,9 @@ export default function Page() {
       <Hero2 
         heroTitle={en.about.hero.title} 
         heroSubtitle={en.about.hero.subtitle}  
-        heroButton={facebook}/>
+        heroButton={facebook}
+        background={"bg-back-1"}
+        />
       <SBSLeft language={language} heroButton={facebook} svg ={aboutImage}/>
       <SBSRight language={language} heroButton={facebook} image ={about2}/>
       <Stat2 language={language} links={links} />

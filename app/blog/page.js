@@ -17,6 +17,7 @@ export default function Page(){
             <Hero2
                 heroTitle={en.blog.hero.title}
                 heroSubtitle={en.blog.hero.subtitle}
+                background={"bg-back-3"}
             />
             <List
                 title={en.blog.list.title}

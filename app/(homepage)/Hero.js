@@ -16,12 +16,12 @@ export default function Hero({title,subtitle,button,buttonLink,image}) {
                         <div className="lg:px-[10rem] 2xl:px-[12rem]">
 
 
-                            <div className="text-center text-neutral-100 ">
+                            <div className="text-center text-neutral-100 animate-slide-from-opacity">
                                 {/* Text Wrapper */}
                                 <div className="space-y-10">
                                     
                                     {/* Hero Title */}
-                                    <div className="lg:px-12">
+                                    <div className="lg:px-12 slide-from-opacity">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
                                                 {title}

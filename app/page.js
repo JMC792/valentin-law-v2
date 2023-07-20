@@ -78,6 +78,7 @@ export default function Page() {
               sentence={language.index.newsletter.sentence}
               button={language.index.newsletter.button.title}
               buttonLink={language.index.newsletter.button.link}
+              background = {"bg-back-8"}
             />
         </Fragment>
   );

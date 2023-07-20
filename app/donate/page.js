@@ -22,6 +22,7 @@ export default function Page() {
             <Hero2 
               heroTitle={language.donate.hero.title} 
               heroSubtitle={language.donate.hero.subtitle}
+              background={"bg-back-6"}
             />
             <Donate 
               language={language} 
@@ -41,6 +42,7 @@ export default function Page() {
               sentence={language.index.newsletter.sentence}
               button={language.index.newsletter.button.title}
               buttonLink={language.index.newsletter.button.link}
+              background={"bg-back-5"}
             />
         </Fragment>
   );

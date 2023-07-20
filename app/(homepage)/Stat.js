@@ -14,10 +14,10 @@ function stat({
     return(
         <Fragment>
             {/* stat */}
-            <div className="bg-purple-900 text-neutral-200">
+            <div className="bg-back-7 bg-fixed bg-cover text-neutral-200">
                 <div className="container py-32">
                     <div className="flex justify-center">
-                        <div className='text-center grid grid-cols-2 md:grid-cols-4 gap-x-8 lg:gap-x-[8rem]'>
+                        <div className='text-center grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-x-[8rem]'>
 
                             <div className="">
                                 <div className="text-5xl font-medium">{stat1number}</div>

@@ -11,6 +11,23 @@ body {
   box-sizing: border-box;
 }
 
+/* Animations */
+@keyframes slide-from-opacity {
+  0% {
+    transform: translateY(33.33%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.animate-slide-from-opacity {
+  animation : slide-from-opacity 1.5s ease-in-out
+}
+
 /* NavbarArea CSS*/
 .is-sticky {
   @apply fixed transition duration-500 top-0 left-0 w-full py-4 z-20;

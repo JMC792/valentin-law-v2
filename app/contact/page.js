@@ -42,6 +42,7 @@ export default async function Page() {
       <Hero2 
         heroTitle={en.contact.hero.title} 
         heroSubtitle={en.contact.hero.subtitle}
+        background={"bg-back-5"}
       />
       <Contact3 language={en} image={about2}/>
       <Stat3 language={language} links={links}/>
