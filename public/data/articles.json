@@ -2,8 +2,8 @@
     "blog1":{
         "slug": "post-1",
         "type": "lifestyle",
-        "name": "why im an amazing coder",
-        "sentence": "asldkjfal;sdkjfa;lskdjf",
+        "name": "Post 1",
+        "sentence": "Post Sentence 1",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
@@ -17,9 +17,9 @@
     },
     "blog2":{
         "slug": "post-2",
-        "type": "YERRRRRR",
-        "name": "why You suck as a coder",
-        "sentence": "asldkjfal;sdkjfa;lskdjf",
+        "type": "Post Type 2",
+        "name": "Post Tile 2 ",
+        "sentence": "Post Sentence 2",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
@@ -32,10 +32,10 @@
         }
     },
     "blog3":{
-        "slug": "agjir2",
+        "slug": "post-3",
         "type": "lifestyle",
-        "name": "why im an amazing coder",
-        "sentence": "asldkjfal;sdkjfa;lskdjf",
+        "name": "Post 3",
+        "sentence": "Post Sentence 3",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
@@ -48,10 +48,10 @@
         }
     },
     "blog4":{
-        "slug": "agjir2",
+        "slug": "post-4",
         "type": "lifestyle",
-        "name": "why im an amazing coder",
-        "sentence": "asldkjfal;sdkjfa;lskdjf",
+        "name": "Post 4",
+        "sentence": "Post Sentence 4",
         "date": "09/11/2001",
         "content": {
             "p1": "",

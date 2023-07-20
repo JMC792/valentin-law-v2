@@ -52,6 +52,7 @@ export default async function Page() {
         sentence={en.index.newsletter.sentence}
         button={en.index.newsletter.button.title}
         buttonLink={en.index.newsletter.button.link}
+        background={"bg-back-6"}
       />
     </Fragment>
   );
