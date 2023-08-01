@@ -56,9 +56,7 @@ export default function Contact2({
                                                 </div>
 
                                                 <div className="">
-                                                    <a href= {contactButton}>
-                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contactButton}</button>
-                                                    </a>
+                                                    <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contactButton}</button>
                                                 </div>
 
                                             </div>
