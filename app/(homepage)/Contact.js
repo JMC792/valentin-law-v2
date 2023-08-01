@@ -40,16 +40,23 @@ function Contact({
 
                                 {/* Form */}
                                 <div className="bg-gray-100">
-                                        <form className="p-8" data-netlify="true">
+                                        <form className="p-8" data-netlify="true" data-netlify-recaptcha="true">
                                             <div className="grid gap-y-4">
+
+                                                <p className="hidden">
+                                                    <label>
+                                                        Hiidden Field: <input name="bot-field" />
+                                                    </label>
+                                                </p>
+
                                                 <div className="grid gap-y-2">
                                                     <label htmlFor="name" className="block text-black font-bold">Name</label>
                                                     <input type="text" id="name" name="name" required/>
                                                 </div>
                                             
                                                 <div className="grid gap-y-2">
-                                                    <label htmlFor="email" className="block text-black font-bold">Email:</label>
-                                                    <input type="email" id="email" name="email" required/>
+                                                    <label htmlFor="contact-email" className="block text-black font-bold">Email:</label>
+                                                    <input type="email" id="contact-email" name="email" required/>
                                                 </div>
                                                 
                                                 <div className="grid gap-y-2">
@@ -63,10 +70,10 @@ function Contact({
                                                 </div>
 
                                                 <div className="">
-                                                    <a href= {buttonLink}>
-                                                        <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{button}</button>
-                                                    </a>
+                                                    <button type="submit" className="border rounded-lg bg-amber-900 p-4 text-white">{button}</button>
                                                 </div>
+
+                                                <div data-netlify-recaptcha="true"></div>
 
                                             </div>
                                             

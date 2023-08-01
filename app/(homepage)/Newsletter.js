@@ -46,7 +46,7 @@ export default function Newsletter(props){
                                     <form className="grid gap-y-4 md:flex md:gap-x-4 justify-center" data-netlify="true">
                                         {/* Input */}
                                         <div className="">
-                                            <input type="email" id="email" name="email" placeholder="Email Address" className="rounded-md font-medium text-neutral-900 p-3" required />
+                                            <input type="email" id="newsletter-email" name="email" placeholder="Email Address" className="rounded-md font-medium text-neutral-900 p-3" required />
                                         </div>
 
                                         {/* Button */}
