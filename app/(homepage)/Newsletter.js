@@ -51,9 +51,7 @@ export default function Newsletter(props){
 
                                         {/* Button */}
                                         <div className="">
-                                            <a href= {props.buttonLink}>
-                                                <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{props.button}</button>
-                                            </a>
+                                            <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{props.button}</button>
                                         </div>
                                     </form>
                                 
