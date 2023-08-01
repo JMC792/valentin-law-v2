@@ -15,10 +15,7 @@ import SBS_Right from "public/images/SBS_Right.webp";
 import SBS_Left from "public/images/SBS_Left.webp";
 import qrCode from "public/images/photo1.webp";
 import blogPic3 from "public/images/arianeMacias.jpg";
-
-export const metadata = {
-  description: ""
-};
+import statBG from "public/images/statsBG1.webp";
 
 export default function Page() {
   return (
@@ -54,9 +51,9 @@ export default function Page() {
               stat3title={language.index.stat.stat3.title}
               stat4number={language.index.stat.stat4.number} 
               stat4title={language.index.stat.stat4.title}
+              image={statBG}
             />
-            <Testimonials language = {language}
-            />
+            <Testimonials language = {language}/>
             <Contact 
             heading={language.index.contact.heading} 
             title={language.index.contact.title} 
