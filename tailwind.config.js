@@ -25,8 +25,8 @@ module.exports = {
         'back-4': "url('..//public/images/postHeader.png')",
         'back-5': "url('..//public/images/contactHero.webp')",
         'back-6': "url('..//public/images/donateHero.webp')",
-        'back-7': "url('..//public/images/statsBG1.jpg')",
-        'back-8': "url('..//public/images/newsletter-BG.jpg')",
+        'back-7': "url('..//public/images/statsBG1.webp')",
+        'back-8': "url('..//public/images/newsletter-BG.webp')",
       }
     },
   },
