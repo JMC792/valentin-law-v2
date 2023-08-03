@@ -14,10 +14,10 @@ export default function SideNav(props){
                     : "offcanvas-menu-wrap"
             }>
                 <nav className="offcanvas-menu z-50">
-                    <ul className="offcanvas-menu-items" onClick={props.showOffcanvas}>
+                    <div className="offcanvas-menu-items" onClick={props.showOffcanvas}>
 
                         {/* Logo and Close Button Wrapper*/}
-                        <li className="navbar-toggle flex justify-between items-center pb-[15px] cursor-pointer">
+                        <div className="navbar-toggle flex justify-between items-center pb-[15px] cursor-pointer">
                             
                             {/* Logo */}
                             <div className="logo">
@@ -30,7 +30,7 @@ export default function SideNav(props){
                             <button className="menu-bars text-[24px] opacity-80 hover:opacity-50 transition-all" aria-label="Right Align">
                             <Image src={close} width={20} alt={"logo"} />
                             </button>
-                        </li>
+                        </div>
 
                         {/* List */}
                         <div>
@@ -80,7 +80,7 @@ export default function SideNav(props){
                             
                         </div>
 
-                    </ul>
+                    </div>
                 </nav>
             </nav>
         </Fragment>

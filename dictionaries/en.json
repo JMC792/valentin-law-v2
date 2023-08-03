@@ -322,22 +322,18 @@
             }
         },
         "legal": {
-            "title" : "Legal",
+            "title" : "Contact",
             "link1" : {
-                "title":"About",
-                "link": ""
+                "title":"(980)-290-7074",
+                "link": "tel: (980)-290-7074"
             },
             "link2" : {
-                "title":"Privacy Policy",
-                "link": ""
+                "title":"nicki@womenadvance.org",
+                "link": "mailto: nicki@womenadvance.org"
             },
             "link3" : {
-                "title":"Licensing",
-                "link": ""
-            },
-            "link4" : {
-                "title":"Contact",
-                "link": ""
+                "title":"Po Box 7725, Wilmington NC, 28406",
+                "link": "https://www.google.com/maps/place/C3+%7C+Christ+Community+Church,+7568+Ruben+Linker+Rd+NW,+Concord,+NC+28027/@35.3821885,-80.706216,17z/data=!4m6!3m5!1s0x88541b008321faab:0xc63124ed60fe8c2b!8m2!3d35.3821883!4d-80.7043757!16s%2Fg%2F11tfd86dm5"
             }
         },
         "trademark":{

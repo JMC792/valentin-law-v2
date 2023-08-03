@@ -19,10 +19,14 @@ module.exports = {
         sans: ['var(--font-inter)']
       },
       backgroundImage: {
-        'back-1': "url('..//public/images/qr-code.png')",
-        'back-2': "url('..//public/images/Hero-bg.webp')",
+        'back-1': "url('..//public/images/aboutHero.png')",
+        'back-2': "url('..//public/images/Hero-bg-2.webp')",
         'back-3': "url('..//public/images/hero2.webp')",
         'back-4': "url('..//public/images/postHeader.png')",
+        'back-5': "url('..//public/images/contactHero.webp')",
+        'back-6': "url('..//public/images/donateHero.webp')",
+        'back-7': "url('..//public/images/statsBG1.webp')",
+        'back-8': "url('..//public/images/newsletter-BG.webp')",
       }
     },
   },

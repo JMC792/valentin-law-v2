@@ -1,12 +1,12 @@
 import {Fragment} from "react";
 
-export default function Hero2({language, heroTitle, heroSubtitle}) {
+export default function Hero2(props) {
 
     return(
         <Fragment>
 
             {/* Hero Background */}
-            <div className="h-1/5 bg-back-3 bg-cover" id="header">
+            <div className={"h-1/5 bg-cover " + props.background} id="header">
                 {/* Hero Container */}
                 <div className="container flex justify-center">
                     {/* Horizontal Margin and Padding */}
@@ -15,7 +15,7 @@ export default function Hero2({language, heroTitle, heroSubtitle}) {
                         <div className="lg:px-[10rem] 2xl:px-[12rem]">
 
 
-                            <div className="text-center text-neutral-100 ">
+                            <div className="text-center text-neutral-100">
                                 {/* Text Wrapper */}
                                 <div className="space-y-5">
                                     
@@ -23,7 +23,7 @@ export default function Hero2({language, heroTitle, heroSubtitle}) {
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
-                                                {heroTitle}
+                                                {props.heroTitle}
                                             </div>
                                         </div>
                                     </div>
@@ -32,7 +32,7 @@ export default function Hero2({language, heroTitle, heroSubtitle}) {
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {heroSubtitle}
+                                            {props.heroSubtitle}
                                         </div>
                                     </div>
                                 

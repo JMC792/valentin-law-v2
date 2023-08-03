@@ -1,17 +1,11 @@
 import { Fragment } from "react";
 
-export default function Newsletter({
-    heading, 
-    title,
-    sentence,
-    button,
-    buttonLink
-}){
+export default function Newsletter(props){
 
     return(
         <Fragment>
             {/* Hero Background */}
-            <div className="md:h-[30rem] lg:h-[35rem] bg-back-2 bg-cover" id="header">
+            <div className={"md:h-[30rem] lg:h-[35rem] bg-cover " + props.background} id="header">
                 {/* Hero Container */}
                 <div className="container flex justify-center">
                     {/* Horizontal Margin and Padding */}
@@ -26,7 +20,7 @@ export default function Newsletter({
                                     <div>
                                         <div className="text-md">
                                             <div className="font-bold leading-tight">
-                                                {heading}
+                                                {props.heading}
                                             </div>
                                         </div>
                                     </div>
@@ -35,7 +29,7 @@ export default function Newsletter({
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
-                                                {title}
+                                                {props.title}
                                             </div>
                                         </div>
                                     </div>
@@ -44,7 +38,7 @@ export default function Newsletter({
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {sentence}
+                                            {props.sentence}
                                         </div>
                                     </div>
                                     
@@ -52,14 +46,12 @@ export default function Newsletter({
                                     <form className="grid gap-y-4 md:flex md:gap-x-4 justify-center" data-netlify="true">
                                         {/* Input */}
                                         <div className="">
-                                            <input type="email" id="email" name="email" placeholder="Email Address" className="rounded-md font-medium text-neutral-900 p-3" required />
+                                            <input type="email" id="newsletter-email" name="email" placeholder="Email Address" className="rounded-md font-medium text-neutral-900 p-3" required />
                                         </div>
 
                                         {/* Button */}
                                         <div className="">
-                                            <a href= {buttonLink}>
-                                                <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{button}</button>
-                                            </a>
+                                            <button type="submit" className="rounded-lg bg-sky-600 py-3 px-8 text-white">{props.button}</button>
                                         </div>
                                     </form>
                                 

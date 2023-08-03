@@ -42,6 +42,7 @@ export default async function Page() {
       <Hero2 
         heroTitle={en.contact.hero.title} 
         heroSubtitle={en.contact.hero.subtitle}
+        background={"bg-back-5"}
       />
       <Contact3 language={en} image={about2}/>
       <Stat3 language={language} links={links}/>
@@ -51,6 +52,7 @@ export default async function Page() {
         sentence={en.index.newsletter.sentence}
         button={en.index.newsletter.button.title}
         buttonLink={en.index.newsletter.button.link}
+        background={"bg-back-6"}
       />
     </Fragment>
   );
