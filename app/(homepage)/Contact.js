@@ -24,7 +24,7 @@ function Contact({
 
                         {/* Text */}
                         <div className="lg:order-1">
-                            <div className=" md:px-28 xl:py-44">
+                            <div className=" md:px-28 ">
                             <div className="grid gap-y-4">
                                 
                                 {/* Title and Heading */}

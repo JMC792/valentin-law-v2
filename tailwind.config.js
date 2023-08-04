@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         'back-1': "url('..//public/images/aboutHero.png')",
-        'back-2': "url('..//public/images/Hero-bg-2.webp')",
+        'back-2': "url('..//public/images/hero3.webp')",
         'back-3': "url('..//public/images/hero2.webp')",
         'back-4': "url('..//public/images/postHeader.png')",
         'back-5': "url('..//public/images/contactHero.webp')",

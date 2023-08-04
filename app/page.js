@@ -8,12 +8,13 @@ import Mission from "app/(homepage)/SBS-Right";
 import Testimonials from "app/(homepage)/Testimonials";
 import Blog from "app/(homepage)/Blog";
 import Newsletter from "app/(homepage)/Newsletter";
+import Menu from "app/(homepage)/Services";
 //Locales
 import language from "dictionaries/en.json";
 //images
-import SBS_Right from "public/images/SBS_Right.webp";
-import SBS_Left from "public/images/SBS_Left.webp";
-import qrCode from "public/images/photo1.webp";
+import SBS_Right from "public/icons/web-design.svg";
+import SBS_Left from "public/icons/full-stack.svg";
+import qrCode from "public/icons/dashboard.svg";
 import blogPic3 from "public/images/arianeMacias.jpg";
 import statBG from "public/images/statsBG1.webp";
 
@@ -34,6 +35,7 @@ export default function Page() {
               buttonLink={language.index.about.button.link}
               image={SBS_Right}
             />
+            <Menu/>
             <Mission 
               heading={language.index.mission.heading} 
               title={language.index.mission.title} 
@@ -54,21 +56,21 @@ export default function Page() {
               image={statBG}
             />
             <Testimonials language = {language}/>
-            <Contact 
+            {/* <Contact 
             heading={language.index.contact.heading} 
             title={language.index.contact.title} 
             paragraph={language.index.contact.paragraph}
             button={language.index.contact.button.title}
             buttonLink={language.index.contact.button.link}
             image={qrCode}
-            />
-            <Blog 
+            /> */}
+            {/* <Blog 
               heading={language.index.blog.heading} 
               title={language.index.blog.title} 
               button={language.index.blog.button.title}
               buttonLink={language.index.blog.button.link}
               image={blogPic3}
-            />
+            /> */}
             <Newsletter 
               heading={language.index.newsletter.heading} 
               title={language.index.newsletter.title} 

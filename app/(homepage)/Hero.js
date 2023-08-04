@@ -7,7 +7,8 @@ export default function Hero({title,subtitle,button,buttonLink,image}) {
         <Fragment>
 
             {/* Hero Background */}
-            <div className="h-screen bg-back-2 bg-cover" id="header">
+            <div className="h-screen bg-back-2 bg-cover
+            " id="header">
                 {/* Hero Container */}
                 <div className="container flex justify-center">
                     {/* Horizontal Margin and Padding */}
