@@ -4,7 +4,7 @@ import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
 import language from "dictionaries/en.json"
 import Image from "next/image";
-import logo from "/public/icons/superwoman.svg";
+import logo from "/public/icons/crown.svg";
 import SideNav from './SideNav';
 import menu from "/public/icons/menu.svg";
 

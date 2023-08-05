@@ -11,7 +11,7 @@
         "link2": "about",
         "link3": "blog",
         "link4": "contact",
-        "link5": "donate",
+        "link5": "service",
         "locale": {
             "spanish": {
                 "title": "spanish",
@@ -29,8 +29,8 @@
             "description": ""
         },
         "hero": {
-            "title": "Rise to Empowerment Embrace Your Voice: Empowering Women",
-            "subtitle" : "Varius morbi enim nunc faucibus a. Pretium quam vulputate dignissim suspendisse. Tortor vitae purus faucibus ornare. Viverra mauris in aliquam sem fringilla ut morbi tincidunt",
+            "title": "Building Brands, One Pixel at a Time",
+            "subtitle" : "we're dedicated to shaping digital landscapes with awe-inspiring web design and development. Our mission is to bring your brand's story to life through visually captivating and functionally flawless websites.",
             "button" : {
                 "title": "Get Started",
                 "link": "/contact"
@@ -38,8 +38,8 @@
         },
         "about": {
             "heading" : "WHO WE ARE",
-            "title" : "Leading Ladies Inspiring Women's Empowerment in NC",
-            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "title" : "Crafting Digital Experiences that Captivate and Convert",
+            "paragraph" : "We specialize in crafting captivating digital experiences that seamlessly blend creativity and technology. Our expert team is dedicated to designing visually stunning and user-centric websites that not only engage but also convert, ensuring your brand's success in the digital realm. Whether it's an e-commerce platform, corporate site, or interactive web app, we're committed to bringing your vision to life with captivating results.",
             "button" : {
                 "title": "Contact Us",
                 "link": "/contact"
@@ -68,19 +68,19 @@
             "title": "Happy Customer Feedback About Our Service",
             "person":{
                 "first": {
-                    "name":"Samantha Johnson",
-                    "position": "Marketing Manager",
-                    "paragraph": "Women AdvaNCe has truly transformed my life and empowered me to reach new heights. Through their programs and support, I gained the confidence and skills needed to overcome challenges and become a leader in my community. Their dedication to uplifting women, especially those from marginalized backgrounds, is commendable. I am forever grateful for the opportunities they have provided and the positive impact they have made on my journey of empowerment"
+                    "name":"Julio Zaconet",
+                    "position": "Valentin Law LLC",
+                    "paragraph": "Queen City Web Solutions turned our vision into reality with an exceptional website that exceeded our expectations. Their team's creativity and technical prowess are evident in every detail of the design, making navigation intuitive and user engagement seamless. We couldn't be happier with the stunning aesthetics and functionality they brought to our online presence"
                 },
                 "second": {
-                    "name":"Emily Rodriguez",
-                    "position": "Software Engineer",
-                    "paragraph": "I cannot say enough about the incredible work that Women AdvaNCe does for women's empowerment. Their commitment to amplifying the voices of underserved women in North Carolina is inspiring. Through their programs and advocacy efforts, they have created a supportive community where women can thrive and make a difference. Women AdvaNCe is truly a beacon of hope for all women seeking empowerment and equality"
+                    "name":"Nicki Faircloth",
+                    "position": "Women AdvaNCe",
+                    "paragraph": "Working with Queen City Web Solutions was an absolute delight. They took our ideas and transformed them into a visually striking and highly functional website. The design perfectly captures the essence of our brand, and the user experience is top-notch. Their dedication to excellence truly shines through, and we're proud to showcase our new website to our clients and partners"
                 },
                 "third": {
-                    "name":"Olivia Lee",
-                    "position": "Operations Coordinator",
-                    "paragraph": "Being part of Women AdvaNCe has been a life-changing experience. They have created a safe and inclusive space where women can come together, share their stories, and support each other. The programs and resources they offer are invaluable for personal and professional growth. Women AdvaNCe truly understands the unique challenges that women face and provides the tools and resources needed to overcome them. I am proud to be associated with such an incredible organization that is making a significant impact in the lives of women across North Carolina"
+                    "name":"Jesus Chavez",
+                    "position": "Encuentro Church",
+                    "paragraph": "Queen City Web Solutions is a game-changer! They crafted a website that not only reflects our company's ethos but also ensures our visitors stay engaged and convert. The attention to detail is remarkable, from the seamless responsiveness across devices to the innovative features that set us apart. The team's expertise and commitment to delivering a remarkable online experience are unparalleled. We're incredibly impressed with the final result"
                 }
             }
         },
@@ -253,14 +253,14 @@
             }
         }
     },
-    "donate": {
+    "service": {
         "metadata": {
             "title": "",
             "description": ""
         },
         "hero": {
-            "title": "Donate",
-            "subtitle": "Home > Donate"
+            "title": "Service",
+            "subtitle": "Home > Service"
         },
         "section1": {
             "heading" : "Be a Changemaker",
@@ -284,7 +284,7 @@
     "footer": {
         "overview": {
             "title" : "Women AdvaNCe",
-            "paragraph" : "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity.",
+            "paragraph" : "Queen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats",
             "phoneNumber" : "(980)-290-7074",
             "email" : "nicki@womenadvance.org",
             "address" : "PO Box 7725, Wilmington, NC 28406",
@@ -296,7 +296,7 @@
             "link2": "about",
             "link3": "blog",
             "link4": "contact",
-            "link5": "donate"
+            "link5": "service"
         },
         "socialMedia": {
             "title" : "Follow Our Socials",
