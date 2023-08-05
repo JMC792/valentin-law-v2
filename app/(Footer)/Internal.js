@@ -12,15 +12,15 @@ export default function Internal(props) {
             </div>
 
             <div className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <a href={"/"} className="capitalize">
+                    <Link href={"/"} className="capitalize">
                         {props.links[0]}
-                    </a>
+                    </Link>
                 </div>
 
             {/* Links */}
             {props.links.slice(1).map((link, index) => (
                 <div key={index} className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <a href={link} className="capitalize">{link}</a>
+                    <Link href={link} className="capitalize">{link}</Link>
                 </div>
             ))}
         </div>

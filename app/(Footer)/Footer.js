@@ -1,10 +1,10 @@
 import { Fragment } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import t from "public/locales/english/footer.js"
 import logo from "public/icons/superwoman.svg"
 import call from "public/icons/call2.svg"
 import email from "public/icons/email.svg"
+import image1 from "public/icons/crown.svg"
 import location from "public/icons/location_on_white.svg"
 import language from "dictionaries/en.json"
 import Overview from "./Overview"
@@ -23,7 +23,11 @@ export default function Footer(props) {
           <div className="py-20">
             {/* Footer Layout*/}
             <div className="grid gap-y-20 lg:flex lg:justify-between items-center">
-              <Overview/>
+              <Overview
+                title = {language.footer.overview.title}
+                description = {language.footer.overview.paragraph}
+                image = {image1}
+              />
               <Internal
                 links={[
                   language.footer.usefulLinks.link1,

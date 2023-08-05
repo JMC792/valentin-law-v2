@@ -14,7 +14,7 @@ export default function Hero({title,subtitle,button,buttonLink,image}) {
                     {/* Horizontal Margin and Padding */}
                     <div className="pt-[13rem] md:pt-[15rem] lg:pt-[16rem]">
                         {/* Vertical Margin and Padding */}
-                        <div className="lg:px-[10rem] 2xl:px-[12rem]">
+                        <div className="lg:px-[10rem] 2xl:px-[15rem]">
 
 
                             <div className="text-center text-neutral-100 animate-slide-from-opacity">

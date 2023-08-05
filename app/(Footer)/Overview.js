@@ -15,18 +15,13 @@ export default function Overview(props) {
             {/* Overview Title */}
             <div className="text-[1.5rem] text-neutral-200 hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
                 <Link href="/">
-                    <Image
-                    src={logo}
-                    width={200}
-                    alt={"logo"}
-                    className={"cursor-pointer"}
-                    />
+                    <Image src={props.image} width={200} alt={"logo"} className={"cursor-pointer"}/>
                 </Link>
             </div>
 
             {/* Overview Paragraph*/}
             <div className="text-white">
-                {language.footer.overview.paragraph}
+                {props.description}
             </div>
             
         </div>

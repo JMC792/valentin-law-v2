@@ -1,17 +1,19 @@
 import {Fragment} from "react";
 import Image from "next/image";
-import seo from "/public/icons/seo.svg";
+import seo from "/public/icons/Homepage/seo.svg";
 
 export default function Services(props){
     return(
         <Fragment>
-            <div id={"Services"}>
+            <div id="Services">
                 <div className="container py-20">
 
                     {/* Services Heading Wrapper */}
                     <div className="grid gap-y-10 pb-8 text-center">
+                        {/* Header */}
+                        <div className="text-xl font-medium text-purple-900 capitalize">what we do</div>
                         {/* Title */}
-                        <div className="text-5xl text-teal-800 capitalize">what we do</div>
+                        <div className="text-5xl text-teal-800 capitalize lg:px-44 xl:px-64">Empowering Businesses with Cutting-Edge Online Solutions</div>
                         {/* Subtitle */}
                         <div className="text-md lg:px-44 xl:px-64">Our tailored web design and development services ensure top-notch performance, attracting more customers to your site and boosting your business revenue. Each line of code is meticulously crafted by hand, guaranteeing exceptional results for your online success</div>
                     </div>
