@@ -49,7 +49,6 @@ export default function Footer(props) {
                 links={[
                   [language.footer.legal.link1.title, language.footer.legal.link1.link],
                   [language.footer.legal.link2.title, language.footer.legal.link2.link],
-                  [language.footer.legal.link3.title, language.footer.legal.link3.link],
                 ]}
               />
             </div>
