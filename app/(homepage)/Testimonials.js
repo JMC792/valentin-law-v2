@@ -10,7 +10,7 @@ export default function Testimonials(props){
                 <div className="">
                     
                     {/* Title and Heading */}
-                    <div className=" ">
+                    <div className="container">
                         <div className="text-purple-800">
                             <div className="text-2xl text-center font-medium">{props.language.index.testimonial.heading}</div>
                         </div>

@@ -40,7 +40,7 @@ export default function sbsLeft(props){
                                 {/* Button */}
                                 <div className="">
                                     <Link href= {props.buttonLink}>
-                                        <button className="border rounded-lg p-4 bg-sky-400 text-white">{props.button}</button>
+                                        <button className="border rounded-lg p-4 bg-teal-800 text-white">{props.button}</button>
                                     </Link>
                                 </div>
                                     

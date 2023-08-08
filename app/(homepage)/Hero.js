@@ -1,14 +1,13 @@
 import Link from "next/link";
 import {Fragment} from "react";
 
-export default function Hero({title,subtitle,button,buttonLink,image}) {
+export default function Hero({title,subtitle,button}) {
 
     return(
         <Fragment>
 
             {/* Hero Background */}
-            <div className="h-screen bg-back-2 bg-cover
-            " id="header">
+            <div className="h-screen bg-back-2 bg-cover" id="header">
                 {/* Hero Container */}
                 <div className="container flex justify-center">
                     {/* Horizontal Margin and Padding */}

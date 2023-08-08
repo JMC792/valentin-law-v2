@@ -4,6 +4,7 @@ import Hero2 from "app/about/Hero2.js";
 import Donate from "app/service/Donate.js";
 import Newsletter from "app/(homepage)/Newsletter.js";
 import Email from "app/(homepage)/SBS-Right.js";
+import Pricing from "app/(homepage)/Pricing.js";
 //Locales
 import language from "dictionaries/en.json";
 //images
@@ -28,6 +29,7 @@ export default function Page() {
               language={language} 
               svg ={image1}
             />
+            <Pricing/>
             <Email 
               heading={language.service.email.heading} 
               title={language.service.email.title} 

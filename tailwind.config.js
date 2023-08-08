@@ -19,13 +19,11 @@ module.exports = {
         sans: ['var(--font-inter)']
       },
       backgroundImage: {
-        'back-1': "url('..//public/images/aboutHero1.webp')",
+        'back-1': "url('..//public/images/about/aboutHero1.webp')",
         'back-2': "url('..//public/images/hero3.webp')",
-        'back-3': "url('..//public/images/hero2.webp')",
-        'back-4': "url('..//public/images/postHeader.png')",
-        'back-5': "url('..//public/images/contactHero.webp')",
-        'back-6': "url('..//public/images/donateHero.webp')",
-        'back-8': "url('..//public/images/newsletter-BG.webp')",
+        'back-5': "url('..//public/images/contact/contactHero.webp')",
+        'back-6': "url('..//public/images/services/servicesHero.webp')",
+        'back-7': "url('..//public/images/newsletterBG.webp')",
       }
     },
   },

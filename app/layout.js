@@ -6,14 +6,14 @@ import { Inter } from "next/font/google"
 
 export const metadata = {
   title: {
-    template: "%s | Womens AdvaNCe",
-    default: "Women AdvaNCe",
+    template: "%s | Queen City Web Solutions",
+    default: "Queen City Web Solutions",
   },
-  description: {default: "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity."},
-  appliationName: "Womens Advance",
-  keywords: ["Women","Empowerment","Advance","NC"],
-  creator: 'Jesus Chavez',
-  publisher: 'Bold & Bright Media',
+  description: {default: "WQueen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats."},
+  appliationName: "Queen City Web Solutions",
+  keywords: ["Queen","City","Web Solutions","Charlotte","North Carolina"],
+  creator: 'Mauricio Chavez',
+  publisher: 'Queen City Web Solutions',
 };
 
 const inter =Inter({subsets:['latin']})

@@ -17,15 +17,11 @@ export default function Page(){
             <Hero2
                 heroTitle={en.blog.hero.title}
                 heroSubtitle={en.blog.hero.subtitle}
-                background={"bg-back-3"}
+                background={"bg-back-5"}
             />
             <List
-                title={en.blog.list.title}
-                heading={en.blog.list.subtitle}
-                sentence={en.blog.list.sentence}
                 image={about4}
                 blogData={blogData}
-
             />
         </Fragment>
     )
