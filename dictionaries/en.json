@@ -292,18 +292,18 @@
             "subtitle": "Home > Service"
         },
         "section1": {
-            "heading" : "Be a Changemaker",
-            "title" : "Support our Cause with a Single Click!",
-            "paragraph" : "Support our initiative and make a difference by clicking on the donation button provided. Your generous contribution through this button will directly impact the lives of those in need. With just a few clicks, you can join our community of donors and help us create a positive change. Every dollar donated through this button brings us closer to achieving our goals and making a lasting impact on the lives of many.",
+            "heading" : "Digital Transformation Solutions",
+            "title" : "Empowering Your Business with Cutting-Edge Digital Transformation",
+            "paragraph" : "Unlock the potential of your business in the digital age with our transformative solutions. From innovative software development to seamless process automation, we guide you through every step of your digital journey, enhancing efficiency, customer engagement, and overall competitiveness.",
             "button" : {
-                "title": "Donate Now",
-                "link": "https://womenadvance-bloom.kindful.com"
+                "title": "Contact Us",
+                "link": "/contact"
             }
         },
-        "email":{
-            "heading" : "Other Ways to Give",
-            "title" : "Connect with Our Donation Coordinator for Contributions",
-            "paragraph" : "If you are interested in making a donation to support our cause, we encourage you to reach out to our dedicated Donation Coordinator. Our Donation Coordinator is ready to assist you with any questions you may have regarding the donation process, different giving options, and the impact your contribution can make. Whether you have specific preferences or require further information, our Donation Coordinator will ensure that your donation experience is smooth and tailored to your needs. Feel free to email our Donation Coordinator at [email protected] and take the first step in making a meaningful difference through your generous support.",
+        "section2":{
+            "heading" : "Creative Branding and Design",
+            "title" : "Crafting Unique and Impactful Brand Identities",
+            "paragraph" : "Elevate your brand's visual appeal and identity with our creative design services. From logo conceptualization to comprehensive brand guidelines, we create compelling designs that resonate with your target audience, leaving a lasting impression and fostering brand loyalty.",
             "button" : {
                 "title": "Contact Us",
                 "link": "/contact"
