@@ -1,9 +1,10 @@
 {
     "website1":{
+        "slug": "valentin-law",
         "link": "https://valentinlaw.us/",
-        "type": "",
+        "type": "/images/arianeMacias.jpg",
         "name": "Valentin Law Offices",
-        "sentence": "Post Sentence 1",
+        "sentence": "Esteemed Atlanta-based law firm specializing in immigration and criminal law. This sleek and informative landing page reflects their expertise and commitment to serving clients' legal needs with precision and professionalism.",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
@@ -16,10 +17,11 @@
         }
     },
     "website2":{
-        "link": "post-2",
-        "type": "",
+        "slug": "women-advance",
+        "link": "https://www.womenadvancenc.org/",
+        "type": "/images/arianeMacias.jpg",
         "name": "Women Advance",
-        "sentence": "Post Sentence 2",
+        "sentence": "A dynamic non-profit dedicated to empowering women. Through this engaging online platform, their impactful mission and initiatives take center stage, fostering a sense of unity and strength within the women's empowerment movement.",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
@@ -32,10 +34,11 @@
         }
     },
     "website3":{
-        "link": "post-3",
-        "type": "",
+        "slug": "encuentro-church",
+        "link": "https://encuentro.church/",
+        "type": "/images/arianeMacias.jpg",
         "name": "Encuentro Church ",
-        "sentence": "Post Sentence 3",
+        "sentence": "A vibrant Baptist congregation nestled in Concord, NC. This online platform captures the essence of their faith-driven community, serving as a welcoming digital gateway for parishioners and seekers alike to explore their spiritual journey.",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {

@@ -1,9 +1,11 @@
 import Hero from "app/about/Hero2.js";
 import { Fragment } from "react";
-import List from "app/blog/List";
+import List from "app/portfolio/List.js";
 import language from "dictionaries/en.json"
-import about4 from "public/images/arianeMacias.jpg"
-import blogData from "public/data/portfolio.json"
+import image2 from "public/images/portfolio/womenAdvance.png"
+import data from "public/data/portfolio.json"
+import image1 from "public/images/portfolio/valentin.png"
+import image3 from "public/images/portfolio/encuentro.png"
 
 export default function Page(){
     return(
@@ -14,8 +16,8 @@ export default function Page(){
                 background={"bg-back-5"}
             />
             <List
-                image={about4}
-                blogData={blogData}
+                images={[image1,image2,image3,image1]}
+                blogData={data}
             />
         </Fragment>
     )
