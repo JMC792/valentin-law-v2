@@ -1,0 +1,53 @@
+{
+    "website1":{
+        "slug": "valentin-law",
+        "link": "https://valentinlaw.us/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Valentin Law Offices",
+        "sentence": "Esteemed Atlanta-based law firm specializing in immigration and criminal law. This sleek and informative landing page reflects their expertise and commitment to serving clients' legal needs with precision and professionalism.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "p2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+            "p3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
+    },
+    "website2":{
+        "slug": "women-advance",
+        "link": "https://www.womenadvancenc.org/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Women Advance",
+        "sentence": "A dynamic non-profit dedicated to empowering women. Through this engaging online platform, their impactful mission and initiatives take center stage, fostering a sense of unity and strength within the women's empowerment movement.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
+    },
+    "website3":{
+        "slug": "encuentro-church",
+        "link": "https://encuentro.church/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Encuentro Church ",
+        "sentence": "A vibrant Baptist congregation nestled in Concord, NC. This online platform captures the essence of their faith-driven community, serving as a welcoming digital gateway for parishioners and seekers alike to explore their spiritual journey.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "",
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
+    }
+}

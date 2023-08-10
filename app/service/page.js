@@ -1,9 +1,10 @@
 import {Fragment} from "react";
 //Components
 import Hero2 from "app/about/Hero2.js";
-import Donate from "app/service/Donate.js";
+import Service1 from "app/service/SBSNoButton.js";
 import Newsletter from "app/(homepage)/Newsletter.js";
 import Email from "app/(homepage)/SBS-Right.js";
+import Pricing from "app/(homepage)/Pricing.js";
 //Locales
 import language from "dictionaries/en.json";
 //images
@@ -24,17 +25,20 @@ export default function Page() {
               heroSubtitle={language.service.hero.subtitle}
               background={"bg-back-6"}
             />
-            <Donate 
-              language={language} 
+            <Service1 
+              heading={language.service.section1.heading} 
+              title={language.service.section1.title} 
+              paragraph={language.service.section1.paragraph}
+              order={"order-first"} 
               svg ={image1}
             />
-            <Email 
-              heading={language.service.email.heading} 
-              title={language.service.email.title} 
-              paragraph={language.service.email.paragraph} 
-              button={language.service.email.button.title}
-              buttonLink={language.service.email.button.link}
-              image={image2}
+            <Pricing/>
+            <Service1 
+              heading={language.service.section2.heading} 
+              title={language.service.section2.title} 
+              paragraph={language.service.section2.paragraph}
+              order={"lg:order-last"} 
+              svg ={image1}
             />
             <Newsletter 
               heading={language.index.newsletter.heading} 

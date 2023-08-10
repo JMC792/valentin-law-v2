@@ -22,7 +22,7 @@ export default function Services(props){
                     <div className="flex flex-col lg:flex-row gap-8 justify-center">
                         
                         {/* Services 1 */}
-                        <div className="flex flex-col bg-neutral-100 p-6 items-center">
+                        <div className="flex flex-col p-6 items-center">
                             {/* Service Image */}
                             <Image src={seo} alt="people cooking" height={200}/>
                             {/* Services Text Wrapper */}
@@ -35,7 +35,7 @@ export default function Services(props){
                         </div>
 
                         {/* Services 2 */}
-                        <div className="flex flex-col bg-neutral-100 p-6 items-center">
+                        <div className="flex flex-col p-6 items-center">
                             {/* Service Image */}
                             <Image src={seo} alt="people cooking" height={200}/>
                             {/* Services Text Wrapper */}
@@ -48,7 +48,7 @@ export default function Services(props){
                         </div>
 
                         {/* Services 1 */}
-                        <div className="flex flex-col bg-neutral-100 p-6 items-center">
+                        <div className="flex flex-col p-6 items-center">
                             {/* Service Image */}
                             <Image src={seo} alt="people cooking" height={200}/>
                             {/* Services Text Wrapper */}

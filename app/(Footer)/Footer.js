@@ -1,7 +1,6 @@
 import { Fragment } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import logo from "public/icons/superwoman.svg"
 import call from "public/icons/call2.svg"
 import email from "public/icons/email.svg"
 import image1 from "public/icons/crown.svg"
@@ -50,7 +49,6 @@ export default function Footer(props) {
                 links={[
                   [language.footer.legal.link1.title, language.footer.legal.link1.link],
                   [language.footer.legal.link2.title, language.footer.legal.link2.link],
-                  [language.footer.legal.link3.title, language.footer.legal.link3.link],
                 ]}
               />
             </div>

@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function SBSLeft2({
+export default function SBSLeft3({
     language,
     svg
 }){

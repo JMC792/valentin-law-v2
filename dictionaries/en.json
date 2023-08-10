@@ -9,7 +9,7 @@
     "navbar": {
         "link1": "home",
         "link2": "about",
-        "link3": "blog",
+        "link3": "portfolio",
         "link4": "contact",
         "link5": "service",
         "locale": {
@@ -20,7 +20,7 @@
         },
         "call": {
             "title": "Call-Us",
-            "number": "980-290-7074"
+            "number": "(678) 379-9044"
         }
     },
     "index": {
@@ -87,7 +87,7 @@
         "mission": {
             "heading" : "Our Mission",
             "title" : "Unlocking the Potential of Women In NC",
-            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "paragraph": "At Queen City Web Solutions, our mission is to empower businesses with innovative digital strategies that elevate their online presence. Through cutting-edge web design, tailored development, and strategic marketing, we strive to create captivating digital experiences that drive growth and success. Our commitment is to be the driving force behind our clients' digital evolution, helping them reign supreme in the dynamic realm of the web",
             "button": {
                 "title": "Contact Us",
                 "link": "/contact"
@@ -129,12 +129,12 @@
             }
         },
         "newsletter": {
-            "heading": "Subscribe Us",
-            "title": " Subscribe Your Email for Newsletter & Promotion",
+            "heading": "Ignite Success Together!",
+            "title": " Book Your Strategy Session with Us Today!",
             "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
             "button": {
-                "title": "Subscribe Now",
-                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+                "title": "Contact Us",
+                "link": "/contact"
             }
         }
     },
@@ -149,32 +149,43 @@
         },
         "about1": {
             "heading" : "Our Mission",
-            "title" : "Driving Change",
-            "paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "title" : " Crafting Digital Excellence in Charlotte, NC",
+            "paragraph" : "We take pride in crafting digital excellence right here in the heart of Charlotte, NC. As your trusted partner for web solutions, we blend creativity and innovation to create captivating online experiences that drive business success. With a passion for precision and a commitment to client satisfaction, we're dedicated to helping you thrive in the dynamic world of digital technology",
             "button" : {
                 "title": "Contact Us",
-                "link": ""
+                "link": "/contact"
             }
         },
         "about2": {
-            "heading" : "Our Vision",
-            "title" : "Empowering Women",
-            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "heading" : "Our Story",
+            "title" : "Nurturing Creativity Since Inception",
+            "paragraph": " Our story is one of passion and determination, forged by a team of first-generation college students who share a common goal – to empower small businesses with a digital presence that transcends borders. From our roots in Charlotte, we've embarked on a journey to bring creative excellence to entrepreneurs around the world. Fuelled by our diverse backgrounds and a collective drive, we channel our unique experiences into every project, delivering tailored solutions that make a lasting impact.",
             "button": {
                 "title": "Contact Us",
                 "link": ""
             }
         },
-        "statistic": {
-            "stat1" : "Projects Completed",
-            "stat2" : "People Helped",
-            "stat3" : "Sponsors",
-            "stat4" : "Partnerships"
+        "stat":{
+            "one": {
+                "title":"Phone",
+                "phone1":"(980)-290-7074",
+                "phone2":"(980)-290-7074"
+            },
+            "two":{
+                "title": "Address",
+                "address1": "PO Box 7725",
+                "address2": "Wilmington, NC 28406"
+            },
+            "three" : {
+                "title": "Open Hours",
+                "date": "Monday to Saturday",
+                "time": "9:00am - 5:00pm"
+            }
         },
         "about3": {
-            "heading" : "Our Vision",
-            "title" : "Empowering Women",
-            "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+            "heading" : "Our Expertise",
+            "title" : "Specialized Solutions Tailored to Your Needs",
+            "paragraph": "our expertise is a blend of artistic mastery and technical finesse. We excel at transforming brands into digital marvels, crafting captivating websites that resonate with your audience. With a focus on tailoring solutions to your unique requirements, we combine innovation and precision to propel your brand to new heights in the digital realm.",
             "button" : {
                 "title": "Contact Us",
                 "links": ""
@@ -182,15 +193,33 @@
         },
         "team": {
             "heading" : "Meet Our Team",
-            "title" : "Empowering Women In Action",
-            "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum.",
+            "title" : "Unveiling the Minds Behind Your Success",
+            "sentence": "Get acquainted with the brilliant minds driving Queen City Web Solutions forward. Our diverse and dedicated team of experts brings a symphony of skills, passion, and innovation to every project. With a shared commitment to excellence, we're here to transform your digital vision into reality and elevate your brand to new horizons.",
             "member": {
-                "person1Name": "Jesus Chavez",
-                "person1Title": "Pastor",
-                "person2Name": "Mauricio Chavez",
-                "person2Title": "Production",
-                "person3Name": "Ariane Macias",
-                "person3Title": "Band Director"
+                "member1":{
+                    "name": "Olivia Weaver",
+                    "title": "Creative Director"
+                },
+                "member2":{
+                    "name": "Jackson Bennett",
+                    "title": "Marketing Manager"
+                },
+                "member3":{
+                    "name": "Ava Martinez",
+                    "title": "Frontend Developer"
+                },
+                "member4":{
+                    "name": "Ethan Sullivan",
+                    "title": "Project Manager"
+                },
+                "member5":{
+                    "name": "Sophia Cooper",
+                    "title": "Content Strategist"
+                },
+                "member6":{
+                    "name": "Liam Parker",
+                    "title": "UX/UI Designer"
+                }
             }
             
         },
@@ -206,12 +235,12 @@
     },
     "blog": {
         "metadata": {
-            "title": "Blog",
+            "title": "Portfolio",
             "description": ""
         },
         "hero": {
-            "title": "Blog",
-            "subtitle": "Home > Blog"
+            "title": "Portfolio",
+            "subtitle": "Home > Portfolio"
         },
         "list":{
             "title": "Our Articles",
@@ -223,6 +252,12 @@
                 "title": "Blog",
                 "subtitle": "Home > Blog > Post"
             }
+        }
+    },
+    "portfolio": {
+        "hero": {
+            "title": "Portfolio",
+            "subtitle": "Home > Portfolio"
         }
     },
     "contact": {
@@ -263,18 +298,18 @@
             "subtitle": "Home > Service"
         },
         "section1": {
-            "heading" : "Be a Changemaker",
-            "title" : "Support our Cause with a Single Click!",
-            "paragraph" : "Support our initiative and make a difference by clicking on the donation button provided. Your generous contribution through this button will directly impact the lives of those in need. With just a few clicks, you can join our community of donors and help us create a positive change. Every dollar donated through this button brings us closer to achieving our goals and making a lasting impact on the lives of many.",
+            "heading" : "Digital Transformation Solutions",
+            "title" : "Empowering Your Business with Cutting-Edge Digital Transformation",
+            "paragraph" : "Unlock the potential of your business in the digital age with our transformative solutions. From innovative software development to seamless process automation, we guide you through every step of your digital journey, enhancing efficiency, customer engagement, and overall competitiveness.",
             "button" : {
-                "title": "Donate Now",
-                "link": "https://womenadvance-bloom.kindful.com"
+                "title": "Contact Us",
+                "link": "/contact"
             }
         },
-        "email":{
-            "heading" : "Other Ways to Give",
-            "title" : "Connect with Our Donation Coordinator for Contributions",
-            "paragraph" : "If you are interested in making a donation to support our cause, we encourage you to reach out to our dedicated Donation Coordinator. Our Donation Coordinator is ready to assist you with any questions you may have regarding the donation process, different giving options, and the impact your contribution can make. Whether you have specific preferences or require further information, our Donation Coordinator will ensure that your donation experience is smooth and tailored to your needs. Feel free to email our Donation Coordinator at [email protected] and take the first step in making a meaningful difference through your generous support.",
+        "section2":{
+            "heading" : "Creative Branding and Design",
+            "title" : "Crafting Unique and Impactful Brand Identities",
+            "paragraph" : "Elevate your brand's visual appeal and identity with our creative design services. From logo conceptualization to comprehensive brand guidelines, we create compelling designs that resonate with your target audience, leaving a lasting impression and fostering brand loyalty.",
             "button" : {
                 "title": "Contact Us",
                 "link": "/contact"
@@ -324,21 +359,17 @@
         "legal": {
             "title" : "Contact",
             "link1" : {
-                "title":"(980)-290-7074",
-                "link": "tel: (980)-290-7074"
+                "title":"(678) 379-9044",
+                "link": "tel: (678) 379-9044"
             },
             "link2" : {
-                "title":"nicki@womenadvance.org",
-                "link": "mailto: nicki@womenadvance.org"
-            },
-            "link3" : {
-                "title":"Po Box 7725, Wilmington NC, 28406",
-                "link": "https://www.google.com/maps/place/C3+%7C+Christ+Community+Church,+7568+Ruben+Linker+Rd+NW,+Concord,+NC+28027/@35.3821885,-80.706216,17z/data=!4m6!3m5!1s0x88541b008321faab:0xc63124ed60fe8c2b!8m2!3d35.3821883!4d-80.7043757!16s%2Fg%2F11tfd86dm5"
+                "title":"z8noid38@anonaddy.me",
+                "link": "mailto: z8noid38@anonaddy.me"
             }
         },
         "trademark":{
             "year": "2023 ",
-            "company": "Women Advance:",
+            "company": "Queen City Web Solutions:",
             "rights": "All Rights Reserved"
         }
     }

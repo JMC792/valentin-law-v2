@@ -1,18 +1,23 @@
 import { Fragment } from "react";
+import language from "dictionaries/en.json";
+// Components
 import Hero2 from "./Hero2.js";
-import language from "public/locales/english/about.js"
-import { facebook } from "public/data/links"
-import about1 from "public/icons/about/launch.svg"
-import Stat2 from "app/about/Stat2.js"
-import links from "public/data/links.js"
-import SBSLeft from "app/about/SBS-Left-2.js";
-import SBSRight from "app/about/SBS-Right-2.js";
+import About2 from "app/(homepage)/SBS-Right.js";
+import Stat2 from "app/about/Stat2.js";
+import About1 from "app/(homepage)/SBS-Left.js";
 import about2 from "public/icons/about/ab-test.svg"
-import SBSLeft3 from "app/about/SBS-Left-3.js";
-import about3 from "public/icons/about/programmer.svg"
+//Images
 import Team2 from "app/about/Team2.js";
-import about4 from "public/images/arianeMacias.jpg"
-import en from "dictionaries/en.json"
+import person2 from "public/images/about/person2.webp"
+import person1 from "public/images/about/person1.webp"
+import person3 from "public/images/about/person3.webp"
+//SVG
+import about1 from "public/icons/about/launch.svg"
+import phone from "public/icons/phone2.svg"
+import customer from "public/icons/customer.svg"
+import tick from "public/icons/tick.svg"
+import uiux from "public/icons/about/uiux.svg"
+
 
 export const metadata = {
   title: 'About',
@@ -20,19 +25,78 @@ export const metadata = {
 }
 
 export default function Page() {
+
   return (
     <Fragment>
       <Hero2 
-        heroTitle={en.about.hero.title} 
-        heroSubtitle={en.about.hero.subtitle}  
-        heroButton={facebook}
+        heroTitle={language.about.hero.title} 
+        heroSubtitle={language.about.hero.subtitle}  
         background={"bg-back-1"}
-        />
-      <SBSLeft language={language} heroButton={facebook} svg ={about1}/>
-      <SBSRight language={language} heroButton={facebook} image ={about2}/>
-      <Stat2 language={language} links={links} />
-      <SBSLeft3 language={language} heroButton={facebook} svg ={about3}/>
-      <Team2 language={language} heroButton={facebook} svg1 ={about4} svg2 ={about3} svg3 ={about3}/>
+      />
+      <About2 
+        heading={language.about.about2.heading} 
+        title={language.about.about2.title} 
+        paragraph={language.about.about2.paragraph} 
+        button={language.about.about2.button.title}
+        buttonLink={language.about.about2.button.link}
+        image={about2}
+      />
+      <About1 
+        heading={language.about.about1.heading} 
+        title={language.about.about1.title} 
+        paragraph={language.about.about1.paragraph} 
+        button={language.about.about1.button.title}
+        buttonLink={language.navbar.link4}
+        image={about1}
+      />
+      <Stat2
+        one={[language.about.stat.one.title,
+          language.about.stat.one.phone1,
+          language.about.stat.one.phone2,
+          phone
+        ]}
+        two={[language.about.stat.two.title,
+          language.about.stat.two.address1,
+          language.about.stat.two.address2,
+          customer]}
+        three={[language.about.stat.three.title,
+          language.about.stat.three.date,
+          language.about.stat.three.time,
+          tick]}
+      />
+      {/* <About1 
+        heading={language.about.about3.heading} 
+        title={language.about.about3.title} 
+        paragraph={language.about.about3.paragraph} 
+        button={language.about.about3.button.title}
+        buttonLink={language.navbar.link4}
+        image={uiux}
+      /> */}
+      <Team2 
+        heading={[language.about.team.heading,
+          language.about.team.title,
+          language.about.team.sentence]}
+        members={[
+            [language.about.team.member.member1.name,
+            language.about.team.member.member1.title,
+            person1],
+            [language.about.team.member.member2.name,
+              language.about.team.member.member2.title,
+              person2],
+            [language.about.team.member.member3.name,
+              language.about.team.member.member3.title,
+              person3],
+            [language.about.team.member.member4.name,
+              language.about.team.member.member4.title,
+              person1],
+            [language.about.team.member.member5.name,
+              language.about.team.member.member5.title,
+              person2],
+            [language.about.team.member.member6.name,
+              language.about.team.member.member6.title,
+              person3],
+          ]}
+      />
     </Fragment>
   );
 }

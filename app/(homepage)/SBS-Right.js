@@ -38,7 +38,7 @@ export default function sbsRight(props){
                             {/* Button */}
                             <div className="text-white">
                                 <Link href= {props.buttonLink}>
-                                    <button type="button" className="border rounded-lg bg-sky-400 p-4">{props.button}</button>
+                                    <button type="button" className="border rounded-lg bg-teal-700 p-4">{props.button}</button>
                                 </Link>
                             </div>
                             
