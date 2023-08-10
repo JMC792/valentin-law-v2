@@ -5,7 +5,7 @@ import language from "dictionaries/en.json"
 import image2 from "public/images/portfolio/womenAdvance.png"
 import data from "public/data/portfolio.json"
 import image1 from "public/images/portfolio/valentin.png"
-import image3 from "public/images/portfolio/encuentro.png"
+import image3 from "public/images/portfolio/encuentro-church.png"
 
 export default function Page(){
     return(
