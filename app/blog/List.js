@@ -16,7 +16,7 @@ export default function Blog(props) {
                     const blog = props.blogData[key];
                     return (
                     <div key={props.key}>
-                        <Link href={blog.link}>
+                        <Link href={`/blog/${blog.slug}`}>
                             <div className="cursor-pointer">
                                 <Image
                                 src={props.image}
