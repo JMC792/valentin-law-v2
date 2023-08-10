@@ -9,7 +9,7 @@
     "navbar": {
         "link1": "home",
         "link2": "about",
-        "link3": "blog",
+        "link3": "portfolio",
         "link4": "contact",
         "link5": "service",
         "locale": {
@@ -252,6 +252,12 @@
                 "title": "Blog",
                 "subtitle": "Home > Blog > Post"
             }
+        }
+    },
+    "portfolio": {
+        "hero": {
+            "title": "Portfolio",
+            "subtitle": "Home > Portfolio"
         }
     },
     "contact": {
