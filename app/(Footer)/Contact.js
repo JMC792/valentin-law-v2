@@ -1,6 +1,7 @@
 import { Fragment } from "react";
+import Image from "next/image";
 
-export default function Outgoing(props) {
+export default function Contact(props) {
     return (
     <Fragment>
         <div className="flex flex-col items-center gap-y-8">
@@ -10,7 +11,16 @@ export default function Outgoing(props) {
             {/* Links */}
             {props.links.map((link, index) => (
                 <div key={index} className="hover:text-yellow-600 transition-colors delay-50 cursor-pointer">
-                    <a href={link[1]}>{link[0]}</a>
+                    <a href={link[1]}>
+                        <div className="flex gap-x-2">
+                            <div>
+                                <Image src={link[2]}  alt={link[3]}/>
+                            </div>
+                            <div>
+                                {link[0]}
+                            </div>
+                        </div>
+                    </a>
                 </div>
             ))}
 

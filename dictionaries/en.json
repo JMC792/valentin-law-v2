@@ -159,7 +159,7 @@
         "about2": {
             "heading" : "Our Story",
             "title" : "Nurturing Creativity Since Inception",
-            "paragraph": " Our story is one of passion and determination, forged by a team of first-generation college students who share a common goal – to empower small businesses with a digital presence that transcends borders. From our roots in Charlotte, we've embarked on a journey to bring creative excellence to entrepreneurs around the world. Fuelled by our diverse backgrounds and a collective drive, we channel our unique experiences into every project, delivering tailored solutions that make a lasting impact.",
+            "paragraph": "Hola! I'm Mauricio, your tech guide hailing from Bolivia and a proud graduate of UNCC with a Cybersecurity degree. My journey has been a fusion of software sorcery and network wizardry. With years of experience, I've ventured into roles like a Software Developer and Network Engineer at Allstate, honing skills that range from Jenkins to Shell Scripting. My tech toolkit embraces everything from Role-Based Access Control (RBAC) to JSON, and even Microsoft SQL Server",
             "button": {
                 "title": "Contact Us",
                 "link": ""
@@ -337,23 +337,23 @@
             "title" : "Follow Our Socials",
             "media1" : {
                 "title": "Instagram",
-                "link": "https://www.instagram.com/atlimmigration/"
+                "link": "https://www.instagram.com/mauricioo_chavez/"
             },
             "media2" : {
                 "title": "Youtube",
-                "link": "https://www.youtube.com/channel/UCvTGSmdDliKBpuIM0kZvKiQ"
+                "link": "https://www.youtube.com/channel/UCFBCtpDmohglIPIulKmHDYg"
             },
             "media3" : {
                 "title":"Facebook",
-                "link": "https://www.facebook.com/encuentrochurch1"
+                "link": "https://www.facebook.com/mauricio.chavez.754/"
             },
             "media4" : {
                 "title":"Twitter",
-                "link": "https://twitter.com/valentinlawllc"
+                "link": "https://twitter.com/JMC792_"
             },
             "media5" : {
                 "title":"TikTok",
-                "link": "https://twitter.com/valentinlawllc"
+                "link": "https://www.tiktok.com/@jmc792"
             }
         },
         "legal": {

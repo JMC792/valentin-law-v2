@@ -3,7 +3,6 @@ import {Fragment} from "react";
 import Hero2 from "app/about/Hero2.js";
 import Service1 from "app/service/SBSNoButton.js";
 import Newsletter from "app/(homepage)/Newsletter.js";
-import Email from "app/(homepage)/SBS-Right.js";
 import Pricing from "app/(homepage)/Pricing.js";
 //Locales
 import language from "dictionaries/en.json";
@@ -38,7 +37,7 @@ export default function Page() {
               title={language.service.section2.title} 
               paragraph={language.service.section2.paragraph}
               order={"lg:order-last"} 
-              svg ={image1}
+              svg ={image2}
             />
             <Newsletter 
               heading={language.index.newsletter.heading} 

@@ -9,9 +9,13 @@ import Pricing from "./(homepage)/Pricing";
 import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "dictionaries/en.json";
-//images
+//icons
 import SBS_Right from "public/icons/Homepage/web-design.svg";
 import SBS_Left from "public/icons/Homepage/full-stack.svg";
+//images
+import image1 from "public/images/homepage/julio.svg";
+import image2 from "/public/icons/Homepage/littleCircle.svg"
+import image3 from "/public/images/homepage/jesus.svg"
 
 export default function Page() {
   return (
@@ -40,7 +44,10 @@ export default function Page() {
               image={SBS_Left}
             />
             <Pricing/>
-            <Testimonials language = {language}/>
+            <Testimonials 
+              language = {language}
+              images = {[image1,image2,image3]}
+            />
             <Newsletter 
               heading={language.index.newsletter.heading} 
               title={language.index.newsletter.title} 

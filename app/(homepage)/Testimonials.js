@@ -1,6 +1,5 @@
 import Image from "next/image";
 import {Fragment} from "react";
-import littleCircle from "/public/icons/Homepage/littleCircle.svg"
 
 export default function Testimonials(props){
 
@@ -29,7 +28,7 @@ export default function Testimonials(props){
                             <div className="p-12" key={index}>
                                 <div className="pb-8">
                                     <div className="md:flex gap-x-4">
-                                        <Image src={littleCircle} alt="person" />
+                                        <Image src={props.images[index]} alt="person" />
                                         <div>
                                             <div className="text-xl font-bold">{person.name}</div>
                                             <div className="font-medium">{person.position}</div>
