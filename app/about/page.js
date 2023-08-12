@@ -5,19 +5,14 @@ import Hero2 from "./Hero2.js";
 import About2 from "app/(homepage)/SBS-Right.js";
 import Stat2 from "app/about/Stat2.js";
 import About1 from "app/(homepage)/SBS-Left.js";
-import about2 from "public/icons/about/ab-test.svg"
 //Images
-import Team2 from "app/about/Team2.js";
-import person2 from "public/images/about/person2.webp"
-import person1 from "public/images/about/person1.webp"
-import person3 from "public/images/about/person3.webp"
+import me from "public/images/about/me.webp"
+
 //SVG
 import about1 from "public/icons/about/launch.svg"
 import phone from "public/icons/phone2.svg"
 import customer from "public/icons/customer.svg"
 import tick from "public/icons/tick.svg"
-import uiux from "public/icons/about/uiux.svg"
-
 
 export const metadata = {
   title: 'About',
@@ -39,7 +34,7 @@ export default function Page() {
         paragraph={language.about.about2.paragraph} 
         button={language.about.about2.button.title}
         buttonLink={language.about.about2.button.link}
-        image={about2}
+        image={me}
       />
       <About1 
         heading={language.about.about1.heading} 
@@ -72,7 +67,7 @@ export default function Page() {
         buttonLink={language.navbar.link4}
         image={uiux}
       /> */}
-      <Team2 
+      {/* <Team2 
         heading={[language.about.team.heading,
           language.about.team.title,
           language.about.team.sentence]}
@@ -96,7 +91,7 @@ export default function Page() {
               language.about.team.member.member6.title,
               person3],
           ]}
-      />
+      /> */}
     </Fragment>
   );
 }

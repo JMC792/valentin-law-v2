@@ -1,17 +1,20 @@
 import { Fragment } from "react"
-import Link from "next/link"
-import Image from "next/image"
+
+// Icons
 import call from "public/icons/call2.svg"
 import email from "public/icons/email.svg"
 import image1 from "public/icons/crown.svg"
 import location from "public/icons/location_on_white.svg"
 import language from "dictionaries/en.json"
+
+// Components
 import Overview from "./Overview"
 import Internal from "./Internal"
 import Outgoing from "./Outgoing"
 import Trademark from "./Trademark"
+import Contact from "./Contact"
 
-export default function Footer(props) {
+export default function Footer() {
 
   return (
     <Fragment>
@@ -29,11 +32,11 @@ export default function Footer(props) {
               />
               <Internal
                 links={[
-                  language.footer.usefulLinks.link1,
-                  language.footer.usefulLinks.link2,
-                  language.footer.usefulLinks.link3,
-                  language.footer.usefulLinks.link4,
-                  language.footer.usefulLinks.link5
+                  language.navbar.link1,
+                  language.navbar.link2,
+                  language.navbar.link3,
+                  language.navbar.link4,
+                  language.navbar.link5,
                 ]}/>
               <Outgoing 
                 title= {language.footer.socialMedia.title}
@@ -44,11 +47,11 @@ export default function Footer(props) {
                   [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
                   [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
               ]}/>
-              <Outgoing 
+              <Contact 
                 title= {language.footer.legal.title}
                 links={[
-                  [language.footer.legal.link1.title, language.footer.legal.link1.link],
-                  [language.footer.legal.link2.title, language.footer.legal.link2.link],
+                  [language.footer.legal.link1.title, language.footer.legal.link1.link, call, "call"],
+                  [language.footer.legal.link2.title, language.footer.legal.link2.link, email, "email"],
                 ]}
               />
             </div>
