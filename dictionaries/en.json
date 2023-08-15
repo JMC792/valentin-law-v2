@@ -145,7 +145,7 @@
         },
         "hero": {
             "title": "About Us",
-            "subtitle": "Home > About"
+            "subtitle": "about"
         },
         "about1": {
             "heading" : "Our Mission",
@@ -257,7 +257,7 @@
     "portfolio": {
         "hero": {
             "title": "Portfolio",
-            "subtitle": "Home > Portfolio"
+            "subtitle": "portfolio"
         }
     },
     "contact": {
@@ -267,7 +267,7 @@
         },
         "hero": {
             "title": "Contact Us",
-            "subtitle": "Home > Contact"
+            "subtitle": "contact"
         },
         "contact": {
             "heading" : "Contact Us",
@@ -295,7 +295,7 @@
         },
         "hero": {
             "title": "Service",
-            "subtitle": "Home > Service"
+            "subtitle": "service"
         },
         "section1": {
             "heading" : "Digital Transformation Solutions",

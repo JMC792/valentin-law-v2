@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {Fragment} from "react";
 
 export default function Hero2(props) {
@@ -32,7 +33,19 @@ export default function Hero2(props) {
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {props.heroSubtitle}
+                                            <Link href="/">
+                                                <span className="font-bold cursor-pointer hover:text-teal-700 delay-100 duration-200">
+                                                    Home
+                                                </span>
+                                            </Link>
+                                            <span className="font-bold">
+                                                &nbsp;/&nbsp;
+                                            </span>
+                                            <Link href={props.heroSubtitle}>
+                                                <span className="font-bold cursor-pointer capitalize hover:text-teal-700 delay-100 duration-200">
+                                                    {props.heroSubtitle}
+                                                </span>
+                                            </Link>
                                         </div>
                                     </div>
                                 
