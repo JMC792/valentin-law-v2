@@ -5,7 +5,7 @@ import language from "dictionaries/en.json";
 export default function Internal(props) {
   return (
     <Fragment>
-        <div className="flex flex-col items-center gap-y-8">
+        <div className="flex flex-col items-center gap-y-8 lg:pt-20">
             {/* Links Title */}
             <div className="text-[1.5rem] font-bold text-center">
                 {language.footer.usefulLinks.title}
