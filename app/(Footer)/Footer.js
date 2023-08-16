@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Footer padding and Margin */}
           <div className="py-20">
             {/* Footer Layout*/}
-            <div className="grid gap-y-20 lg:flex lg:justify-between items-center">
+            <div className="grid gap-y-20 lg:flex lg:justify-between items-start">
               <Overview
                 title = {language.footer.overview.title}
                 description = {language.footer.overview.paragraph}

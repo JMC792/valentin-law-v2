@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Contact(props) {
     return (
     <Fragment>
-        <div className="flex flex-col items-center gap-y-8">
+        <div className="flex flex-col items-center gap-y-8 lg:pt-20">
             {/* Social Media Title */}
             <div className="text-[1.5rem] font-bold">{props.title}</div>
 
