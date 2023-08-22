@@ -9,7 +9,7 @@ export const metadata = {
     template: "%s | Queen City Web Solutions",
     default: "Queen City Web Solutions",
   },
-  description: {default: "WQueen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats."},
+  description: {default: "Queen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats."},
   appliationName: "Queen City Web Solutions",
   keywords: ["Queen","City","Web Solutions","Charlotte","North Carolina"],
   creator: 'Mauricio Chavez',

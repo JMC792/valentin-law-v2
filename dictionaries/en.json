@@ -12,6 +12,7 @@
         "link3": "portfolio",
         "link4": "contact",
         "link5": "service",
+        "link6": "blog",
         "locale": {
             "spanish": {
                 "title": "spanish",
@@ -239,8 +240,8 @@
             "description": ""
         },
         "hero": {
-            "title": "Portfolio",
-            "subtitle": "Home > Portfolio"
+            "title": "blog",
+            "subtitle": "blog"
         },
         "list":{
             "title": "Our Articles",
@@ -249,8 +250,8 @@
         },
         "post": {
             "hero": {
-                "title": "Blog",
-                "subtitle": "Home > Blog > Post"
+                "title": "blog",
+                "subtitle": "post"
             }
         }
     },

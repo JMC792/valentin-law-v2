@@ -1,6 +1,7 @@
 import {Fragment} from "react";
+import Link from "next/link";
 
-export default function Hero3({heroTitle, heroSubtitle}) {
+export default function Hero3({heroSubtitle, slug}) {
 
     return(
         <Fragment>
@@ -20,8 +21,8 @@ export default function Hero3({heroTitle, heroSubtitle}) {
                                     {/* Hero Title */}
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
-                                            <div className="font-bold leading-tight">
-                                                {heroTitle}
+                                            <div className="font-bold leading-tight capitalize">
+                                                Blog Post
                                             </div>
                                         </div>
                                     </div>
@@ -30,7 +31,28 @@ export default function Hero3({heroTitle, heroSubtitle}) {
                                     {/* Hero Subtitle */}
                                     <div className="lg:px-24">
                                         <div className="text-lg">
-                                            {heroSubtitle}
+                                            <Link href="/">
+                                                <span className="font-bold cursor-pointer hover:text-teal-700 delay-100 duration-200 capitalize">
+                                                    Home
+                                                </span>
+                                            </Link>
+                                            <span className="font-bold">
+                                                &nbsp;/&nbsp;
+                                            </span>
+                                            <Link href="/blog">
+                                                <span className="font-bold cursor-pointer hover:text-teal-700 delay-100 duration-200 capitalize">
+                                                    Blog
+                                                </span>
+                                            </Link>
+
+                                            <span className="font-bold">
+                                                &nbsp;/&nbsp;
+                                            </span>
+                                            <Link href={slug}>
+                                                <span className="font-bold cursor-pointer capitalize hover:text-teal-700 delay-100 duration-200">
+                                                    {slug}
+                                                </span>
+                                            </Link>
                                         </div>
                                     </div>
                                 
