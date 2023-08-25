@@ -22,6 +22,7 @@ export default function Page({params}){
         <Fragment>
             <Hero3
                 heroTitle={en.blog.post.hero.title}
+                slug= {params.slug}
                 heroSubtitle={en.blog.post.hero.subtitle}
             />
             <Article 

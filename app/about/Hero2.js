@@ -23,7 +23,7 @@ export default function Hero2(props) {
                                     {/* Hero Title */}
                                     <div className="lg:px-12">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
-                                            <div className="font-bold leading-tight">
+                                            <div className="font-bold leading-tight capitalize">
                                                 {props.heroTitle}
                                             </div>
                                         </div>

@@ -2,12 +2,12 @@
     "blog1":{
         "slug": "post-1",
         "type": "lifestyle",
-        "name": "Post 1",
+        "name": "Understanding the Difference: Static Generated Sites vs. WordPress",
         "sentence": "Post Sentence 1",
         "date": "09/11/2001",
         "author": "Nicki Faircloth",
         "content": {
-            "p1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            "p1": "In the world of web development, creating a website can be achieved through various means. Two popular options are using static site generators and WordPress. Although they may seem similar at first glance, they have distinct differences that cater to different needs. Let's break down both options.",
             "p2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
             "p3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
             "p4": "",

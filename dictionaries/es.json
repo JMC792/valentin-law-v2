@@ -1,0 +1,375 @@
+{
+    "layout": {
+        "title": "Women AdvaNCe",
+        "description": "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity",
+        "applicationName": "Women Advance",
+        "creator": "Jesus Chavez",
+        "publisher": "Bold & Bright Media"
+    },
+    "navbar": {
+        "link1": "home",
+        "link2": "about",
+        "link3": "portfolio",
+        "link4": "contact",
+        "link5": "service",
+        "locale": {
+            "spanish": {
+                "title": "spanish",
+                "code": "es"
+            }
+        },
+        "call": {
+            "title": "Call-Us",
+            "number": "(980)-392-7215"
+        }
+    },
+    "index": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Construyendo Marcas, Un Píxel a la Vez",
+            "subtitle": "estamos dedicados a dar forma a los paisajes digitales con diseño y desarrollo web impresionantes. Nuestra misión es dar vida a la historia de su marca a través de sitios web visualmente cautivadores y funcionalmente impecables.",
+            "button": {
+                "title": "Comenzar",
+                "link": "/contact"
+            }
+        },
+        "about": {
+            "heading": "QUIÉNES SOMOS",
+            "title": "Creando Experiencias Digitales que Cautivan y Convierten",
+            "paragraph": "Nos especializamos en crear experiencias digitales cautivadoras que combinan perfectamente la creatividad y la tecnología. Nuestro equipo de expertos está dedicado a diseñar sitios web visualmente impactantes y centrados en el usuario que no solo involucran sino que también convierten, asegurando el éxito de su marca en el mundo digital. Ya sea una plataforma de comercio electrónico, un sitio corporativo o una aplicación web interactiva, estamos comprometidos a hacer realidad su visión con resultados cautivadores.",
+            "button": {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        },
+        "stat": {
+            "stat1": {
+                "number": "18k+",
+                "title": "Proyectos Completados"
+            },
+            "stat2": {
+                "number": "18k+",
+                "title": "Personas Ayudadas"
+            },
+            "stat3": {
+                "number": "18k+",
+                "title": "Patrocinadores"
+            },
+            "stat4": {
+                "number": "18k+",
+                "title": "Asociaciones"
+            }
+        },
+        "testimonial": {
+            "heading": "Testimonios",
+            "title": "Comentarios Positivos de Nuestros Clientes Sobre Nuestro Servicio",
+            "person": {
+                "first": {
+                    "name": "Julio Zaconet",
+                    "position": "Valentin Law LLC",
+                    "paragraph": "Queen City Web Solutions convirtió nuestra visión en realidad con un sitio web excepcional que superó nuestras expectativas. La creatividad y la destreza técnica de su equipo se evidencian en cada detalle del diseño, haciendo que la navegación sea intuitiva y la participación del usuario sea perfecta. No podríamos estar más felices con la estética impresionante y la funcionalidad que aportaron a nuestra presencia en línea"
+                },
+                "second": {
+                    "name": "Nicki Faircloth",
+                    "position": "Women AdvaNCe",
+                    "paragraph": "Trabajar con Queen City Web Solutions fue un absoluto deleite. Tomaron nuestras ideas y las transformaron en un sitio web visualmente impactante y altamente funcional. El diseño captura perfectamente la esencia de nuestra marca, y la experiencia del usuario es de primera categoría. Su dedicación a la excelencia realmente brilla, y estamos orgullosos de mostrar nuestro nuevo sitio web a nuestros clientes y socios"
+                },
+                "third": {
+                    "name": "Jesús Chávez",
+                    "position": "Encuentro Church",
+                    "paragraph": "¡Queen City Web Solutions es un cambio de juego! Crearon un sitio web que no solo refleja la ética de nuestra empresa, sino que también asegura que nuestros visitantes permanezcan comprometidos y se conviertan. La atención al detalle es notable, desde la respuesta perfecta en diferentes dispositivos hasta las características innovadoras que nos distinguen. La experiencia y el compromiso del equipo para ofrecer una experiencia en línea notable son inigualables. Estamos increíblemente impresionados con el resultado final"
+                }
+            }
+        },
+        "mission": {
+            "heading": "Nuestra Misión",
+            "title": "Desbloqueando el Potencial de las Mujeres en NC",
+            "paragraph": "En Queen City Web Solutions, nuestra misión es empoderar a las empresas con estrategias digitales innovadoras que eleven su presencia en línea. A través del diseño web de vanguardia, el desarrollo a medida y el marketing estratégico, nos esforzamos por crear experiencias digitales cautivadoras que impulsan el crecimiento y el éxito. Nuestro compromiso es ser la fuerza impulsora detrás de la evolución digital de nuestros clientes, ayudándoles a reinar en el dinámico mundo de la web",
+            "button": {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        },
+        "contact": {
+            "heading": "Contáctenos",
+            "title": "Ayúdenos a Hacer Cambios",
+            "paragraph": "Alentamos a todos los que son parte de nuestra familia de la iglesia a dar, no por obligación, sino por un espíritu de adoración. Sus donaciones permiten que la obra de Dios se haga en medio de nosotros, en nuestra comunidad y en el mundo que nos rodea.",
+            "button": {
+                "title": "Enviar",
+                "link": ""
+            }
+        },
+        "blog": {
+            "heading": "Noticias & Artículos",
+            "title": "Directamente de lo Más Reciente",
+            "button": {
+                "title": "Ver Todo",
+                "linkk": ""
+            },
+            "card1": {
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Enfrentó el Antisemitismo para Mejorar las Condiciones de Vida de los Habitantes de Carolina del Norte",
+                "blogType": "Mes de la Historia de la Mujer",
+                "sentence": "Cuando hablamos de activismo social y política progresista, el sur de los Estados Unidos no suele estar en la vanguardia de la mayoría de las mentes de la gente"
+            },
+            "card2": {
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Enfrentó el Antisemitismo para Mejorar las Condiciones de Vida de los Habitantes de Carolina del Norte",
+                "blogType": "Mes de la Historia de la Mujer",
+                "sentence": "Cuando hablamos de activismo social y política progresista, el sur de los Estados Unidos no suele estar en la vanguardia de la mayoría de las mentes de la gente"
+            },
+            "card3": {
+                "date": "07 Sept, 2022",
+                "article": "Gertrude Weil Enfrentó el Antisemitismo para Mejorar las Condiciones de Vida de los Habitantes de Carolina del Norte",
+                "blogType": "Mes de la Historia de la Mujer",
+                "sentence": "Cuando hablamos de activismo social y política progresista, el sur de los Estados Unidos no suele estar en la vanguardia de la mayoría de las mentes de la gente"
+            }
+        },
+        "newsletter": {
+            "heading": "¡Encienda el Éxito Juntos!",
+            "title": "¡Reserve Su Sesión de Estrategia con Nosotros Hoy!",
+            "sentence": "¡Aproveche la fuerza colectiva para el éxito! Asegure su sesión de estrategia con nosotros hoy y encendamos logros mano a mano, adaptados a sus necesidades como desarrollador de software en Charlotte, NC",
+            "button": {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        }
+    },
+    "about": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Sobre Nosotros",
+            "subtitle": "acerca de"
+        },
+        "about1": {
+            "heading": "Nuestra Misión",
+            "title": "Creando Excelencia Digital en Charlotte, NC",
+            "paragraph": "Nos enorgullecemos de crear excelencia digital aquí en el corazón de Charlotte, NC. Como su socio de confianza para soluciones web, combinamos creatividad e innovación para crear experiencias en línea cautivadoras que impulsan el éxito empresarial. Con una pasión por la precisión y un compromiso con la satisfacción del cliente, estamos dedicados a ayudarle a prosperar en el dinámico mundo de la tecnología digital.",
+            "button": {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        },
+        "about2": {
+            "heading": "Nuestra Historia",
+            "title": "Fomentando la Creatividad Desde la Concepción",
+            "paragraph": "¡Hola! Soy Mauricio, tu guía tecnológica de Bolivia y un orgulloso graduado de UNCC con un título en Ciberseguridad. Mi trayectoria ha sido una fusión de magia del software y destreza en redes. Con años de experiencia, he desempeñado roles como Desarrollador de Software e Ingeniero de Redes en Allstate, perfeccionando habilidades que van desde Jenkins hasta Shell Scripting. Mi kit de herramientas tecnológicas abarca desde el Control de Acceso Basado en Roles (RBAC) hasta JSON, e incluso Microsoft SQL Server.",
+            "button": {
+                "title": "Contáctenos",
+                "link": ""
+            }
+        },
+        "stat": {
+            "one": {
+                "title": "Teléfono",
+                "phone1": "(980)-290-7074",
+                "phone2": "(980)-290-7074"
+            },
+            "two": {
+                "title": "Dirección",
+                "address1": "PO Box 7725",
+                "address2": "Wilmington, NC 28406"
+            },
+            "three": {
+                "title": "Horario de Atención",
+                "date": "Lunes a Sábado",
+                "time": "9:00am - 5:00pm"
+            }
+        },
+        "about3": {
+            "heading": "Nuestra Experiencia",
+            "title": "Soluciones Especializadas Adaptadas a Sus Necesidades",
+            "paragraph": "Nuestra experiencia es una combinación de maestría artística y destreza técnica. Destacamos en transformar marcas en maravillas digitales, creando sitios web cautivadores que resuenan con su audiencia. Con un enfoque en adaptar soluciones a sus requisitos únicos, combinamos innovación y precisión para llevar su marca a nuevas alturas en el ámbito digital.",
+            "button": {
+                "title": "Contáctenos",
+                "links": ""
+            }
+        },
+        "team": {
+            "heading": "Conozca a Nuestro Equipo",
+            "title": "Descubriendo las Mentes Detrás de Su Éxito",
+            "sentence": "Familiarícese con las mentes brillantes que impulsan Queen City Web Solutions. Nuestro diverso y dedicado equipo de expertos aporta una sinfonía de habilidades, pasión e innovación a cada proyecto. Con un compromiso compartido por la excelencia, estamos aquí para transformar su visión digital en realidad y elevar su marca a nuevos horizontes.",
+            "member": {
+                "member1": {
+                    "name": "Olivia Weaver",
+                    "title": "Directora Creativa"
+                },
+                "member2": {
+                    "name": "Jackson Bennett",
+                    "title": "Gerente de Marketing"
+                },
+                "member3": {
+                    "name": "Ava Martinez",
+                    "title": "Desarrolladora Frontend"
+                },
+                "member4": {
+                    "name": "Ethan Sullivan",
+                    "title": "Gerente de Proyecto"
+                },
+                "member5": {
+                    "name": "Sophia Cooper",
+                    "title": "Estratega de Contenido"
+                },
+                "member6": {
+                    "name": "Liam Parker",
+                    "title": "Diseñador UX/UI"
+                }
+            }
+        },
+        "contact": {
+            "heading": "Contáctenos",
+            "title": "Ayúdenos a Hacer Cambios",
+            "paragraph": "Animamos a todos los que forman parte de nuestra familia de la iglesia a dar, no por obligación, sino por un espíritu de adoración. Sus donaciones permiten que la obra de Dios se haga entre nosotros, en nuestra comunidad y en el mundo que nos rodea.",
+            "button": {
+                "title": "Enviar",
+                "link": ""
+            }
+        }
+    },
+    "blog": {
+        "metadata": {
+            "title": "Portafolio",
+            "description": ""
+        },
+        "hero": {
+            "title": "Portafolio",
+            "subtitle": "Inicio > Portafolio"
+        },
+        "list": {
+            "title": "Nuestros Artículos",
+            "subtitle": "Eche un vistazo a las cosas que hicimos",
+            "sentence": "Aenean tincidunt id mauris id auctor. Donec at ligula lacus. Nulla dignissim quis neque interdum."
+        },
+        "post": {
+            "hero": {
+                "title": "Blog",
+                "subtitle": "Inicio > Blog > Publicación"
+            }
+        }
+    },
+    "portfolio": {
+        "hero": {
+            "title": "Portfolio",
+            "subtitle": "portfolio"
+        }
+    },
+    "contact": {
+        "metadata": {
+            "title": "Contáctenos",
+            "description": ""
+        },
+        "hero": {
+            "title": "Contáctenos",
+            "subtitle": "contacto"
+        },
+        "contact": {
+            "heading" : "Contáctenos",
+            "title" : "Ayúdenos a Hacer Cambio",
+            "paragraph" : "Alentamos a todos los que son parte de nuestra familia de la iglesia a dar, no por obligación, sino por un espíritu de adoración. Sus donaciones permiten que la obra de Dios se haga en nuestro medio, en nuestra comunidad y en el mundo que nos rodea.",
+            "button" : {
+                "title": "Enviar",
+                "link": ""
+            }
+        },
+        "newsletter": {
+            "heading": "Suscríbanos",
+            "title" : "Suscriba su Correo Electrónico para Boletín & Promoción",
+            "sentence": "Nulla dig nissimmi quis neque interdum. Un hombre de Ohio supuestamente golpeó a su abogado en la cara en la corte el martes al descubrir que fue condenado.",
+            "button2": {
+                "title": "Suscribir Ahora",
+                "link": ""
+            }
+        }
+    },
+    "service": {
+        "metadata": {
+            "title": "",
+            "description": ""
+        },
+        "hero": {
+            "title": "Servicio",
+            "subtitle": "servicio"
+        },
+        "section1": {
+            "heading" : "Soluciones de Transformación Digital",
+            "title" : "Potenciando Su Negocio con Transformación Digital de Vanguardia",
+            "paragraph" : "Desbloquee el potencial de su negocio en la era digital con nuestras soluciones transformadoras. Desde el desarrollo de software innovador hasta la automatización de procesos sin fisuras, lo guiamos en cada paso de su viaje digital, mejorando la eficiencia, la participación del cliente y la competitividad general.",
+            "button" : {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        },
+        "section2": {
+            "heading" : "Marca y Diseño Creativo",
+            "title" : "Creando Identidades de Marca Únicas e Impactantes",
+            "paragraph" : "Eleve el atractivo visual y la identidad de su marca con nuestros servicios de diseño creativo. Desde la conceptualización del logotipo hasta las pautas integrales de la marca, creamos diseños atractivos que resuenan con su público objetivo, dejando una impresión duradera y fomentando la lealtad a la marca.",
+            "button" : {
+                "title": "Contáctenos",
+                "link": "/contact"
+            }
+        }
+    },
+    "footer": {
+        "overview": {
+            "title" : "Women AdvaNCe",
+            "paragraph" : "Queen City Web Solutions es un proveedor dinámico de servicios web con sede en Charlotte, Carolina del Norte. Nuestro equipo dedicado se especializa en ofrecer soluciones de diseño y desarrollo web de primer nivel, fusionando de manera fluida la creatividad y la tecnología para crear experiencias en línea atractivas. Con un fuerte enfoque en la ciberseguridad, aseguramos que su viaje digital no solo sea visualmente cautivador, sino también fortificado contra posibles amenazas",
+            "phoneNumber" : "(980)-290-7074",
+            "email" : "nicki@womenadvance.org",
+            "address" : "PO Box 7725, Wilmington, NC 28406",
+            "addressLink" : "https://goo.gl/maps/8LrxauLEj5XFz5b38"
+        },
+        "usefulLinks": {
+            "title": "Enlaces Útiles",
+            "link1": "inicio",
+            "link2": "acerca de",
+            "link3": "blog",
+            "link4": "contacto",
+            "link5": "servicio"
+        },
+        "socialMedia": {
+            "title" : "Siga Nuestras Redes Sociales",
+            "media1" : {
+                "title": "Instagram",
+                "link": "https://www.instagram.com/mauricioo_chavez/"
+            },
+            "media2" : {
+                "title": "Youtube",
+                "link": "https://www.youtube.com/channel/UCFBCtpDmohglIPIulKmHDYg"
+            },
+            "media3" : {
+                "title":"Facebook",
+                "link": "https://www.facebook.com/mauricio.chavez.754/"
+            },
+            "media4" : {
+                "title":"Twitter",
+                "link": "https://twitter.com/JMC792_"
+            },
+            "media5" : {
+                "title":"TikTok",
+                "link": "https://www.tiktok.com/@jmc792"
+            }
+        },
+        "legal": {
+            "title" : "Contacto",
+            "link1" : {
+                "title":"(980)-392-7215",
+                "link": "tel: (980)-392-7215"
+            },
+            "link2" : {
+                "title":"info@queencitywebsolutions.com",
+                "link": "mailto: info@queencitywebsolutions.com"
+            }
+        },
+        "trademark":{
+            "year": "2023",
+            "company": "Queen City Web Solutions:",
+            "rights": "Todos los Derechos Reservados"
+        }
+    }
+}
