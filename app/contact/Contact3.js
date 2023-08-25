@@ -27,7 +27,7 @@ export default function Contact2({language,contactButton,image}){
                                 </div>
 
                                 {/* Form */}
-                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" name="contact">
+                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" name="contact" method="post">
                                         <div className="grid gap-y-4">
                                             
                                             <div className="grid gap-y-2 ">
