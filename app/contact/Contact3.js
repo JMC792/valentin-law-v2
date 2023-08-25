@@ -27,7 +27,7 @@ export default function Contact2({language,contactButton,image}){
                                 </div>
 
                                 {/* Form */}
-                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" >
+                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" name="contact">
                                         <div className="grid gap-y-4">
                                             
                                             <div className="grid gap-y-2 ">
@@ -50,7 +50,9 @@ export default function Contact2({language,contactButton,image}){
                                                 <textarea id="message" name="message" rows="4" placeholder="Message" className=" text-neutral-900 rounded-lg p-2" required></textarea>
                                             </div>
 
-                                            <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contact.contact.button.title}</button>
+                                            <p>
+                                                <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contact.contact.button.title}</button>
+                                            </p>
 
                                         </div>
                                         
