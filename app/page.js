@@ -26,6 +26,7 @@ export default function Page() {
               button={language.index.hero.button.title} 
               buttonLink={language.index.hero.button.link} 
             />
+            <Pricing/>
             <About 
               heading={language.index.about.heading} 
               title={language.index.about.title} 
@@ -43,7 +44,6 @@ export default function Page() {
               buttonLink={language.index.mission.button.link}
               image={SBS_Left}
             />
-            <Pricing/>
             <Testimonials 
               language = {language}
               images = {[image1,image2,image3]}
