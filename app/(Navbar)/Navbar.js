@@ -4,11 +4,10 @@ import {useState, useEffect, Fragment} from 'react';
 import Link from 'next/link'
 import language from "dictionaries/en.json"
 import Image from "next/image";
-import logo from "/public/icons/crown.svg";
 import SideNav from './SideNav';
 import menu from "/public/icons/menu.svg";
 
-function Navbar() {
+function Navbar(props) {
 
 
     //Off Canvas (mobile) menu hook
@@ -42,7 +41,7 @@ function Navbar() {
 
                             {/* Logo */}
                             <Link href={"/"} >
-                                <Image src={logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
+                                <Image src={props.logo} height={60} width={80} alt={"logo"} className={"cursor-pointer"}/>
                             </Link>
 
                             {/* List */}
@@ -52,7 +51,7 @@ function Navbar() {
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" }>
                                         <div className="capitalize">
-                                            {language.navbar.link1}
+                                            {props.link1}
                                         </div>
                                     </Link>
                                 </div>
@@ -61,7 +60,7 @@ function Navbar() {
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link2]}>
                                         <div className="capitalize">
-                                            {language.navbar.link2}
+                                            {props.link2}
                                         </div>
                                     </Link>
                                 </div>
@@ -70,7 +69,7 @@ function Navbar() {
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link3]}>
                                         <div className="capitalize">
-                                            {language.navbar.link3}
+                                            {props.link3}
                                         </div>
                                     </Link>
                                 </div>
@@ -79,7 +78,7 @@ function Navbar() {
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link4]}>
                                         <div className="capitalize">
-                                            {language.navbar.link4}
+                                            {props.link4}
                                         </div>
                                     </Link>
                                 </div>
@@ -88,24 +87,24 @@ function Navbar() {
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link5]}>
                                         <div className="capitalize">
-                                            {language.navbar.link5}
+                                            {props.link5}
                                         </div>
                                     </Link>
                                 </div>
 
                                 {/* Link 6 */}
-                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
+                                {/* <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link6]}>
                                         <div className="capitalize">
                                             {language.navbar.link6}
                                         </div>
                                     </Link>
-                                </div>
+                                </div> */}
 
                             </div>
 
                             {/* Language */}
-                            <div className="hidden lg:flex">
+                            {/* <div className="hidden lg:flex">
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href="/" locale={language.navbar.locale.spanish.code} scroll={false}>
                                         <div className="capitalize">
@@ -113,7 +112,7 @@ function Navbar() {
                                         </div>
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
 
                             {/* Contact Us */}
                             <div className="hidden lg:grid">
@@ -142,7 +141,20 @@ function Navbar() {
                 </div>
             </nav>
 
-            <SideNav language={language} showOffcanvas={showOffcanvas} offcanvas={offcanvas} logo={logo}/>
+            <SideNav 
+                language={language} 
+                links = {[
+                    props.link1,
+                    props.link2,
+                    props.link3,
+                    props.link4,
+                    props.link5,
+                    // props.link6
+                ]}
+                showOffcanvas={showOffcanvas} 
+                offcanvas={offcanvas} 
+                logo={props.logo}
+            />
 
         </Fragment>
     )
