@@ -13,7 +13,7 @@ import language from "dictionaries/en.json";
 import SBS_Right from "public/icons/Homepage/bjj1.svg";
 import SBS_Left from "public/icons/Homepage/bjj2.svg";
 //images
-import image1 from "public/images/homepage/julio.svg";
+import image1 from "public/images/homepage/testimonial_1.svg";
 import image2 from "/public/icons/Homepage/littleCircle.svg"
 import image3 from "/public/images/homepage/jesus.svg"
 import Stat from "app/(homepage)/Stat";
@@ -73,14 +73,14 @@ export default function Page() {
               person = {language.index.testimonial.person}
               images = {[image1,image2,image3]}
             />
-            <Newsletter 
+            {/* <Newsletter 
               heading={language.index.newsletter.heading} 
               title={language.index.newsletter.title} 
               sentence={language.index.newsletter.sentence}
               button={language.index.newsletter.button.title}
               buttonLink={language.index.newsletter.button.link}
               background = {"bg-back-7"}
-            />
+            /> */}
         </Fragment>
   );
 }

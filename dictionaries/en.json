@@ -21,7 +21,7 @@
         },
         "call": {
             "title": "Call-Us",
-            "number": "(980)-392-7215"
+            "number": "(704)-713-8454"
         }
     },
     "index": {
@@ -98,18 +98,18 @@
             "title": "Hear What Our Members Say",
             "person": {
                 "first": {
-                    "name": "Amanda Rodriguez",
+                    "name": "Mauricio Chavez",
                     "position": "Jiu Jitsu Enthusiast",
                     "paragraph": "Training at this gym has been a transformative experience for me. The instructors are skilled and patient, helping me develop a strong foundation in Brazilian Jiu Jitsu. The supportive community here motivates me to push my limits and improve every day."
                 },
                 "second": {
-                    "name": "Carlos Santos",
+                    "name": "Brooks Hasty",
                     "position": "Advanced Practitioner",
                     "paragraph": "I've been training in Brazilian Jiu Jitsu for years, and this gym has taken my skills to the next level. The advanced classes challenge me and keep me engaged. The camaraderie among fellow practitioners creates a positive and motivating atmosphere."
                 },
                 "third": {
-                    "name": "Sophia Oliveira",
-                    "position": "Beginner Student",
+                    "name": "Bobby Ta",
+                    "position": "Advanced Practitioner",
                     "paragraph": "As a beginner, I was welcomed with open arms. The fundamentals class provided a strong start to my journey in Brazilian Jiu Jitsu. The patient guidance of the instructors and the support of my fellow students have made this gym feel like a second home."
                 }
             }
@@ -198,18 +198,18 @@
         "stat":{
             "one": {
                 "title":"Phone",
-                "phone1":"(980)-290-7074",
-                "phone2":"(980)-290-7074"
+                "phone1":"(704)-713-8454",
+                "phone2":"(704)-713-8454"
             },
             "two":{
                 "title": "Address",
-                "address1": "PO Box 7725",
-                "address2": "Wilmington, NC 28406"
+                "address1": "9044 Lawyers Rd Suite G",
+                "address2": "Charlotte, NC 28227"
             },
             "three" : {
                 "title": "Open Hours",
-                "date": "Monday to Saturday",
-                "time": "9:00am - 5:00pm"
+                "date": "5:30PM - 8:30PM",
+                "time": "11:00AM - 1:00PM"
             }
         },
         "about3": {
@@ -379,9 +379,9 @@
         "overview": {
             "title" : "Checkmat NC",
             "paragraph" : "Checkmat NC is a premier Brazilian Jiu-Jitsu gym located in the heart of Charlotte, North Carolina. Our expert instructors are committed to providing comprehensive training in both the art and science of Brazilian Jiu-Jitsu, offering a safe and welcoming environment for practitioners of all skill levels. With a curriculum designed to enhance physical fitness, mental resilience, and self-defense capabilities, Checkmat NC is more than just a gym—it's a community dedicated to empowering individuals through the transformative power of martial arts",
-            "phoneNumber" : "(980)-290-7074",
-            "email" : "nicki@womenadvance.org",
-            "address" : "PO Box 7725, Wilmington, NC 28406",
+            "phoneNumber" : "(704)-713-8454",
+            "email" : "Checkmatnc@gmail.com",
+            "address" : "9044 Lawyers Rd Suite G, Charlotte, NC 28227",
             "addressLink" : "Checkmatnc@gmail.com"
         },
         "usefulLinks": {
@@ -396,7 +396,7 @@
             "title" : "Follow Our Socials",
             "media1" : {
                 "title": "Instagram",
-                "link": "https://www.instagram.com/mauricioo_chavez/"
+                "link": "https://www.facebook.com/checkmatnc"
             },
             "media2" : {
                 "title": "Youtube",
@@ -404,22 +404,22 @@
             },
             "media3" : {
                 "title":"Facebook",
-                "link": "https://www.facebook.com/mauricio.chavez.754/"
+                "link": "https://www.facebook.com/checkmatnc"
             },
             "media4" : {
                 "title":"Twitter",
-                "link": "https://twitter.com/JMC792_"
+                "link": "https://www.facebook.com/checkmatnc"
             },
             "media5" : {
                 "title":"TikTok",
-                "link": "https://www.tiktok.com/@jmc792"
+                "link": "https://www.facebook.com/checkmatnc"
             }
         },
         "legal": {
             "title" : "Contact",
             "link1" : {
-                "title":"(980)-392-7215",
-                "link": "tel: (980)-392-7215"
+                "title":"(704)-713-8454",
+                "link": "tel: (704)-713-8454"
             },
             "link2" : {
                 "title":"Checkmatnc@gmail.com",
