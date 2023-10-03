@@ -13,7 +13,7 @@ export default function Page(){
             <Hero
                 heroTitle={language.portfolio.hero.title}
                 heroSubtitle={language.portfolio.hero.subtitle}
-                background={"bg-back-5"}
+                background={"bg-back-about"}
             />
             <List
                 images={[image1,image2,image3,image1]}

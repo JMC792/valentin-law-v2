@@ -22,13 +22,22 @@ export default function SideNav(props){
                             {/* Logo */}
                             <div className="logo">
                                 <Link href={"/"} >
-                                    <Image src={props.logo} height={60} width={100} alt={"logo"}/>
+                                    <Image 
+                                        src={props.logo} 
+                                        height={60} 
+                                        width={100} 
+                                        alt={"logo"}
+                                    />
                                 </Link>
                             </div>
 
                             {/* Close Button */}
                             <button className="menu-bars text-[24px] opacity-80 hover:opacity-50 transition-all" aria-label="Right Align">
-                            <Image src={close} width={20} alt={"logo"} />
+                                <Image 
+                                    src={close} 
+                                    width={20} 
+                                    alt={"logo"} 
+                                />
                             </button>
                         </div>
 
@@ -38,45 +47,44 @@ export default function SideNav(props){
                             {/* Link 1 */}
                             <Link href={"/"} >
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.link1}
+                                    {props.links[0]}
                                 </div>
                             </Link>
 
                             {/* Link 2 */}
-                            <Link href={"/" + [props.language.navbar.link2]} >
+                            <Link href={"/" + [props.links[1]]} >
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.link2}
+                                    {props.links[1]}
                                 </div>
                             </Link>
 
                             {/* Link 3 */}
-                            <Link href={"/" + [props.language.navbar.link3]} >
+                            <Link href={"/" + [props.links[2]]} >
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.link3}
+                                    {props.links[2]}
                                 </div>
                             </Link>
 
                             {/* Link 4 */}
-                            <Link href={"/" + [props.language.navbar.link4]} >
+                            <Link href={"/" + [props.links[3]]} >
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.link4}
+                                    {props.links[3]}
                                 </div>
                             </Link>
 
                             {/* Link 5 */}
-                            <Link href={"/" + [props.language.navbar.link5]} >
+                            <Link href={"/" + [props.links[4]]} >
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.link5}
+                                    {props.links[4]}
                                 </div>
                             </Link>
 
                             {/* Link 6 */}
-                            {/* <Link href={'/'} locale={props.language.navbar.locale.spanish.code}>
+                            <Link href={'/'} locale={props.links[6]}>
                                 <div className='offcanvas-text'>
-                                    {props.language.navbar.locale.spanish.title}
+                                    {props.links[6]}
                                 </div>
-                            </Link> */}
-
+                            </Link>
                             
                         </div>
 

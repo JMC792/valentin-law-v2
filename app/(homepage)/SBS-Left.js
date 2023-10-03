@@ -14,7 +14,12 @@ export default function sbsLeft(props){
 
                     {/* ----------- Image ----------- */}
                     <div className="xl:pl-[10rem]">
-                        <Image src={props.image} alt="2 people" className="rounded-xl" decoding="async"/>
+                        <Image src={props.image} 
+                        alt="2 people" 
+                        width={800}
+                        height={800}
+                        className="rounded-xl" 
+                        decoding="async"/>
                     </div>
 
                     {/* Text */}

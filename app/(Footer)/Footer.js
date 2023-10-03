@@ -14,7 +14,7 @@ import Outgoing from "./Outgoing"
 import Trademark from "./Trademark"
 import Contact from "./Contact"
 
-export default function Footer() {
+export default function Footer(props) {
 
   return (
     <Fragment>
@@ -26,27 +26,16 @@ export default function Footer() {
             {/* Footer Layout*/}
             <div className="grid gap-y-20 lg:flex lg:justify-between items-start">
               <Overview
-                title = {language.footer.overview.title}
-                description = {language.footer.overview.paragraph}
-                image = {image1}
+                title = {props.overview[0]}
+                description = {props.overview[1]}
+                image = {props.overview[2]}
               />
               <Internal
-                links={[
-                  language.navbar.link1,
-                  language.navbar.link2,
-                  language.navbar.link3,
-                  language.navbar.link4,
-                  language.navbar.link5,
-                ]}/>
+                links={props.internal}/>
               <Outgoing 
                 title= {language.footer.socialMedia.title}
-                links={[
-                  [language.footer.socialMedia.media1.title, language.footer.socialMedia.media1.link],
-                  [language.footer.socialMedia.media2.title, language.footer.socialMedia.media2.link],
-                  [language.footer.socialMedia.media3.title, language.footer.socialMedia.media3.link],
-                  [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
-                  [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
-              ]}/>
+                links= {props.outgoing}
+              />
               <Contact 
                 title= {language.footer.legal.title}
                 links={[
@@ -62,9 +51,9 @@ export default function Footer() {
 
           {/*----------------------- Trademark ----------------------- */}
           <Trademark
-            year = {language.footer.trademark.year}
-            company = {language.footer.trademark.company}
-            rights = {language.footer.trademark.rights}
+            year = {props.trademark[0]}
+            company = {props.trademark[1]}
+            rights = {props.trademark[2]}
           />
         </div>
       </footer>

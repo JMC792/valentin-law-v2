@@ -30,111 +30,140 @@
             "description": ""
         },
         "hero": {
-            "title": "Building Brands, One Pixel at a Time",
-            "subtitle" : "we're dedicated to shaping digital landscapes with awe-inspiring web design and development. Our mission is to bring your brand's story to life through visually captivating and functionally flawless websites.",
-            "button" : {
+            "title": "Elevate Your Skills with Brazilian Jiu Jitsu",
+            "subtitle": "Experience the art of Brazilian Jiu Jitsu at our Charlotte gym. We're dedicated to helping you master the techniques and strategies that define this martial art.",
+            "button": {
                 "title": "Get Started",
                 "link": "/contact"
             }
         },
+        "services": {
+            "heading": "Our Services",
+            "title": "Unlock Your Potential with Brazilian Jiu Jitsu",
+            "paragraph": "At our Charlotte gym, we offer a range of Brazilian Jiu Jitsu classes for students of all levels. Whether you're a beginner or an advanced practitioner, our expert instructors are here to help you refine your skills and achieve your goals. We also offer private lessons for those seeking a more personalized learning experience.",
+            "one":{
+                "image": "/icons/Homepage/bjj4.svg",
+                "title": "Fundamentals",
+                "paragraph": "Our fundamentals class is designed for beginners who are new to Brazilian Jiu Jitsu. We'll teach you the basic techniques and strategies of the art, helping you develop a strong foundation for your practice."
+            },
+            "two":{
+                "image": "/icons/Homepage/bjj5.svg",
+                "title": "Advanced",
+                "paragraph": "Our advanced class is designed for experienced practitioners who are looking to take their skills to the next level. We'll help you refine your techniques and learn more advanced strategies."
+            },
+            "three":{
+                "image": "/icons/Homepage/bjj6.svg",
+                "title": "Private Lessons",
+                "paragraph": "Our private lessons are tailored to your unique needs and goals. Whether you're a beginner or an advanced practitioner, we'll help you achieve your goals and refine your skills."
+            },
+            "four":{
+                "image": "/icons/services/thai.svg",
+                "title": "Muay Thai",
+                "paragraph": "Our Muay Thai class is designed to help you develop the striking skills that complement Brazilian Jiu Jitsu. We'll teach you the fundamentals of Muay Thai and help you refine your techniques."
+            },
+            "button": {
+                "title": "Learn More",
+                "link": "/contact"
+            }
+        },
         "about": {
-            "heading" : "WHO WE ARE",
-            "title" : "Crafting Digital Experiences that Captivate and Convert",
-            "paragraph" : "We specialize in crafting captivating digital experiences that seamlessly blend creativity and technology. Our expert team is dedicated to designing visually stunning and user-centric websites that not only engage but also convert, ensuring your brand's success in the digital realm. Whether it's an e-commerce platform, corporate site, or interactive web app, we're committed to bringing your vision to life with captivating results.",
-            "button" : {
-                "title": "Contact Us",
+            "heading": "Welcome to Our Brazilian Jiu Jitsu Gym",
+            "title": "Experience the Power of Brazilian Jiu Jitsu",
+            "paragraph": "At our Charlotte gym, we specialize in providing an authentic Brazilian Jiu Jitsu experience. Our expert instructors are passionate about helping you learn and apply the art's techniques for self-defense, physical fitness, and personal growth. Whether you're a beginner or an experienced practitioner, our gym is the perfect place to refine your skills and embrace the journey of mastering Brazilian Jiu Jitsu.",
+            "button": {
+                "title": "Join Us",
                 "link": "/contact"
             }
         },
         "stat": {
-            "stat1" : {
-                "number": "18k+",
-                "title": "Projects Completed"
+            "stat1": {
+                "number": "500+",
+                "title": "Students Trained"
             },
-            "stat2" : {
-                "number": "18k+",
-                "title": "People helped"
+            "stat2": {
+                "number": "20+",
+                "title": "Instructors"
             },
-            "stat3" : {
-                "number": "18k+",
-                "title": "Sponsors"
+            "stat3": {
+                "number": "10+",
+                "title": "Years of Experience"
             },
-            "stat4" : {
-                "number": "18k+",
-                "title": "Partnerships"
+            "stat4": {
+                "number": "100+",
+                "title": "Weekly Classes"
             }
         },
         "testimonial": {
-            "heading": "Testimonials",
-            "title": "Happy Customer Feedback About Our Service",
-            "person":{
+            "heading": "Success Stories",
+            "title": "Hear What Our Members Say",
+            "person": {
                 "first": {
-                    "name":"Julio Zaconet",
-                    "position": "Valentin Law LLC",
-                    "paragraph": "Queen City Web Solutions turned our vision into reality with an exceptional website that exceeded our expectations. Their team's creativity and technical prowess are evident in every detail of the design, making navigation intuitive and user engagement seamless. We couldn't be happier with the stunning aesthetics and functionality they brought to our online presence"
+                    "name": "Amanda Rodriguez",
+                    "position": "Jiu Jitsu Enthusiast",
+                    "paragraph": "Training at this gym has been a transformative experience for me. The instructors are skilled and patient, helping me develop a strong foundation in Brazilian Jiu Jitsu. The supportive community here motivates me to push my limits and improve every day."
                 },
                 "second": {
-                    "name":"Nicki Faircloth",
-                    "position": "Women AdvaNCe",
-                    "paragraph": "Working with Queen City Web Solutions was an absolute delight. They took our ideas and transformed them into a visually striking and highly functional website. The design perfectly captures the essence of our brand, and the user experience is top-notch. Their dedication to excellence truly shines through, and we're proud to showcase our new website to our clients and partners"
+                    "name": "Carlos Santos",
+                    "position": "Advanced Practitioner",
+                    "paragraph": "I've been training in Brazilian Jiu Jitsu for years, and this gym has taken my skills to the next level. The advanced classes challenge me and keep me engaged. The camaraderie among fellow practitioners creates a positive and motivating atmosphere."
                 },
                 "third": {
-                    "name":"Jesus Chavez",
-                    "position": "Encuentro Church",
-                    "paragraph": "Queen City Web Solutions is a game-changer! They crafted a website that not only reflects our company's ethos but also ensures our visitors stay engaged and convert. The attention to detail is remarkable, from the seamless responsiveness across devices to the innovative features that set us apart. The team's expertise and commitment to delivering a remarkable online experience are unparalleled. We're incredibly impressed with the final result"
+                    "name": "Sophia Oliveira",
+                    "position": "Beginner Student",
+                    "paragraph": "As a beginner, I was welcomed with open arms. The fundamentals class provided a strong start to my journey in Brazilian Jiu Jitsu. The patient guidance of the instructors and the support of my fellow students have made this gym feel like a second home."
                 }
             }
         },
         "mission": {
-            "heading" : "Our Mission",
-            "title" : "Unlocking the Potential of Women In NC",
-            "paragraph": "At Queen City Web Solutions, our mission is to empower businesses with innovative digital strategies that elevate their online presence. Through cutting-edge web design, tailored development, and strategic marketing, we strive to create captivating digital experiences that drive growth and success. Our commitment is to be the driving force behind our clients' digital evolution, helping them reign supreme in the dynamic realm of the web",
+            "heading": "Our Mission",
+            "title": "Empowering Through Brazilian Jiu Jitsu",
+            "paragraph": "Our mission is to empower individuals through the practice of Brazilian Jiu Jitsu. We believe in fostering discipline, self-confidence, and physical well-being in a supportive and respectful environment. Whether you're seeking personal growth, self-defense skills, or a new way to stay fit, our gym is here to guide you on your journey.",
             "button": {
-                "title": "Contact Us",
+                "title": "Get in Touch",
                 "link": "/contact"
             }
         },
         "contact": {
-            "heading" : "Contact Us",
-            "title" : "Help Us Make Change",
-            "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
-            "button" : {
-                "title": "Submit",
+            "heading": "Contact Us",
+            "title": "Join Our Brazilian Jiu Jitsu Community",
+            "paragraph": "If you're ready to embark on a journey of self-improvement through Brazilian Jiu Jitsu, we invite you to get in touch with us. Our experienced instructors are here to answer your questions and help you get started.",
+            "button": {
+                "title": "Connect Now",
                 "link": ""
             }
         },
         "blog": {
-            "heading": "News & Articles",
-            "title": "Directly from the Latest",
+            "heading": "Insights & Tips",
+            "title": "Enhance Your Jiu Jitsu Knowledge",
             "button": {
-                "title": "View All",
-                "linkk": ""
+                "title": "Read More",
+                "link": ""
             },
-            "card1":{
-                "date": "07 Sept, 2022",
-                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
-                "blogType": "Women's History Month",
-                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            "card1": {
+                "date": "07 Sept, 2023",
+                "article": "Mastering Essential Brazilian Jiu Jitsu Techniques",
+                "blogType": "Technique Breakdown",
+                "sentence": "Explore the fundamental techniques of Brazilian Jiu Jitsu and learn how they form the building blocks of your practice."
             },
-            "card2":{
-                "date": "07 Sept, 2022",
-                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
-                "blogType": "Women's History Month",
-                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            "card2": {
+                "date": "07 Sept, 2023",
+                "article": "The Mental Game: Overcoming Challenges in Jiu Jitsu",
+                "blogType": "Mindset",
+                "sentence": "Discover strategies to enhance your mental resilience and approach challenges with a focused and positive mindset in your Jiu Jitsu journey."
             },
-            "card3":{
-                "date": "07 Sept, 2022",
-                "article": "Gertrude Weil Stared Antisemitism in the Face to Make Living Conditions Better for North Carolinians",
-                "blogType": "Women's History Month",
-                "sentence": "When we talk about social activism and progressive politics, the southern United States isn’t often at the forefront of most people’s minds"
+            "card3": {
+                "date": "07 Sept, 2023",
+                "article": "The Benefits of Brazilian Jiu Jitsu for Women",
+                "blogType": "Women's Empowerment",
+                "sentence": "Learn about the unique advantages that Brazilian Jiu Jitsu offers to women, both in terms of self-defense skills and personal growth."
             }
         },
         "newsletter": {
-            "heading": "Ignite Success Together!",
-            "title": " Book Your Strategy Session with Us Today!",
-            "sentence": "Leverage the collective drive for success! Secure your strategy session with us today and let's ignite achievements hand in hand, tailored to your needs as a software developer in Charlotte, NC",
+            "heading": "Stay Informed and Inspired!",
+            "title": "Subscribe to Our Jiu Jitsu Updates",
+            "sentence": "Stay up to date with the latest news, training tips, and events from our Brazilian Jiu Jitsu gym. Join our community and ignite your passion for Jiu Jitsu!",
             "button": {
-                "title": "Contact Us",
+                "title": "Subscribe Now",
                 "link": "/contact"
             }
         }
@@ -158,9 +187,9 @@
             }
         },
         "about2": {
-            "heading" : "Our Story",
-            "title" : "Nurturing Creativity Since Inception",
-            "paragraph": "Hola! I'm Mauricio, your tech guide hailing from Bolivia and a proud graduate of UNCC with a Cybersecurity degree. My journey has been a fusion of software sorcery and network wizardry. With years of experience, I've ventured into roles like a Software Developer and Network Engineer at Allstate, honing skills that range from Jenkins to Shell Scripting. My tech toolkit embraces everything from Role-Based Access Control (RBAC) to JSON, and even Microsoft SQL Server",
+            "heading" : "Empowering Excellence in BJJ",
+            "title" : "Jiu-Jitsu Mastery through Inspiring Leadership",
+            "paragraph": "Professor Paulo 'Mushu' Elsimaani stands as a distinguished figure in the realm of Brazilian Jiu-jitsu (BJJ), boasting an esteemed 5th-degree Black Belt and the coveted title of World Champion. He serves as the esteemed Head BJJ Professor/Coach at CheckMat North Carolina, where his expertise and guidance shape the future of this martial art.",
             "button": {
                 "title": "Contact Us",
                 "link": ""
@@ -298,33 +327,62 @@
             "title": "Service",
             "subtitle": "service"
         },
-        "section1": {
-            "heading" : "Digital Transformation Solutions",
-            "title" : "Empowering Your Business with Cutting-Edge Digital Transformation",
-            "paragraph" : "Unlock the potential of your business in the digital age with our transformative solutions. From innovative software development to seamless process automation, we guide you through every step of your digital journey, enhancing efficiency, customer engagement, and overall competitiveness.",
-            "button" : {
-                "title": "Contact Us",
+        "services": {
+            "heading": "Our Services",
+            "title": "Unlock Your Potential with Brazilian Jiu Jitsu",
+            "paragraph": "At our Charlotte gym, we offer a range of Brazilian Jiu Jitsu classes for students of all levels. Whether you're a beginner or an advanced practitioner, our expert instructors are here to help you refine your skills and achieve your goals. We also offer private lessons for those seeking a more personalized learning experience.",
+            "one":{
+                "image": "/icons/Homepage/bjj4.svg",
+                "title": "Fundamentals",
+                "paragraph": "Our fundamentals class is designed for beginners who are new to Brazilian Jiu Jitsu. We'll teach you the basic techniques and strategies of the art, helping you develop a strong foundation for your practice."
+            },
+            "two":{
+                "image": "/icons/Homepage/bjj5.svg",
+                "title": "Advanced",
+                "paragraph": "Our advanced class is designed for experienced practitioners who are looking to take their skills to the next level. We'll help you refine your techniques and learn more advanced strategies."
+            },
+            "three":{
+                "image": "/icons/Homepage/bjj6.svg",
+                "title": "Private Lessons",
+                "paragraph": "Our private lessons are tailored to your unique needs and goals. Whether you're a beginner or an advanced practitioner, we'll help you achieve your goals and refine your skills."
+            },
+            "four":{
+                "image": "/icons/Homepage/seo.svg",
+                "muayThai": "Muay Thai",
+                "paragraph": "Our Muay Thai class is designed to help you develop the striking skills that complement Brazilian Jiu Jitsu. We'll teach you the fundamentals of Muay Thai and help you refine your techniques."
+            },
+            "button": {
+                "title": "Learn More",
                 "link": "/contact"
             }
         },
-        "section2":{
-            "heading" : "Creative Branding and Design",
-            "title" : "Crafting Unique and Impactful Brand Identities",
-            "paragraph" : "Elevate your brand's visual appeal and identity with our creative design services. From logo conceptualization to comprehensive brand guidelines, we create compelling designs that resonate with your target audience, leaving a lasting impression and fostering brand loyalty.",
-            "button" : {
-                "title": "Contact Us",
-                "link": "/contact"
+        "section1": {
+            "heading": "Brazilian Jiu-Jitsu Training",
+            "title": "Master the Art of Brazilian Jiu-Jitsu with Expert Coaching",
+            "paragraph": "Unlock your potential on the mat with our world-class Brazilian Jiu-Jitsu training. From fundamental techniques to advanced strategies, we guide you through every aspect of the sport, enhancing your skills, physical fitness, and mental toughness.",
+            "button": {
+                "title": "Join Us",
+                "link": "/join"
             }
+        },
+        "section2": {
+        "heading": "Self-Defense and Fitness",
+        "title": "Empower Yourself with Self-Defense and Fitness Training",
+        "paragraph": "Elevate your physical and mental well-being with our comprehensive self-defense and fitness programs. From striking techniques to situational awareness, we provide practical skills that not only keep you safe but also improve your overall health.",
+        "button": {
+            "title": "Learn More",
+            "link": "/learn-more"
+        }
         }
     },
     "footer": {
         "overview": {
-            "title" : "Women AdvaNCe",
-            "paragraph" : "Queen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats",
+            "title" : "Checkmat NC",
+            "paragraph" : "Checkmat NC is a premier Brazilian Jiu-Jitsu gym located in the heart of Charlotte, North Carolina. Our expert instructors are committed to providing comprehensive training in both the art and science of Brazilian Jiu-Jitsu, offering a safe and welcoming environment for practitioners of all skill levels. With a curriculum designed to enhance physical fitness, mental resilience, and self-defense capabilities, Checkmat NC is more than just a gym—it's a community dedicated to empowering individuals through the transformative power of martial arts",
             "phoneNumber" : "(980)-290-7074",
             "email" : "nicki@womenadvance.org",
             "address" : "PO Box 7725, Wilmington, NC 28406",
-            "addressLink" : "https://goo.gl/maps/8LrxauLEj5XFz5b38"
+            "addressLink" : "Checkmatnc@gmail.com"
         },
         "usefulLinks": {
             "title": "Useful Links",
@@ -364,8 +422,8 @@
                 "link": "tel: (980)-392-7215"
             },
             "link2" : {
-                "title":"info@queencitywebsolutions.com",
-                "link": "mailto: info@queencitywebsolutions.com"
+                "title":"Checkmatnc@gmail.com",
+                "link": "mailto: Checkmatnc@gmail.com"
             }
         },
         "trademark":{

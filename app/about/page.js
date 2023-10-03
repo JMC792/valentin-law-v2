@@ -6,10 +6,10 @@ import About2 from "app/(homepage)/SBS-Right.js";
 import Stat2 from "app/about/Stat2.js";
 import About1 from "app/(homepage)/SBS-Left.js";
 //Images
-import me from "public/images/about/me.webp"
+import about1 from "public/images/about/about1.webp"
 
 //SVG
-import about1 from "public/icons/about/launch.svg"
+import svg1 from "public/icons/about/about1.svg"
 import phone from "public/icons/phone2.svg"
 import customer from "public/icons/customer.svg"
 import tick from "public/icons/tick.svg"
@@ -26,7 +26,7 @@ export default function Page() {
       <Hero2 
         heroTitle={language.about.hero.title} 
         heroSubtitle={language.about.hero.subtitle}  
-        background={"bg-back-1"}
+        background={"bg-back-about"}
       />
       <About2 
         heading={language.about.about2.heading} 
@@ -34,7 +34,7 @@ export default function Page() {
         paragraph={language.about.about2.paragraph} 
         button={language.about.about2.button.title}
         buttonLink={language.about.about2.button.link}
-        image={me}
+        image={about1}
       />
       <About1 
         heading={language.about.about1.heading} 
@@ -42,7 +42,7 @@ export default function Page() {
         paragraph={language.about.about1.paragraph} 
         button={language.about.about1.button.title}
         buttonLink={language.navbar.link4}
-        image={about1}
+        image={svg1}
       />
       <Stat2
         one={[language.about.stat.one.title,

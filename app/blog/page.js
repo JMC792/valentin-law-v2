@@ -17,7 +17,7 @@ export default function Page(){
             <Hero2
                 heroTitle={language.blog.hero.title}
                 heroSubtitle={language.blog.hero.subtitle}
-                background={"bg-back-5"}
+                background={"bg-back-about"}
             />
             <List
                 image={about4}

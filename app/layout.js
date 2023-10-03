@@ -1,13 +1,15 @@
 // These styles apply to every route in the application
 import Footer from 'app/(Footer)/Footer';
 import Navbar from 'app/(Navbar)/Navbar';
+import language from '/dictionaries/en.json';
 import '@styles/globals.css'
 import { Inter } from "next/font/google"
+import logo from "public/icons/logo.svg"
 
 export const metadata = {
   title: {
-    template: "%s | Queen City Web Solutions",
-    default: "Queen City Web Solutions",
+    template: "%s | Checkmat NC",
+    default: "Checkmat NC",
   },
   description: {default: "Queen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats."},
   appliationName: "Queen City Web Solutions",
@@ -26,9 +28,42 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
+        <Navbar
+          link1 = {language.navbar.link1}
+          link2 = {language.navbar.link2}
+          // link3 = {language.navbar.link3}
+          link4 = {language.navbar.link4}
+          link5 = {language.navbar.link5}
+          language = {language.navbar.link6}
+          logo = {logo}
+        />
           {children}
-        <Footer/>
+        <Footer
+          overview = {[
+            language.footer.overview.title,
+            language.footer.overview.paragraph,
+            logo
+          ]}
+          internal={[
+            language.navbar.link1,
+            language.navbar.link2,
+            language.navbar.link3,
+            language.navbar.link4,
+            language.navbar.link5,
+          ]}
+          outgoing={[
+            [language.footer.socialMedia.media1.title, language.footer.socialMedia.media1.link],
+            [language.footer.socialMedia.media2.title, language.footer.socialMedia.media2.link],
+            [language.footer.socialMedia.media3.title, language.footer.socialMedia.media3.link],
+            [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
+            [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
+          ]}
+          trademark={[
+            language.footer.trademark.year,
+            language.footer.trademark.company,
+            language.footer.trademark.rights
+          ]}
+        />
       </body>
     </html>
   );
