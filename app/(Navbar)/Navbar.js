@@ -66,13 +66,13 @@ function Navbar(props) {
                                 </div>
 
                                 {/* Link 3 */}
-                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
+                                {/* <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link3]}>
                                         <div className="capitalize">
                                             {props.link3}
                                         </div>
                                     </Link>
-                                </div>
+                                </div> */}
 
                                 {/* Link 4 */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
@@ -103,16 +103,16 @@ function Navbar(props) {
 
                             </div>
 
-                            {/* Language */}
-                            {/* <div className="hidden lg:flex">
+                            {/* External Link/Language */}
+                             <div className="hidden lg:flex">
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href="/" locale={language.navbar.locale.spanish.code} scroll={false}>
+                                    <Link href={props.external1[1]} scroll={false}>
                                         <div className="capitalize">
-                                            {language.navbar.locale.spanish.title}
+                                            {props.external1[0]}
                                         </div>
                                     </Link>
                                 </div>
-                            </div> */}
+                            </div> 
 
                             {/* Contact Us */}
                             <div className="hidden lg:grid">
@@ -146,10 +146,10 @@ function Navbar(props) {
                 links = {[
                     props.link1,
                     props.link2,
-                    props.link3,
+                    //props.link3,
                     props.link4,
                     props.link5,
-                    // props.link6
+                    props.external1
                 ]}
                 showOffcanvas={showOffcanvas} 
                 offcanvas={offcanvas} 

@@ -12,7 +12,6 @@
         "link3": "portfolio",
         "link4": "contact",
         "link5": "service",
-        "link6": "blog",
         "locale": {
             "spanish": {
                 "title": "spanish",
@@ -22,6 +21,10 @@
         "call": {
             "title": "Call-Us",
             "number": "(704)-713-8454"
+        },
+        "external": {
+            "title": "merch",
+            "link": "https://zenkofightwear.com/collections/checkmat-nc"
         }
     },
     "index": {
@@ -179,8 +182,8 @@
         },
         "about1": {
             "heading" : "Our Mission",
-            "title" : " Crafting Digital Excellence in Charlotte, NC",
-            "paragraph" : "We take pride in crafting digital excellence right here in the heart of Charlotte, NC. As your trusted partner for web solutions, we blend creativity and innovation to create captivating online experiences that drive business success. With a passion for precision and a commitment to client satisfaction, we're dedicated to helping you thrive in the dynamic world of digital technology",
+            "title" : "Building a Stronger Community, One Grapple at a Time",
+            "paragraph" : "Our mission is to empower individuals through the art of jiu-jitsu, instilling in them the values of discipline, respect, and community. Located in the heart of Charlotte, NC, we specialize in training beginners, equipping them with the skills they need for effective self-defense. What sets us apart is our close collaboration with the Matthews Police Department, reinforcing our commitment to community safety and engagement. Our ultimate goal for every member is to not only become proficient in jiu-jitsu but also to carry these core values into their daily lives. As we look to the future, we are excited to expand our community outreach initiatives and continue our partnership with local law enforcement to make Charlotte a safer place for all",
             "button" : {
                 "title": "Contact Us",
                 "link": "/contact"

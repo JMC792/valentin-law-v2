@@ -73,9 +73,9 @@ export default function SideNav(props){
                             </Link>
 
                             {/* Link 5 */}
-                            <Link href={"/" + [props.links[4]]} >
+                            <Link href= {props.links[4][1]} >
                                 <div className='offcanvas-text'>
-                                    {props.links[4]}
+                                    {props.links[4][0]}
                                 </div>
                             </Link>
 

@@ -31,10 +31,11 @@ export default function RootLayout({
         <Navbar
           link1 = {language.navbar.link1}
           link2 = {language.navbar.link2}
-          // link3 = {language.navbar.link3}
+          link3 = {language.navbar.link3}
           link4 = {language.navbar.link4}
           link5 = {language.navbar.link5}
-          language = {language.navbar.link6}
+          language = {language.navbar.locale.spanish}
+          external1 = {[language.navbar.external.title,language.navbar.external.link]}
           logo = {logo}
         />
           {children}
