@@ -41,10 +41,14 @@ export default function Page() {
               title={language.index.services.title}
               paragraph={language.index.services.paragraph}
               service={[
+                //Fundamentals 
                 [language.index.services.one.image,language.index.services.one.title,language.index.services.one.paragraph],
+                //Advanced 
                 [language.index.services.two.image,language.index.services.two.title,language.index.services.two.paragraph],
+                //Private 
                 [language.index.services.three.image,language.index.services.three.title,language.index.services.three.paragraph],
-                [language.index.services.four.image,language.index.services.four.title,language.index.services.three.paragraph]
+                //Muay Thai 
+                [language.index.services.four.image,language.index.services.four.title,language.index.services.four.paragraph]
                 ]}
               button={language.index.services.button.title}
             />
