@@ -20,7 +20,7 @@
         },
         "call": {
             "title": "Call-Us",
-            "number": "(704)-713-8454"
+            "number": "(513)-206-2764"
         },
         "external": {
             "title": "merch",
@@ -201,18 +201,21 @@
         "stat":{
             "one": {
                 "title":"Phone",
-                "phone1":"(704)-713-8454",
-                "phone2":"(704)-713-8454"
+                "phone1":"(513)-206-2764",
+                "phone2":"",
+                "alt": "phone"
             },
             "two":{
                 "title": "Address",
                 "address1": "9044 Lawyers Rd Suite G",
-                "address2": "Charlotte, NC 28227"
+                "address2": "Charlotte, NC 28227",
+                "alt": "address"
             },
             "three" : {
-                "title": "Open Hours",
-                "date": "5:30PM - 8:30PM",
-                "time": "11:00AM - 1:00PM"
+                "title": "Email",
+                "date": "checkmatnc@gmail.com",
+                "time": "",
+                "alt": "email"
             }
         },
         "about3": {
@@ -382,7 +385,7 @@
         "overview": {
             "title" : "Checkmat NC",
             "paragraph" : "Checkmat NC is a premier Brazilian Jiu-Jitsu gym located in the heart of Charlotte, North Carolina. Our expert instructors are committed to providing comprehensive training in both the art and science of Brazilian Jiu-Jitsu, offering a safe and welcoming environment for practitioners of all skill levels. With a curriculum designed to enhance physical fitness, mental resilience, and self-defense capabilities, Checkmat NC is more than just a gym—it's a community dedicated to empowering individuals through the transformative power of martial arts",
-            "phoneNumber" : "(704)-713-8454",
+            "phoneNumber" : "(513)-206-2764",
             "email" : "Checkmatnc@gmail.com",
             "address" : "9044 Lawyers Rd Suite G, Charlotte, NC 28227",
             "addressLink" : "Checkmatnc@gmail.com"
@@ -421,8 +424,8 @@
         "legal": {
             "title" : "Contact",
             "link1" : {
-                "title":"(704)-713-8454",
-                "link": "tel: (704)-713-8454"
+                "title":"(513)-206-2764",
+                "link": "tel: (513)-206-2764"
             },
             "link2" : {
                 "title":"Checkmatnc@gmail.com",

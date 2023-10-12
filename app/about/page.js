@@ -45,19 +45,32 @@ export default function Page() {
         image={svg1}
       />
       <Stat2
-        one={[language.about.stat.one.title,
-          language.about.stat.one.phone1,
-          language.about.stat.one.phone2,
-          phone
+        service = {[
+            // Phone Number
+            [
+                language.about.stat.one.title,
+                language.about.stat.one.phone1,
+                language.about.stat.one.phone2,
+                phone,
+                language.about.stat.one.alt
+            ],
+            // Address
+            [
+                language.about.stat.two.title,
+                language.about.stat.two.address1,
+                language.about.stat.two.address2,
+                customer,
+                language.about.stat.two.alt
+            ],
+            //Open Hours
+            [
+                language.about.stat.three.title,
+                language.about.stat.three.date,
+                language.about.stat.three.time,
+                tick,
+                language.about.stat.three.alt
+            ],
         ]}
-        two={[language.about.stat.two.title,
-          language.about.stat.two.address1,
-          language.about.stat.two.address2,
-          customer]}
-        three={[language.about.stat.three.title,
-          language.about.stat.three.date,
-          language.about.stat.three.time,
-          tick]}
       />
       {/* <About1 
         heading={language.about.about3.heading} 
