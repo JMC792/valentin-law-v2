@@ -16,24 +16,6 @@ export const metadata = {
   description: '...',
 }
 
-async function getData(){
-
-  try{
-    const response = await fetch('/dictionaries/en.json')
-
-    console.log("response data")
-    console.log(response);
-
-    if (!response.ok) {
-      throw new Error('Failed to fetch data');
-    }
-    return await response.json();
-    } catch (error) {
-      console.error('Error fetching data', error);
-      throw error
-    }
-  
-}
 
 export default async function Page() {
 
@@ -48,26 +30,34 @@ export default async function Page() {
         language={language} 
         image={contact1}
       />
-      <Stat
-        one={[
-          language.about.stat.one.title,
-          language.about.stat.one.phone1,
-          language.about.stat.one.phone2,
-          phone
-        ]}
-        two={[
-          language.about.stat.two.title,
-          language.about.stat.two.address1,
-          language.about.stat.two.address2,
-          customer
-        ]}
-        three={[
-          language.about.stat.three.title,
-          language.about.stat.three.date,
-          language.about.stat.three.time,
-          tick
-        ]}
-      />
+        <Stat
+            service = {[
+                // Phone Number
+                [
+                    language.about.stat.one.title,
+                    language.about.stat.one.phone1,
+                    language.about.stat.one.phone2,
+                    phone,
+                    language.about.stat.one.alt
+                ],
+                // Address
+                [
+                    language.about.stat.two.title,
+                    language.about.stat.two.address1,
+                    language.about.stat.two.address2,
+                    customer,
+                    language.about.stat.two.alt
+                ],
+                //Open Hours
+                [
+                    language.about.stat.three.title,
+                    language.about.stat.three.date,
+                    language.about.stat.three.time,
+                    tick,
+                    language.about.stat.three.alt
+                ],
+            ]}
+        />
     </Fragment>
   );
 }
