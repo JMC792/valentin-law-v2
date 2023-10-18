@@ -52,6 +52,10 @@ export default function Services(props){
                                         {service[2]}
                                     </div>
 
+                                    <div className="pt-10">
+                                        {service[3]}
+                                    </div>
+
                                 </div>
                             </div>
                         ))}
