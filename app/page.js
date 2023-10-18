@@ -42,13 +42,29 @@ export default function Page() {
               paragraph={language.index.services.paragraph}
               service={[
                 //Fundamentals 
-                [language.index.services.one.image,language.index.services.one.title,language.index.services.one.paragraph],
+                [
+                    language.index.services.one.image,
+                    language.index.services.one.title,
+                    language.index.services.one.paragraph,
+                ],
                 //Advanced 
-                [language.index.services.two.image,language.index.services.two.title,language.index.services.two.paragraph],
+                [
+                    language.index.services.two.image,
+                    language.index.services.two.title,
+                    language.index.services.two.paragraph
+                ],
                 //Private 
-                [language.index.services.three.image,language.index.services.three.title,language.index.services.three.paragraph],
+                [
+                    language.index.services.three.image,
+                    language.index.services.three.title,
+                    language.index.services.three.paragraph
+                ],
                 //Muay Thai 
-                [language.index.services.four.image,language.index.services.four.title,language.index.services.four.paragraph]
+                [
+                    language.index.services.four.image,
+                    language.index.services.four.title,
+                    language.index.services.four.paragraph
+                ]
                 ]}
               button={language.index.services.button.title}
             />
@@ -60,16 +76,49 @@ export default function Page() {
               buttonLink={language.index.mission.button.link}
               image={SBS_Left}
             />
-            {/* <Stat
-              stat1number={language.index.stat.stat1.number}
-              stat1title={language.index.stat.stat1.title}
-              stat2number={language.index.stat.stat2.number}
-              stat2title={language.index.stat.stat2.title}
-              stat3number={language.index.stat.stat3.number}
-              stat3title={language.index.stat.stat3.title}
-              stat4number={language.index.stat.stat4.number}
-              stat4title={language.index.stat.stat4.title}
-            /> */}
+            <Stat
+                stat = {[
+                    //Monday
+                    [
+                        language.index.stat.days.monday,
+                        [language.index.stat.class.gi,language.index.stat.times.time1],
+                        [language.index.stat.class.nogi,language.index.stat.times.time3],
+                        [language.index.stat.class.fundamentals,language.index.stat.times.time4],
+                    ],
+                    //Tuesday
+                    [
+                        language.index.stat.days.tuesday,
+                        [language.index.stat.class.kidsgi,language.index.stat.times.time2],
+                        [language.index.stat.class.fundamentals,language.index.stat.times.time3],
+                        [language.index.stat.class.advanced,language.index.stat.times.time4],
+                    ],
+                    //Wednesday
+                    [
+                        language.index.stat.days.wednesday,
+                        [language.index.stat.class.gi,language.index.stat.times.time1],
+                        [language.index.stat.class.kidsgi,language.index.stat.times.time2],
+                        [language.index.stat.class.muaythai,language.index.stat.times.time7],
+                        [language.index.stat.class.nogi,language.index.stat.times.time5],
+                    ],
+                    //Thursday
+                    [language.index.stat.days.thursday],
+                    //Friday
+                    [
+                        language.index.stat.days.friday,
+                        [language.index.stat.class.openmat,language.index.stat.times.time7]
+                    ],
+                    //Saturday
+                    [
+                        language.index.stat.days.saturday,
+                        [language.index.stat.class.openmat,language.index.stat.times.time6]
+                    ],
+                    //Sunday
+                    [
+                        language.index.stat.days.sunday,
+                        language.index.stat.class.closed
+                    ],
+                ]}
+            />
             <Testimonials 
               language = {language}
               heading={language.index.testimonial.heading}

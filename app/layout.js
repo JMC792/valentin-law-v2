@@ -48,7 +48,7 @@ export default function RootLayout({
           internal={[
             language.navbar.link1,
             language.navbar.link2,
-            language.navbar.link3,
+            // language.navbar.link3,
             language.navbar.link4,
             language.navbar.link5,
           ]}
@@ -56,8 +56,8 @@ export default function RootLayout({
             [language.footer.socialMedia.media1.title, language.footer.socialMedia.media1.link],
             [language.footer.socialMedia.media2.title, language.footer.socialMedia.media2.link],
             [language.footer.socialMedia.media3.title, language.footer.socialMedia.media3.link],
-            [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
-            [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
+            // [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
+            // [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
           ]}
           trademark={[
             language.footer.trademark.year,

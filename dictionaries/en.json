@@ -79,21 +79,34 @@
             }
         },
         "stat": {
-            "stat1": {
-                "number": "500+",
-                "title": "Students Trained"
+            "days": {
+                "monday": "monday",
+                "tuesday": "tuesday",
+                "wednesday": "wednesday",
+                "thursday": "thursday",
+                "friday": "friday",
+                "saturday": "saturday",
+                "sunday": "sunday"
             },
-            "stat2": {
-                "number": "20+",
-                "title": "Instructors"
+            "times": {
+                "time1": "7:00am - 8:00am",
+                "time2": "5:30pm - 6:30pm",
+                "time3": "6:30pm - 7:45pm",
+                "time4": "7:45pm - 8:45pm",
+                "time5": "7:30pm - 8:30pm",
+                "time6": "11:00pm - 1:00pm",
+                "time7": "6:30pm - 7:30pm",
+                "time8": "closed"
             },
-            "stat3": {
-                "number": "10+",
-                "title": "Years of Experience"
-            },
-            "stat4": {
-                "number": "100+",
-                "title": "Weekly Classes"
+            "class": {
+                "gi": "Gi",
+                "nogi": "No-Gi",
+                "kidsgi": "Kids Gi",
+                "fundamentals": "Fundamentals",
+                "advanced": "Advanced",
+                "openmat": "Open Mat",
+                "muaythai": "Muay Thai",
+                "closed": "Closed"
             }
         },
         "testimonial": {
@@ -406,7 +419,7 @@
             },
             "media2" : {
                 "title": "Youtube",
-                "link": "https://www.youtube.com/channel/UCFBCtpDmohglIPIulKmHDYg"
+                "link": "https://www.youtube.com/@checkmatnc7843"
             },
             "media3" : {
                 "title":"Facebook",
@@ -414,7 +427,7 @@
             },
             "media4" : {
                 "title":"Twitter",
-                "link": "https://www.facebook.com/checkmatnc"
+                "link": "https://twitter.com/search?q=checkmat%20nc%20&src=typed_query"
             },
             "media5" : {
                 "title":"TikTok",
