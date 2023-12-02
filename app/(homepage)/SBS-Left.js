@@ -26,7 +26,7 @@ export default function sbsLeft(props){
                     <div className="lg:p-10 xl:p-20 tracking-tight"> {/* Padding */}
                         
                         {/* Subheading */}
-                        <div className="text-purple-700">
+                        <div className="text-yellow-700">
                             <div className="text-lg font-medium">{props.heading}</div>
                         </div>
                         
@@ -45,7 +45,7 @@ export default function sbsLeft(props){
                                 {/* Button */}
                                 <div className="">
                                     <Link href= {props.buttonLink}>
-                                        <button className="border rounded-lg p-4 bg-teal-800 text-white">{props.button}</button>
+                                        <button className="border rounded-lg p-4 bg-yellow-800 text-white">{props.button}</button>
                                     </Link>
                                 </div>
                                     
