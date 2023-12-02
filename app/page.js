@@ -10,8 +10,8 @@ import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "dictionaries/en.json";
 //icons
-import SBS_Right from "public/icons/Homepage/bjj1.svg";
-import SBS_Left from "public/icons/Homepage/bjj2.svg";
+import SBS_Right from "public/images/Homepage/about1.2.png";
+import SBS_Left from "public/icons/Homepage/svg2.svg";
 //images
 import image1 from "public/images/homepage/testimonial_1.svg";
 import image2 from "/public/icons/Homepage/littleCircle.svg"

@@ -9,19 +9,19 @@ export default function Hero({title,subtitle,button}) {
             {/* Hero Background */}
             <div className="h-screen bg-back-2 bg-cover" id="header">
                 {/* Hero Container */}
-                <div className="container flex justify-center">
+                <div className="container justify-centerß">
                     {/* Horizontal Margin and Padding */}
                     <div className="pt-[13rem] md:pt-[15rem] lg:pt-[16rem]">
                         {/* Vertical Margin and Padding */}
-                        <div className="lg:px-[10rem] 2xl:px-[15rem]">
+                        <div className="grid lg:grid-cols-2 pl-20">
 
 
-                            <div className="text-center text-neutral-100 animate-slide-from-opacity">
+                            <div className="text-neutral-100 animate-slide-from-opacity">
                                 {/* Text Wrapper */}
                                 <div className="space-y-10">
                                     
                                     {/* Hero Title */}
-                                    <div className="lg:px-12 slide-from-opacity">
+                                    <div className="slide-from-opacity">
                                         <div className="text-4xl lg:text-5xl 2xl:text-6xl">
                                             <div className="font-bold leading-tight">
                                                 {title}
@@ -31,7 +31,7 @@ export default function Hero({title,subtitle,button}) {
                                     
                                     
                                     {/* Hero Subtitle */}
-                                    <div className="lg:px-24">
+                                    <div className="">
                                         <div className="text-lg">
                                             {subtitle}
                                         </div>
@@ -40,7 +40,7 @@ export default function Hero({title,subtitle,button}) {
                                     {/* Hero Button */}
                                     <div>
                                         <Link href="/contact" >
-                                            <button type="button" className="bg-teal-800 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
+                                            <button type="button" className="bg-yellow-800 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
                                                 {button}
                                             </button>
                                         </Link>
