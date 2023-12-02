@@ -1,10 +1,10 @@
 {
     "layout": {
-        "title": "Women AdvaNCe",
-        "description": "Women AdvaNCe is a community of storytellers. We follow the needs of underserved populations and uplift the discussions that matter to the women in our state. Women in our state, especially disabled women, LGBTQ+ women, and BIPOC women, are too often silenced or discouraged from raising concerns about justice and equity",
-        "applicationName": "Women Advance",
+        "title": "Krispy Captures",
+        "description": "Krispy Captures, led by the passionate and skilled Pedro Garcia, is a dynamic photography company based in Charlotte, North Carolina, specializing in vivid and memorable imagery. With over three years of experience, Pedro, a young Hispanic male, brings a fresh and innovative approach to capturing life's most precious moments.",
+        "applicationName": "Krispy Captures",
         "creator": "Jesus Chavez",
-        "publisher": "Bold & Bright Media"
+        "publisher": "Pedro Garcia"
     },
     "navbar": {
         "link1": "home",
@@ -33,8 +33,8 @@
             "description": ""
         },
         "hero": {
-            "title": "Elevate Your Skills with Brazilian Jiu Jitsu",
-            "subtitle": "Experience the art of Brazilian Jiu Jitsu at our Charlotte gym. We're dedicated to helping you master the techniques and strategies that define this martial art.",
+            "title": "Capturing Moments, Crafting Memories",
+            "subtitle": "At Krispy Captures, we specialize in turning fleeting moments into lasting impressions. Experience the pinnacle of photography with a creative edge in Charlotte, NC",
             "button": {
                 "title": "Get Started",
                 "link": "/contact"
@@ -45,23 +45,23 @@
             "title": "Unlock Your Potential with Brazilian Jiu Jitsu",
             "paragraph": "At our Charlotte gym, we offer a range of Brazilian Jiu Jitsu classes for students of all levels. Whether you're a beginner or an advanced practitioner, our expert instructors are here to help you refine your skills and achieve your goals. We also offer private lessons for those seeking a more personalized learning experience.",
             "one":{
-                "image": "/icons/Homepage/bjj4.svg",
-                "title": "Fundamentals",
+                "image": "/icons/Homepage/svg2.1.svg",
+                "title": "Commercials",
                 "paragraph": "Our fundamentals class is designed for beginners who are new to Brazilian Jiu Jitsu. We'll teach you the basic techniques and strategies of the art, helping you develop a strong foundation for your practice."
             },
             "two":{
-                "image": "/icons/Homepage/bjj5.svg",
-                "title": "Advanced",
+                "image": "/icons/Homepage/svg2.2.svg",
+                "title": "Real Estate",
                 "paragraph": "Our advanced class is designed for experienced practitioners who are looking to take their skills to the next level. We'll help you refine your techniques and learn more advanced strategies."
             },
             "three":{
-                "image": "/icons/Homepage/bjj6.svg",
-                "title": "Private Lessons",
+                "image": "/icons/Homepage/svg2.3.svg",
+                "title": "Graduation",
                 "paragraph": "Our private lessons are tailored to your unique needs and goals. Whether you're a beginner or an advanced practitioner, we'll help you achieve your goals and refine your skills."
             },
             "four":{
                 "image": "/icons/services/thai.svg",
-                "title": "Muay Thai",
+                "title": "Aerial",
                 "paragraph": "Today, dare to take on a comprehensive workout that promises remarkable gains in strength and unrivaled striking prowess. Our Muay Thai & Boxing Classes in the Charlotte area present an open door for individuals from all walks of life to delve into the art of the eight limbs while pushing their physical limits like never before. "
             },
             "button": {
@@ -70,9 +70,9 @@
             }
         },
         "about": {
-            "heading": "Welcome to Our Brazilian Jiu Jitsu Gym",
-            "title": "Experience the Power of Brazilian Jiu Jitsu",
-            "paragraph": "At our Charlotte gym, we specialize in providing an authentic Brazilian Jiu Jitsu experience. Our expert instructors are passionate about helping you learn and apply the art's techniques for self-defense, physical fitness, and personal growth. Whether you're a beginner or an experienced practitioner, our gym is the perfect place to refine your skills and embrace the journey of mastering Brazilian Jiu Jitsu.",
+            "heading": "About Us",
+            "title": "Our Journey and Passion",
+            "paragraph": "Founded by Pedro, a talented photographer with over 5 years of experience, Queen City Web Solutions began as a Hispanic-owned venture in Charlotte, NC, dedicated to capturing life's precious moments with authenticity and artistry.",
             "button": {
                 "title": "Join Us",
                 "link": "/contact"
