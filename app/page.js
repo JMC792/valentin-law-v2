@@ -10,7 +10,7 @@ import Newsletter from "app/(homepage)/Newsletter";
 //Locales
 import language from "dictionaries/en.json";
 //icons
-import SBS_Right from "public/images/Homepage/about1.2.png";
+import SBS_Right from "public/images/homepage/about1.2.png";
 import SBS_Left from "public/icons/Homepage/svg2.svg";
 //images
 import image1 from "public/images/homepage/testimonial_1.svg";

@@ -12,7 +12,7 @@ export default function Services(props){
                     {/* Services Heading Wrapper */}
                     <div className="grid gap-y-10 pb-8 text-center">
                         {/* Header */}
-                        <div className="text-xl font-medium text-purple-900 capitalize">
+                        <div className="text-xl font-medium text-yellow-500 capitalize">
                             {props.heading}
                         </div>
                         {/* Title */}
