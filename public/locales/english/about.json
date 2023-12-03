@@ -25,26 +25,6 @@
             "link": "/contact"
         }
     },
-    "stat":{
-        "one": {
-            "title":"Phone",
-            "phone1":"(513)-206-2764",
-            "phone2":"",
-            "alt": "phone"
-        },
-        "two":{
-            "title": "Address",
-            "address1": "9044 Lawyers Rd Suite G",
-            "address2": "Charlotte, NC 28227",
-            "alt": "address"
-        },
-        "three" : {
-            "title": "Email",
-            "date": "checkmatnc@gmail.com",
-            "time": "",
-            "alt": "email"
-        }
-    },
     "about3": {
         "heading" : "Our Expertise",
         "title" : "Specialized Solutions Tailored to Your Needs",

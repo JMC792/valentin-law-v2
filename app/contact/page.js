@@ -36,27 +36,27 @@ export default async function Page() {
             service = {[
                 // Phone Number
                 [
-                  about.stat.one.title,
-                  about.stat.one.phone1,
-                  about.stat.one.phone2,
+                  contact.stat.one.title,
+                  contact.stat.one.phone1,
+                  contact.stat.one.phone2,
                   phone,
-                  about.stat.one.alt
+                  contact.stat.one.alt
                 ],
                 // Address
                 [
-                  about.stat.two.title,
-                  about.stat.two.address1,
-                  about.stat.two.address2,
+                  contact.stat.two.title,
+                  contact.stat.two.address1,
+                  contact.stat.two.address2,
                   customer,
-                  about.stat.two.alt
+                  contact.stat.two.alt
                 ],
                 //Open Hours
                 [
-                  about.stat.three.title,
-                  about.stat.three.date,
-                  about.stat.three.time,
+                  contact.stat.three.title,
+                  contact.stat.three.date,
+                  contact.stat.three.time,
                   tick,
-                  about.stat.three.alt
+                  contact.stat.three.alt
                 ],
             ]}
         />

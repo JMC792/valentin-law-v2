@@ -45,34 +45,6 @@ export default function Page() {
         buttonLink={about.about1.button.link}
         image={about2}
             />
-      <Stat2
-        service = {[
-            // Phone Number
-            [
-                about.stat.one.title,
-                about.stat.one.phone1,
-                about.stat.one.phone2,
-                phone,
-                about.stat.one.alt
-            ],
-            // Address
-            [
-                about.stat.two.title,
-                about.stat.two.address1,
-                about.stat.two.address2,
-                customer,
-                about.stat.two.alt
-            ],
-            //Open Hours
-            [
-                about.stat.three.title,
-                about.stat.three.date,
-                about.stat.three.time,
-                tick,
-                about.stat.three.alt
-            ],
-        ]}
-      />
     </Fragment>
   );
 }
