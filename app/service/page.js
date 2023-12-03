@@ -6,8 +6,8 @@ import Services from "app/(homepage)/Services";
 //Locales
 import service from "public/locales/english/services.json";
 //images
-import image1 from "public/icons/homepage/svg1.svg";
-import image2 from "public/icons/homepage/svg2.svg";
+import image1 from "public/icons/Homepage/svg1.svg";
+import image2 from "public/icons/Homepage/svg2.svg";
 
 
 export const metadata = {
