@@ -8,7 +8,7 @@ import image1 from "public/images/portfolio/portfolio2.jpg"
 import image3 from "public/images/portfolio/portfolio3.jpg"
 import image4 from "public/images/portfolio/portfolio4.jpg"
 import image5 from "public/images/portfolio/portfolio5.jpg"
-import image6 from "public/images/portfolio/portfolio6.jpg"
+import image6 from "public/images/portfolio/portfolio6.1.jpg"
 
 export default function Page(){
     return(

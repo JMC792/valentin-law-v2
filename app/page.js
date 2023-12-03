@@ -24,7 +24,7 @@ import portfolio2 from "/public/images/portfolio/portfolio2.jpg";
 import portfolio3 from "/public/images/portfolio/portfolio3.jpg";
 import portfolio4 from "/public/images/portfolio/portfolio4.jpg";
 import portfolio5 from "/public/images/portfolio/portfolio5.jpg";
-import portfolio6 from "/public/images/portfolio/portfolio6.jpg";
+import portfolio6 from "/public/images/portfolio/portfolio6.1.jpg";
 
 export default function Page() {
   return (
