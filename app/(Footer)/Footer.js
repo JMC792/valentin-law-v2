@@ -1,12 +1,5 @@
 import { Fragment } from "react"
 
-// Icons
-import call from "public/icons/call2.svg"
-import email from "public/icons/email.svg"
-import image1 from "public/icons/crown.svg"
-import location from "public/icons/location_on_white.svg"
-import language from "dictionaries/en.json"
-
 // Components
 import Overview from "./Overview"
 import Internal from "./Internal"
@@ -33,14 +26,14 @@ export default function Footer(props) {
               <Internal
                 links={props.internal}/>
               <Outgoing 
-                title= {language.footer.socialMedia.title}
+                title= {props.outgoing[3]}
                 links= {props.outgoing}
               />
               <Contact 
-                title= {language.footer.legal.title}
+                title= {props.contact[0]}
                 links={[
-                  [language.footer.legal.link1.title, language.footer.legal.link1.link, call, "call"],
-                  [language.footer.legal.link2.title, language.footer.legal.link2.link, email, "email"],
+                  [props.contact[1][0], props.contact[1][1], props.contact[1][2], props.contact[1][3]],
+                  [props.contact[2][0], props.contact[2][1], props.contact[2][2], props.contact[2][3]]
                 ]}
               />
             </div>

@@ -2,20 +2,23 @@
 import Footer from 'app/(Footer)/Footer';
 import Navbar from 'app/(Navbar)/Navbar';
 import language from '/dictionaries/en.json';
+import navbar from '/public/locales/english/navbar.json';
+import footer from '/public/locales/english/footer.json';
 import '@styles/globals.css'
 import { Inter } from "next/font/google"
 import logo from "public/icons/logo.svg"
+import call from "public/icons/call2.svg"
+import email from "public/icons/email.svg"
 
 export const metadata = {
   title: {
-    template: "%s | Checkmat NC",
-    default: "Checkmat NC",
+    template: "%s | " + [language.layout.title],
+    default: [language.layout.title],
   },
-  description: {default: "Queen City Web Solutions is a dynamic web services provider based in Charlotte, North Carolina. Our dedicated team specializes in delivering top-tier web design and development solutions, seamlessly merging creativity and technology to craft engaging online experiences. With a strong focus on cybersecurity, we ensure that your digital journey is not only visually captivating but also fortified against potential threats."},
-  appliationName: "Queen City Web Solutions",
-  keywords: ["Queen","City","Web Solutions","Charlotte","North Carolina"],
-  creator: 'Mauricio Chavez',
-  publisher: 'Queen City Web Solutions',
+  description: {default: [language.layout.description]},
+  appliationName: [language.layout.applicationName],
+  creator: [language.layout.creator],
+  publisher: [language.layout.publisher],
 };
 
 const inter =Inter({subsets:['latin']})
@@ -29,40 +32,45 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar
-          link1 = {language.navbar.link1}
-          link2 = {language.navbar.link2}
-          link3 = {language.navbar.link3}
-          link4 = {language.navbar.link4}
-          link5 = {language.navbar.link5}
-          language = {language.navbar.locale.spanish}
-          external1 = {[language.navbar.external.title,language.navbar.external.link]}
+          link1 = {navbar.link1} //Home
+          link2 = {navbar.link2} //About
+          link3 = {navbar.link3} //Portfolio
+          link4 = {navbar.link4} //Contact
+          link5 = {navbar.link5} //Service
+          language = {navbar.locale.spanish}
+          external1 = {[navbar.external.title,navbar.external.link]}
+          phoneNumber = {navbar.call.number}
           logo = {logo}
         />
           {children}
         <Footer
           overview = {[
-            language.footer.overview.title,
-            language.footer.overview.paragraph,
+            language.layout.title, 
+            language.layout.description,
             logo
           ]}
           internal={[
-            language.navbar.link1,
-            language.navbar.link2,
-            // language.navbar.link3,
-            language.navbar.link4,
-            language.navbar.link5,
+            navbar.link1, //Home
+            navbar.link2, //About
+            navbar.link3, //Portfolio
+            navbar.link4, //Contact
+            navbar.link5, //Service
           ]}
           outgoing={[
-            [language.footer.socialMedia.media1.title, language.footer.socialMedia.media1.link],
-            [language.footer.socialMedia.media2.title, language.footer.socialMedia.media2.link],
-            [language.footer.socialMedia.media3.title, language.footer.socialMedia.media3.link],
-            // [language.footer.socialMedia.media4.title, language.footer.socialMedia.media4.link],
-            // [language.footer.socialMedia.media5.title, language.footer.socialMedia.media5.link]
+            [footer.socialMedia.media1.title, footer.socialMedia.media1.link], //Facebook
+            [footer.socialMedia.media2.title, footer.socialMedia.media2.link], //Instagram
+            [footer.socialMedia.media3.title, footer.socialMedia.media3.link], //Twitter
+            [footer.legal.title]
+          ]}
+          contact= {[
+            [footer.legal.title],
+            [footer.legal.link1.title, footer.legal.link1.link, call, "call"],
+            [footer.legal.link2.title, footer.legal.link2.link, email, "email"],
           ]}
           trademark={[
-            language.footer.trademark.year,
-            language.footer.trademark.company,
-            language.footer.trademark.rights
+            footer.trademark.year,
+            footer.trademark.company,
+            footer.trademark.rights
           ]}
         />
       </body>

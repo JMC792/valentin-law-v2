@@ -15,8 +15,8 @@ export default function List({ images, blogData}) {
                     const blog = blogData[key];
                     return (
                         <div key={key}>
-                            <Link href={blog.link}>
-                                <div className="cursor-pointer">
+                            {/* <Link href={blog.link}> */}
+                                {/* <div className="cursor-pointer"> */}
                                     <Image 
                                         src={images[index]} 
                                         alt="Picture of the author" 
@@ -24,12 +24,12 @@ export default function List({ images, blogData}) {
                                         height={500} 
                                         className="rounded hover:duration-300 hover:scale-105" 
                                     />
-                                    <div className="pt-4 grid gap-y-1 text-neutral-900">
+                                    {/* <div className="pt-4 grid gap-y-1 text-neutral-900">
                                         <div className="text-lg font-bold capitalize">{blog.name}</div>
                                         <div className="text-sm font-light">{blog.sentence}</div>
-                                    </div>
-                                </div>
-                            </Link>
+                                    </div> */}
+                                {/* </div> */}
+                            {/* </Link> */}
                         </div>
                     );
                 })}

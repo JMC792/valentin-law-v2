@@ -1,0 +1,21 @@
+{
+    "link1": "home",
+    "link2": "about",
+    "link3": "portfolio",
+    "link4": "contact",
+    "link5": "service",
+    "locale": {
+        "spanish": {
+            "title": "spanish",
+            "code": "es"
+        }
+    },
+    "call": {
+        "title": "Call-Us",
+        "number": "(980)-298-9007"
+    },
+    "external": {
+        "title": "merch",
+        "link": "https://zenkofightwear.com/collections/checkmat-nc"
+    }
+}

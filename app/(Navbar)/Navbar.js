@@ -47,7 +47,7 @@ function Navbar(props) {
                             {/* List */}
                             <div className="hidden lg:flex gap-x-6">
 
-                                {/* Link 1 */}
+                                {/* Home */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" }>
                                         <div className="capitalize">
@@ -56,7 +56,7 @@ function Navbar(props) {
                                     </Link>
                                 </div>
 
-                                {/* Link 2 */}
+                                {/* About */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link2]}>
                                         <div className="capitalize">
@@ -65,16 +65,16 @@ function Navbar(props) {
                                     </Link>
                                 </div>
 
-                                {/* Link 3 */}
-                                {/* <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
+                                {/* Portfolio */}
+                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link3]}>
                                         <div className="capitalize">
                                             {props.link3}
                                         </div>
                                     </Link>
-                                </div> */}
+                                </div>
 
-                                {/* Link 4 */}
+                                {/* Contact */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link4]}>
                                         <div className="capitalize">
@@ -83,7 +83,7 @@ function Navbar(props) {
                                     </Link>
                                 </div>
 
-                                {/* Link 5 */}
+                                {/* Service */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href= {"/" + [language.navbar.link5]}>
                                         <div className="capitalize">
@@ -92,19 +92,10 @@ function Navbar(props) {
                                     </Link>
                                 </div>
 
-                                {/* Link 6 */}
-                                {/* <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href= {"/" + [language.navbar.link6]}>
-                                        <div className="capitalize">
-                                            {language.navbar.link6}
-                                        </div>
-                                    </Link>
-                                </div> */}
-
                             </div>
 
                             {/* External Link/Language */}
-                             <div className="hidden lg:flex">
+                            <div className="hidden">
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
                                     <Link href={props.external1[1]} scroll={false}>
                                         <div className="capitalize">
@@ -117,10 +108,10 @@ function Navbar(props) {
                             {/* Contact Us */}
                             <div className="hidden lg:grid">
                                 <div className='hover:text-yellow-600 transition-colors delay-100'>
-                                    <a href={"tel: " + [language.navbar.call.number]}>
+                                    <a href={"tel: " + [props.phoneNumber]}>
                                         <div className='flex flex-col items-center'>
                                             <p>{language.navbar.call.title}</p>
-                                            <p>{language.navbar.call.number}</p>
+                                            <p>{props.phoneNumber}</p>
                                         </div>
                                         
                                     </a>
@@ -146,7 +137,7 @@ function Navbar(props) {
                 links = {[
                     props.link1,
                     props.link2,
-                    //props.link3,
+                    props.link3,
                     props.link4,
                     props.link5,
                     props.external1

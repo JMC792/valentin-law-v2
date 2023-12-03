@@ -1,0 +1,98 @@
+{
+    "metadata": {
+        "title": "About Us",
+        "description": ""
+    },
+    "hero": {
+        "title": "About Us",
+        "subtitle": "about"
+    },
+    "about1": {
+        "heading": "About Us",
+        "title": "Our Journey and Passion",
+        "paragraph": "Founded by Pedro, a talented photographer with over 5 years of experience, Queen City Web Solutions began as a Hispanic-owned venture in Charlotte, NC, dedicated to capturing life's precious moments with authenticity and artistry.",
+        "button": {
+            "title": "Contact Us",
+            "link": "/contact"
+        }
+    },
+    "about2": {
+        "heading" : "Discover Krispy Captures",
+        "title" : "Crafting Visual Legacies",
+        "paragraph": "At Krispy Captures, we're not just photographers; we're storytellers. Founded by Pedro, a passionate artist with a rich Mexican heritage, our studio has been turning moments into memories in Charlotte, NC for over 5 years. Specializing in commercial, real estate, graduation, and aerial photography, we bring a unique blend of cultural insight and professional expertise to each frame. Our mission is to capture the essence of every subject, translating fleeting moments into lasting visual narratives",
+        "button": {
+            "title": "Contact Us",
+            "link": "/contact"
+        }
+    },
+    "stat":{
+        "one": {
+            "title":"Phone",
+            "phone1":"(513)-206-2764",
+            "phone2":"",
+            "alt": "phone"
+        },
+        "two":{
+            "title": "Address",
+            "address1": "9044 Lawyers Rd Suite G",
+            "address2": "Charlotte, NC 28227",
+            "alt": "address"
+        },
+        "three" : {
+            "title": "Email",
+            "date": "checkmatnc@gmail.com",
+            "time": "",
+            "alt": "email"
+        }
+    },
+    "about3": {
+        "heading" : "Our Expertise",
+        "title" : "Specialized Solutions Tailored to Your Needs",
+        "paragraph": "our expertise is a blend of artistic mastery and technical finesse. We excel at transforming brands into digital marvels, crafting captivating websites that resonate with your audience. With a focus on tailoring solutions to your unique requirements, we combine innovation and precision to propel your brand to new heights in the digital realm.",
+        "button" : {
+            "title": "Contact Us",
+            "links": ""
+        }
+    },
+    "team": {
+        "heading" : "Meet Our Team",
+        "title" : "Unveiling the Minds Behind Your Success",
+        "sentence": "Get acquainted with the brilliant minds driving Queen City Web Solutions forward. Our diverse and dedicated team of experts brings a symphony of skills, passion, and innovation to every project. With a shared commitment to excellence, we're here to transform your digital vision into reality and elevate your brand to new horizons.",
+        "member": {
+            "member1":{
+                "name": "Olivia Weaver",
+                "title": "Creative Director"
+            },
+            "member2":{
+                "name": "Jackson Bennett",
+                "title": "Marketing Manager"
+            },
+            "member3":{
+                "name": "Ava Martinez",
+                "title": "Frontend Developer"
+            },
+            "member4":{
+                "name": "Ethan Sullivan",
+                "title": "Project Manager"
+            },
+            "member5":{
+                "name": "Sophia Cooper",
+                "title": "Content Strategist"
+            },
+            "member6":{
+                "name": "Liam Parker",
+                "title": "UX/UI Designer"
+            }
+        }
+        
+    },
+    "contact": {
+        "heading" : "Contact Us",
+        "title" : "Help Us Make Change",
+        "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
+        "button" : {
+            "title": "Submit",
+            "link": ""
+        }
+    }
+}

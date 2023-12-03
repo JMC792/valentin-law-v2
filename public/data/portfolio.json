@@ -49,5 +49,56 @@
             "p5": "",
             "p6": ""
         }
+    },
+    "website4":{
+        "slug": "encuentro-church",
+        "link": "https://encuentro.church/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Encuentro Church ",
+        "sentence": "A vibrant Baptist congregation nestled in Concord, NC. This online platform captures the essence of their faith-driven community, serving as a welcoming digital gateway for parishioners and seekers alike to explore their spiritual journey.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "",
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
+    },
+    "website5":{
+        "slug": "encuentro-church",
+        "link": "https://encuentro.church/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Encuentro Church ",
+        "sentence": "A vibrant Baptist congregation nestled in Concord, NC. This online platform captures the essence of their faith-driven community, serving as a welcoming digital gateway for parishioners and seekers alike to explore their spiritual journey.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "",
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
+    },
+    "website6":{
+        "slug": "encuentro-church",
+        "link": "https://encuentro.church/",
+        "type": "/images/arianeMacias.jpg",
+        "name": "Encuentro Church ",
+        "sentence": "A vibrant Baptist congregation nestled in Concord, NC. This online platform captures the essence of their faith-driven community, serving as a welcoming digital gateway for parishioners and seekers alike to explore their spiritual journey.",
+        "date": "09/11/2001",
+        "author": "Nicki Faircloth",
+        "content": {
+            "p1": "",
+            "p2": "",
+            "p3": "",
+            "p4": "",
+            "p5": "",
+            "p6": ""
+        }
     }
 }

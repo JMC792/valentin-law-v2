@@ -5,11 +5,13 @@ import Hero2 from "app/about/Hero2.js";
 import Stat from "app/about/Stat2.js";
 //Locales
 import language from "dictionaries/en.json";
+import about from "public/locales/english/about.json";
+import contact from "public/locales/english/contact.json";
 //SVG
 import phone from "public/icons/phone2.svg"
 import customer from "public/icons/customer.svg"
 import tick from "public/icons/tick.svg"
-import contact1 from "public/icons/contact/contact1.svg";
+import contact1 from "public/icons/homepage/svg1.svg";
 
 export const metadata = {
   title: 'Contact Us',
@@ -22,8 +24,8 @@ export default async function Page() {
   return (
     <Fragment>
       <Hero2 
-        heroTitle={language.contact.hero.title} 
-        heroSubtitle={language.contact.hero.subtitle}
+        heroTitle={contact.hero.title} 
+        heroSubtitle={contact.hero.subtitle}
         background={"bg-back-about"}
       />
       <Contact3 
@@ -34,27 +36,27 @@ export default async function Page() {
             service = {[
                 // Phone Number
                 [
-                    language.about.stat.one.title,
-                    language.about.stat.one.phone1,
-                    language.about.stat.one.phone2,
-                    phone,
-                    language.about.stat.one.alt
+                  about.stat.one.title,
+                  about.stat.one.phone1,
+                  about.stat.one.phone2,
+                  phone,
+                  about.stat.one.alt
                 ],
                 // Address
                 [
-                    language.about.stat.two.title,
-                    language.about.stat.two.address1,
-                    language.about.stat.two.address2,
-                    customer,
-                    language.about.stat.two.alt
+                  about.stat.two.title,
+                  about.stat.two.address1,
+                  about.stat.two.address2,
+                  customer,
+                  about.stat.two.alt
                 ],
                 //Open Hours
                 [
-                    language.about.stat.three.title,
-                    language.about.stat.three.date,
-                    language.about.stat.three.time,
-                    tick,
-                    language.about.stat.three.alt
+                  about.stat.three.title,
+                  about.stat.three.date,
+                  about.stat.three.time,
+                  tick,
+                  about.stat.three.alt
                 ],
             ]}
         />

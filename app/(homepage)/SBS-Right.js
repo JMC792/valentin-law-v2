@@ -21,7 +21,7 @@ export default function sbsRight(props){
                             <div className="grid gap-y-4">
                             
                             {/* Heading */}
-                            <div className="text-lg text-purple-700 font-medium">
+                            <div className="text-lg text-orange-400 font-medium">
                                 {props.heading}
                             </div>
 
