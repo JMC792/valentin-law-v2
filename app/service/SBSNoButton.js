@@ -22,7 +22,7 @@ export default function SBSLeftNoButton(props){
                             <div className="grid gap-y-4">
                             
                                 {/* Heading */}
-                                <div className="text-lg text-purple-700 font-medium uppercase">
+                                <div className="text-lg text-orange-500 font-medium uppercase">
                                     {props.heading}
                                 </div>
 

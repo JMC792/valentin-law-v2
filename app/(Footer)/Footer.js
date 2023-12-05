@@ -26,14 +26,14 @@ export default function Footer(props) {
               <Internal
                 links={props.internal}/>
               <Outgoing 
-                title= {props.outgoing[3]}
+                title= {"Social Media"}
                 links= {props.outgoing}
               />
               <Contact 
-                title= {props.contact[0]}
+                title= {"Contact"}
                 links={[
-                  [props.contact[1][0], props.contact[1][1], props.contact[1][2], props.contact[1][3]],
-                  [props.contact[2][0], props.contact[2][1], props.contact[2][2], props.contact[2][3]]
+                  [props.contact[0][0], props.contact[0][1], props.contact[0][2], props.contact[0][3]],
+                  [props.contact[1][0], props.contact[1][1], props.contact[1][2], props.contact[1][3]]
                 ]}
               />
             </div>

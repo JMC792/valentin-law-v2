@@ -11,7 +11,7 @@ import contact from "public/locales/english/contact.json";
 import phone from "public/icons/phone2.svg"
 import customer from "public/icons/customer.svg"
 import tick from "public/icons/tick.svg"
-import contact1 from "public/icons/Homepage/svg1.svg";
+import contact1 from "public/icons/contact/contact1.svg";
 
 export const metadata = {
   title: 'Contact Us',

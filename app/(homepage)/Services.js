@@ -11,7 +11,7 @@ export default function Services(props){
 
                     {/* Header */}
                     <h4 className="pb-4">
-                        <div className="text-xl font-medium text-yellow-700 capitalize">{props.heading}</div>
+                        <div className="text-xl font-medium text-orange-500 capitalize">{props.heading}</div>
                     </h4>
 
                     {/* Title Wrapper */}

@@ -8,6 +8,7 @@ import Services from "app/(homepage)/Services";
 import Pricing from "./(homepage)/Pricing";
 import Newsletter from "app/(homepage)/Newsletter";
 import List from "./portfolio/List";
+import Stat from "app/(homepage)/Stat";
 
 import data from "public/data/portfolio.json"
 //Locales
@@ -18,7 +19,7 @@ import SBS_Left from "public/images/homepage/sbs2.1.png";
 //images
 import image1 from "public/images/homepage/testimonial_1.svg";
 import image3 from "/public/images/homepage/jesus.svg"
-import Stat from "app/(homepage)/Stat";
+import image2 from "/public/images/homepage/person3.svg"
 import portfolio1 from "/public/images/portfolio/portfolio1.jpg";
 import portfolio2 from "/public/images/portfolio/portfolio2.jpg";
 import portfolio3 from "/public/images/portfolio/portfolio3.jpg";
@@ -132,7 +133,7 @@ export default function Page() {
               heading={language.index.testimonial.heading}
               title={language.index.testimonial.title}
               person = {language.index.testimonial.person}
-              images = {[image1,image3]}
+              images = {[image1,image3,image2]}
             />
             <List
               images={[portfolio1,portfolio2,portfolio3,portfolio4,portfolio5,portfolio6]}

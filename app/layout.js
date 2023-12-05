@@ -60,10 +60,8 @@ export default function RootLayout({
             [footer.socialMedia.media1.title, footer.socialMedia.media1.link], //Facebook
             [footer.socialMedia.media2.title, footer.socialMedia.media2.link], //Instagram
             [footer.socialMedia.media3.title, footer.socialMedia.media3.link], //Twitter
-            [footer.legal.title]
           ]}
           contact= {[
-            [footer.legal.title],
             [footer.legal.link1.title, footer.legal.link1.link, call, "call"],
             [footer.legal.link2.title, footer.legal.link2.link, email, "email"],
           ]}

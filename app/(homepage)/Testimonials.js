@@ -8,7 +8,7 @@ export default function Testimonials(props){
             <div className="container py-20 ">   
                 {/* Title and Heading */}
                 <div className="container">
-                    <div className="text-purple-800">
+                    <div className="text-orange-500">
                         <div className="text-2xl text-center font-medium">
                             {props.heading}
                         </div>
