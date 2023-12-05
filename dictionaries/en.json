@@ -20,7 +20,7 @@
         },
         "call": {
             "title": "Call-Us",
-            "number": "(513)-206-2764"
+            "number": "(980)-298-9007"
         },
         "external": {
             "title": "merch",
@@ -42,27 +42,27 @@
         },
         "services": {
             "heading": "Our Services",
-            "title": "Unlock Your Potential with Brazilian Jiu Jitsu",
-            "paragraph": "At our Charlotte gym, we offer a range of Brazilian Jiu Jitsu classes for students of all levels. Whether you're a beginner or an advanced practitioner, our expert instructors are here to help you refine your skills and achieve your goals. We also offer private lessons for those seeking a more personalized learning experience.",
+            "title": "Diverse Photography Services",
+            "paragraph": "Specializing in Commercial, Real Estate, Graduation, and Aerial Photography, we offer a wide array of professional photography services to meet all your needs",
             "one":{
                 "image": "/icons/Homepage/svg2.1.svg",
                 "title": "Commercials",
-                "paragraph": "Our fundamentals class is designed for beginners who are new to Brazilian Jiu Jitsu. We'll teach you the basic techniques and strategies of the art, helping you develop a strong foundation for your practice."
+                "paragraph": "Elevating brands with striking commercial photography that tells your story and showcases your business in the best light"
             },
             "two":{
                 "image": "/icons/Homepage/svg2.2.svg",
                 "title": "Real Estate",
-                "paragraph": "Our advanced class is designed for experienced practitioners who are looking to take their skills to the next level. We'll help you refine your techniques and learn more advanced strategies."
+                "paragraph": "Capturing the essence of properties with exceptional real estate photography that highlights every unique space and detail."
             },
             "three":{
                 "image": "/icons/Homepage/svg2.3.svg",
                 "title": "Graduation",
-                "paragraph": "Our private lessons are tailored to your unique needs and goals. Whether you're a beginner or an advanced practitioner, we'll help you achieve your goals and refine your skills."
+                "paragraph": "Immortalizing graduation milestones with vibrant and expressive photography that celebrates your academic achievements"
             },
             "four":{
                 "image": "/icons/services/thai.svg",
                 "title": "Aerial",
-                "paragraph": "Today, dare to take on a comprehensive workout that promises remarkable gains in strength and unrivaled striking prowess. Our Muay Thai & Boxing Classes in the Charlotte area present an open door for individuals from all walks of life to delve into the art of the eight limbs while pushing their physical limits like never before. "
+                "paragraph": "Elevating perspectives with breathtaking aerial photography, showcasing landscapes and structures from a stunning bird's-eye view."
             },
             "button": {
                 "title": "Learn More",
@@ -115,25 +115,25 @@
             "person": {
                 "first": {
                     "name": "Mauricio Chavez",
-                    "position": "Jiu Jitsu Enthusiast",
-                    "paragraph": "Training at this gym has been a transformative experience for me. The instructors are skilled and patient, helping me develop a strong foundation in Brazilian Jiu Jitsu. The supportive community here motivates me to push my limits and improve every day."
+                    "position": "Queen City Web Solutions",
+                    "paragraph": "Queen City Web Solutions is thrilled with the exceptional quality of work delivered by Krispy Captures. Their eye for detail and creative approach to aerial photography has provided us with truly captivating visuals that have elevated our web design projects. The professionalism and skill exhibited by the Krispy Captures team are unmatched, making them our go-to for all our photography needs."
                 },
                 "second": {
-                    "name": "Brooks Hasty",
-                    "position": "Advanced Practitioner",
-                    "paragraph": "I've been training in Brazilian Jiu Jitsu for years, and this gym has taken my skills to the next level. The advanced classes challenge me and keep me engaged. The camaraderie among fellow practitioners creates a positive and motivating atmosphere."
+                    "name": "Julio Zaconet",
+                    "position": "Valentin Law",
+                    "paragraph": "Valentin Law expresses immense gratitude to Krispy Captures for their extraordinary commercial photography. Their keen eye for detail and aesthetic finesse have greatly enhanced our brand's visual appeal, making a profound impact in our marketing materials. The quality and creativity Krispy Captures brings to each project are truly exceptional."
                 },
                 "third": {
-                    "name": "Bobby Ta",
-                    "position": "Advanced Practitioner",
-                    "paragraph": "As a beginner, I was welcomed with open arms. The fundamentals class provided a strong start to my journey in Brazilian Jiu Jitsu. The patient guidance of the instructors and the support of my fellow students have made this gym feel like a second home."
+                    "name": "Andres Ponce",
+                    "position": "Ramansco Construction",
+                    "paragraph": "Ramansco Construction is thoroughly impressed with the real estate photography services provided by Krispy Captures. Their ability to showcase our construction projects with such clarity and elegance has been instrumental in attracting potential clients and investors. The Krispy Captures team's talent for capturing the unique character of each property is unmatched, and their work has added significant value to our portfolio"
                 }
             }
         },
         "mission": {
-            "heading": "Our Mission",
+            "heading": "Why Choose Us",
             "title": "Empowering Through Brazilian Jiu Jitsu",
-            "paragraph": "Our mission is to empower individuals through the practice of Brazilian Jiu Jitsu. We believe in fostering discipline, self-confidence, and physical well-being in a supportive and respectful environment. Whether you're seeking personal growth, self-defense skills, or a new way to stay fit, our gym is here to guide you on your journey.",
+            "paragraph": "As a Hispanic-owned business, we pride ourselves on our diverse perspective, enriched by Pedro's expertise honed through a prestigious stint with BMW as a photographer.",
             "button": {
                 "title": "Get in Touch",
                 "link": "/contact"
@@ -437,12 +437,12 @@
         "legal": {
             "title" : "Contact",
             "link1" : {
-                "title":"(513)-206-2764",
-                "link": "tel: (513)-206-2764"
+                "title":"(980)-298-9007",
+                "link": "tel: (980)-298-9007"
             },
             "link2" : {
-                "title":"Checkmatnc@gmail.com",
-                "link": "mailto: Checkmatnc@gmail.com"
+                "title":"vote4pedrog@gmail.com",
+                "link": "mailto: vote4pedrog@gmail.com"
             }
         },
         "trademark":{

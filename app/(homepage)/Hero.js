@@ -40,7 +40,7 @@ export default function Hero({title,subtitle,button}) {
                                     {/* Hero Button */}
                                     <div>
                                         <Link href="/contact" >
-                                            <button type="button" className="bg-yellow-800 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
+                                            <button type="button" className="bg-orange-800 rounded-lg md:text-[20px] leading-[25px] px-7 py-4 mt-4 w-[14rem] uppercase">
                                                 {button}
                                             </button>
                                         </Link>

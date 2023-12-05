@@ -1,0 +1,159 @@
+{
+    "index": {
+    "metadata": {
+        "title": "",
+        "description": ""
+    },
+    "hero": {
+        "title": "Capturing Moments, Crafting Memories",
+        "subtitle": "At Krispy Captures, we specialize in turning fleeting moments into lasting impressions. Experience the pinnacle of photography with a creative edge in Charlotte, NC",
+        "button": {
+            "title": "Get Started",
+            "link": "/contact"
+        }
+    },
+    "services": {
+        "heading": "Our Services",
+        "title": "Diverse Photography Services",
+        "paragraph": "Specializing in Commercial, Real Estate, Graduation, and Aerial Photography, we offer a wide array of professional photography services to meet all your needs",
+        "one":{
+            "image": "/icons/Homepage/svg2.1.svg",
+            "title": "Commercials",
+            "paragraph": "Elevating brands with striking commercial photography that tells your story and showcases your business in the best light"
+        },
+        "two":{
+            "image": "/icons/Homepage/svg2.2.svg",
+            "title": "Real Estate",
+            "paragraph": "Capturing the essence of properties with exceptional real estate photography that highlights every unique space and detail."
+        },
+        "three":{
+            "image": "/icons/Homepage/svg2.3.svg",
+            "title": "Graduation",
+            "paragraph": "Immortalizing graduation milestones with vibrant and expressive photography that celebrates your academic achievements"
+        },
+        "four":{
+            "image": "/icons/services/thai.svg",
+            "title": "Aerial",
+            "paragraph": "Elevating perspectives with breathtaking aerial photography, showcasing landscapes and structures from a stunning bird's-eye view."
+        },
+        "button": {
+            "title": "Learn More",
+            "link": "/contact"
+        }
+    },
+    "about": {
+        "heading": "About Us",
+        "title": "Our Journey and Passion",
+        "paragraph": "Founded by Pedro, a talented photographer with over 5 years of experience, Queen City Web Solutions began as a Hispanic-owned venture in Charlotte, NC, dedicated to capturing life's precious moments with authenticity and artistry.",
+        "button": {
+            "title": "Join Us",
+            "link": "/contact"
+        }
+    },
+    "stat": {
+        "days": {
+            "monday": "monday",
+            "tuesday": "tuesday",
+            "wednesday": "wednesday",
+            "thursday": "thursday",
+            "friday": "friday",
+            "saturday": "saturday",
+            "sunday": "sunday"
+        },
+        "times": {
+            "time1": "7:00am - 8:00am",
+            "time2": "5:30pm - 6:30pm",
+            "time3": "6:30pm - 7:45pm",
+            "time4": "7:45pm - 8:45pm",
+            "time5": "7:30pm - 8:30pm",
+            "time6": "11:00pm - 1:00pm",
+            "time7": "6:30pm - 7:30pm",
+            "time8": "closed"
+        },
+        "class": {
+            "gi": "Gi",
+            "nogi": "No-Gi",
+            "kidsgi": "Kids Gi",
+            "fundamentals": "Fundamentals",
+            "advanced": "Advanced",
+            "openmat": "Open Mat",
+            "muaythai": "Muay Thai",
+            "closed": "Closed"
+        }
+    },
+    "testimonial": {
+        "heading": "Success Stories",
+        "title": "Hear What Our Members Say",
+        "person": {
+            "first": {
+                "name": "Mauricio Chavez",
+                "position": "Queen City Web Solutions",
+                "paragraph": "Queen City Web Solutions is thrilled with the exceptional quality of work delivered by Krispy Captures. Their eye for detail and creative approach to aerial photography has provided us with truly captivating visuals that have elevated our web design projects. The professionalism and skill exhibited by the Krispy Captures team are unmatched, making them our go-to for all our photography needs."
+            },
+            "second": {
+                "name": "Julio Zaconet",
+                "position": "Valentin Law",
+                "paragraph": "Valentin Law expresses immense gratitude to Krispy Captures for their extraordinary commercial photography. Their keen eye for detail and aesthetic finesse have greatly enhanced our brand's visual appeal, making a profound impact in our marketing materials. The quality and creativity Krispy Captures brings to each project are truly exceptional."
+            },
+            "third": {
+                "name": "Andres Ponce",
+                "position": "Ramansco Construction",
+                "paragraph": "Ramansco Construction is thoroughly impressed with the real estate photography services provided by Krispy Captures. Their ability to showcase our construction projects with such clarity and elegance has been instrumental in attracting potential clients and investors. The Krispy Captures team's talent for capturing the unique character of each property is unmatched, and their work has added significant value to our portfolio"
+            }
+        }
+    },
+    "mission": {
+        "heading": "Why Choose Us",
+        "title": "Empowering Through Brazilian Jiu Jitsu",
+        "paragraph": "As a Hispanic-owned business, we pride ourselves on our diverse perspective, enriched by Pedro's expertise honed through a prestigious stint with BMW as a photographer.",
+        "button": {
+            "title": "Get in Touch",
+            "link": "/contact"
+        }
+    },
+    "contact": {
+        "heading": "Contact Us",
+        "title": "Join Our Brazilian Jiu Jitsu Community",
+        "paragraph": "If you're ready to embark on a journey of self-improvement through Brazilian Jiu Jitsu, we invite you to get in touch with us. Our experienced instructors are here to answer your questions and help you get started.",
+        "button": {
+            "title": "Connect Now",
+            "link": ""
+        }
+    },
+    "blog": {
+        "heading": "Insights & Tips",
+        "title": "Enhance Your Jiu Jitsu Knowledge",
+        "button": {
+            "title": "Read More",
+            "link": ""
+        },
+        "card1": {
+            "date": "07 Sept, 2023",
+            "article": "Mastering Essential Brazilian Jiu Jitsu Techniques",
+            "blogType": "Technique Breakdown",
+            "sentence": "Explore the fundamental techniques of Brazilian Jiu Jitsu and learn how they form the building blocks of your practice."
+        },
+        "card2": {
+            "date": "07 Sept, 2023",
+            "article": "The Mental Game: Overcoming Challenges in Jiu Jitsu",
+            "blogType": "Mindset",
+            "sentence": "Discover strategies to enhance your mental resilience and approach challenges with a focused and positive mindset in your Jiu Jitsu journey."
+        },
+        "card3": {
+            "date": "07 Sept, 2023",
+            "article": "The Benefits of Brazilian Jiu Jitsu for Women",
+            "blogType": "Women's Empowerment",
+            "sentence": "Learn about the unique advantages that Brazilian Jiu Jitsu offers to women, both in terms of self-defense skills and personal growth."
+        }
+    },
+    "newsletter": {
+        "heading": "Stay Informed and Inspired!",
+        "title": "Subscribe to Our Jiu Jitsu Updates",
+        "sentence": "Stay up to date with the latest news, training tips, and events from our Brazilian Jiu Jitsu gym. Join our community and ignite your passion for Jiu Jitsu!",
+        "button": {
+            "title": "Subscribe Now",
+            "link": "/contact"
+        }
+    }
+    }
+}

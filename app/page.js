@@ -7,16 +7,25 @@ import Testimonials from "app/(homepage)/Testimonials";
 import Services from "app/(homepage)/Services";
 import Pricing from "./(homepage)/Pricing";
 import Newsletter from "app/(homepage)/Newsletter";
+import List from "./portfolio/List";
+import Stat from "app/(homepage)/Stat";
+
+import data from "public/data/portfolio.json"
 //Locales
-import language from "dictionaries/en.json";
+import language from "/public/locales/english/homepage.json";
 //icons
-import SBS_Right from "public/images/Homepage/about1.2.png";
-import SBS_Left from "public/icons/Homepage/svg2.svg";
+import SBS_Right from "public/images/homepage/about1.2.png";
+import SBS_Left from "public/images/homepage/sbs2.1.png";
 //images
 import image1 from "public/images/homepage/testimonial_1.svg";
-import image2 from "/public/icons/Homepage/littleCircle.svg"
 import image3 from "/public/images/homepage/jesus.svg"
-import Stat from "app/(homepage)/Stat";
+import image2 from "/public/images/homepage/person3.svg"
+import portfolio1 from "/public/images/portfolio/portfolio1.jpg";
+import portfolio2 from "/public/images/portfolio/portfolio2.jpg";
+import portfolio3 from "/public/images/portfolio/portfolio3.jpg";
+import portfolio4 from "/public/images/portfolio/portfolio4.jpg";
+import portfolio5 from "/public/images/portfolio/portfolio5.jpg";
+import portfolio6 from "/public/images/portfolio/portfolio6.1.jpg";
 
 export default function Page() {
   return (
@@ -76,7 +85,7 @@ export default function Page() {
               buttonLink={language.index.mission.button.link}
               image={SBS_Left}
             />
-            <Stat
+            {/* <Stat
                 stat = {[
                     //Monday
                     [
@@ -118,13 +127,17 @@ export default function Page() {
                         language.index.stat.class.closed
                     ],
                 ]}
-            />
+            /> */}
             <Testimonials 
               language = {language}
               heading={language.index.testimonial.heading}
               title={language.index.testimonial.title}
               person = {language.index.testimonial.person}
-              images = {[image1,image2,image3]}
+              images = {[image1,image3,image2]}
+            />
+            <List
+              images={[portfolio1,portfolio2,portfolio3,portfolio4,portfolio5,portfolio6]}
+              blogData={data}
             />
             {/* <Newsletter 
               heading={language.index.newsletter.heading} 

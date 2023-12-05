@@ -2,13 +2,13 @@ import {Fragment} from "react";
 //Components
 import Hero2 from "app/about/Hero2.js";
 import Service1 from "app/service/SBSNoButton.js";
-import Newsletter from "app/(homepage)/Newsletter.js";
 import Services from "app/(homepage)/Services";
 //Locales
-import language from "dictionaries/en.json";
+import service from "public/locales/english/services.json";
 //images
-import image1 from "public/icons/services/services1.svg";
-import image2 from "public/icons/services/firewall.svg";
+import image1 from "public/icons/Homepage/svg1.svg";
+import image2 from "public/icons/Homepage/svg2.svg";
+
 
 export const metadata = {
   title: 'Service',
@@ -20,39 +20,38 @@ export default function Page() {
   return (
         <Fragment>
             <Hero2 
-              heroTitle={language.service.hero.title} 
-              heroSubtitle={language.service.hero.subtitle}
+              heroTitle={service.hero.title} 
+              heroSubtitle={service.hero.subtitle}
               background={"bg-back-about"}
             />
             <Service1 
-              heading={language.service.section1.heading} 
-              title={language.service.section1.title} 
-              paragraph={language.service.section1.paragraph}
+              heading={service.section1.heading} 
+              title={service.section1.title} 
+              paragraph={service.section1.paragraph}
               order={"order-first"} 
               svg ={image1}
             />
             <Services
-              heading={language.index.services.heading}
-              title={language.index.services.title}
-              paragraph={language.index.services.paragraph}
+              heading={service.services.heading}
+              title={service.services.title}
+              paragraph={service.services.paragraph}
               service={[
                 //Fundamentals classes
-                [language.index.services.one.image,language.index.services.one.title,language.index.services.one.paragraph],
+                [service.services.one.image,service.services.one.title,service.services.one.paragraph],
                 //Advanced classes
-                [language.index.services.two.image,language.index.services.two.title,language.index.services.two.paragraph],
+                [service.services.two.image,service.services.two.title,service.services.two.paragraph],
                 //Private Lessons
-                [language.index.services.three.image,language.index.services.three.title,language.index.services.three.paragraph],
+                [service.services.three.image,service.services.three.title,service.services.three.paragraph],
                 //Muay Thai 
-                [language.index.services.four.image,language.index.services.four.title,language.index.services.four.paragraph]
+                [service.services.four.image,service.services.four.title,service.services.four.paragraph]
                 ]}
-              button={language.index.services.button.title}
             />
             <Service1 
-              heading={language.service.section2.heading} 
-              title={language.service.section2.title} 
-              paragraph={language.service.section2.paragraph}
+              heading={service.section2.heading} 
+              title={service.section2.title} 
+              paragraph={service.section2.paragraph}
               order={"lg:order-last"} 
-              svg ={image1}
+              svg ={image2}
             />
         </Fragment>
   );

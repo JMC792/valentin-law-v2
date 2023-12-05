@@ -21,7 +21,7 @@ export default function sbsRight(props){
                             <div className="grid gap-y-4">
                             
                             {/* Heading */}
-                            <div className="text-lg text-purple-700 font-medium">
+                            <div className="text-lg text-orange-500 font-medium">
                                 {props.heading}
                             </div>
 
@@ -38,7 +38,7 @@ export default function sbsRight(props){
                             {/* Button */}
                             <div className="text-white">
                                 <Link href= {props.buttonLink}>
-                                    <button type="button" className="border rounded-lg bg-teal-700 p-4">{props.button}</button>
+                                    <button type="button" className="border rounded-lg bg-orange-800 p-4">{props.button}</button>
                                 </Link>
                             </div>
                             
