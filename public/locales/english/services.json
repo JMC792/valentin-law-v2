@@ -32,7 +32,7 @@
                 "paragraph": "Immortalizing graduation milestones with vibrant and expressive photography that celebrates your academic achievements"
             },
             "four":{
-                "image": "/icons/services/thai.svg",
+                "image": "/icons/services/aerial.svg",
                 "title": "Aerial",
                 "paragraph": "Elevating perspectives with breathtaking aerial photography, showcasing landscapes and structures from a stunning bird's-eye view."
             },
@@ -42,8 +42,8 @@
             }
         },
         "section2": {
-            "heading": "Self-Defense and Fitness",
-            "title": "Empower Yourself with Self-Defense and Fitness Training",
+            "heading": "Capturing the Essence of Charlotte",
+            "title": "Highlighting your local expertise and connection to the Charlotte area",
             "paragraph": "Elevate your physical and mental well-being with our comprehensive self-defense and fitness programs. From striking techniques to situational awareness, we provide practical skills that not only keep you safe but also improve your overall health.",
             "button": {
                 "title": "Learn More",

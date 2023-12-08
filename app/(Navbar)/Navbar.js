@@ -1,10 +1,16 @@
 'use client'
 
 import {useState, useEffect, Fragment} from 'react';
-import Link from 'next/link'
-import language from "dictionaries/en.json"
+import Link from 'next/link' 
 import Image from "next/image";
+
+//Components
 import SideNav from './SideNav';
+
+//Data
+import navbar from '/public/locales/english/navbar.json';
+
+//Images/SVG
 import menu from "/public/icons/menu.svg";
 
 function Navbar(props) {
@@ -58,7 +64,7 @@ function Navbar(props) {
 
                                 {/* About */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href= {"/" + [language.navbar.link2]}>
+                                    <Link href= {"/" + [props.link2]}>
                                         <div className="capitalize">
                                             {props.link2}
                                         </div>
@@ -67,7 +73,7 @@ function Navbar(props) {
 
                                 {/* Portfolio */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href= {"/" + [language.navbar.link3]}>
+                                    <Link href= {"/" + [props.link3]}>
                                         <div className="capitalize">
                                             {props.link3}
                                         </div>
@@ -76,7 +82,7 @@ function Navbar(props) {
 
                                 {/* Contact */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href= {"/" + [language.navbar.link4]}>
+                                    <Link href= {"/" + [props.link4]}>
                                         <div className="capitalize">
                                             {props.link4}
                                         </div>
@@ -85,7 +91,7 @@ function Navbar(props) {
 
                                 {/* Service */}
                                 <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href= {"/" + [language.navbar.link5]}>
+                                    <Link href= {"/" + [props.link5]}>
                                         <div className="capitalize">
                                             {props.link5}
                                         </div>
@@ -99,7 +105,7 @@ function Navbar(props) {
                                 <div className='hover:text-yellow-600 transition-colors delay-100'>
                                     <a href={"tel: " + [props.phoneNumber]}>
                                         <div className='flex flex-col items-center'>
-                                            <p>{language.navbar.call.title}</p>
+                                            <p>{navbar.call.title}</p>
                                             <p>{props.phoneNumber}</p>
                                         </div>
                                         
@@ -122,7 +128,6 @@ function Navbar(props) {
             </nav>
 
             <SideNav 
-                language={language} 
                 links = {[
                     props.link1,
                     props.link2,
