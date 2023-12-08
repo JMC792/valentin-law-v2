@@ -94,17 +94,6 @@ function Navbar(props) {
 
                             </div>
 
-                            {/* External Link/Language */}
-                            <div className="hidden">
-                                <div className="text-[16px] font-medium hover:text-yellow-600 transition-colors delay-100">
-                                    <Link href={props.external1[1]} scroll={false}>
-                                        <div className="capitalize">
-                                            {props.external1[0]}
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div> 
-
                             {/* Contact Us */}
                             <div className="hidden lg:grid">
                                 <div className='hover:text-yellow-600 transition-colors delay-100'>
@@ -140,7 +129,6 @@ function Navbar(props) {
                     props.link3,
                     props.link4,
                     props.link5,
-                    props.external1
                 ]}
                 showOffcanvas={showOffcanvas} 
                 offcanvas={offcanvas} 

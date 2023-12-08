@@ -11,7 +11,6 @@ import about1 from "public/images/about/about1.jpg"
 import about2 from "public/images/homepage/about1.2.png";
 
 //SVG
-import svg1 from "public/icons/about/about1.svg"
 import phone from "public/icons/phone2.svg"
 import customer from "public/icons/customer.svg"
 import tick from "public/icons/tick.svg"

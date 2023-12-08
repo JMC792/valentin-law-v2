@@ -1,9 +1,12 @@
 // These styles apply to every route in the application
 import Footer from 'app/(Footer)/Footer';
 import Navbar from 'app/(Navbar)/Navbar';
-import language from '/dictionaries/en.json';
+import layout from '/public/locales/english/layout.json';
+
+// Data
 import navbar from '/public/locales/english/navbar.json';
 import footer from '/public/locales/english/footer.json';
+
 import '@styles/globals.css'
 import { Inter } from "next/font/google"
 import logo from "public/icons/logo.svg"
@@ -12,13 +15,13 @@ import email from "public/icons/email.svg"
 
 export const metadata = {
   title: {
-    template: "%s | " + [language.layout.title],
-    default: [language.layout.title],
+    template: "%s | " + [layout.title],
+    default: [layout.title],
   },
-  description: {default: [language.layout.description]},
-  appliationName: [language.layout.applicationName],
-  creator: [language.layout.creator],
-  publisher: [language.layout.publisher],
+  description: {default: [layout.description]},
+  appliationName: [layout.applicationName],
+  creator: [layout.creator],
+  publisher: [layout.publisher],
 };
 
 const inter =Inter({subsets:['latin']})
@@ -32,29 +35,27 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar
-          link1 = {navbar.link1} //Home
-          link2 = {navbar.link2} //About
-          link3 = {navbar.link3} //Portfolio
-          link4 = {navbar.link4} //Contact
-          link5 = {navbar.link5} //Service
-          language = {navbar.locale.spanish}
-          external1 = {[navbar.external.title,navbar.external.link]}
-          phoneNumber = {navbar.call.number}
+          link1 = {layout.sitemap.home} //Home
+          link2 = {layout.sitemap.about} //About
+          link3 = {layout.sitemap.portfolio} //Portfolio
+          link4 = {layout.sitemap.contact} //Contact
+          link5 = {layout.sitemap.service} //Service
+          phoneNumber = {layout.number}
           logo = {logo}
         />
           {children}
         <Footer
           overview = {[
-            language.layout.title, 
-            language.layout.description,
+            layout.title, 
+            layout.description,
             logo
           ]}
           internal={[
-            navbar.link1, //Home
-            navbar.link2, //About
-            navbar.link3, //Portfolio
-            navbar.link4, //Contact
-            navbar.link5, //Service
+            layout.sitemap.home, //Home
+            layout.sitemap.about, //About
+            layout.sitemap.portfolio, //Portfolio
+            layout.sitemap.contact, //Contact
+            layout.sitemap.service, //Service
           ]}
           outgoing={[
             [footer.socialMedia.media1.title, footer.socialMedia.media1.link], //Facebook
@@ -62,8 +63,8 @@ export default function RootLayout({
             [footer.socialMedia.media3.title, footer.socialMedia.media3.link], //Twitter
           ]}
           contact= {[
-            [footer.legal.link1.title, footer.legal.link1.link, call, "call"],
-            [footer.legal.link2.title, footer.legal.link2.link, email, "email"],
+            [footer.contact.phone.title, footer.contact.phone.link, call, "call"],
+            [footer.contact.email.title, footer.contact.email.link, email, "email"],
           ]}
           trademark={[
             footer.trademark.year,
