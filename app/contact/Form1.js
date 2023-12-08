@@ -1,7 +1,7 @@
 import React, {Fragment} from "react";
 import Image from 'next/image'
 
-export default function Contact2({language,contactButton,image}){
+export default function Contact2(props){
 
     return(
         <Fragment>
@@ -13,7 +13,7 @@ export default function Contact2({language,contactButton,image}){
                         {/* Image */}
                         <div className="lg:order-2 relative">
                             <Image 
-                                src={image}
+                                src={props.image}
                                 alt="Brazilian Jiu-Jitsu Dogfight" 
                                 className="rounded-xl"
                             />
@@ -26,8 +26,8 @@ export default function Contact2({language,contactButton,image}){
                                 
                                 {/* Title and Heading */}
                                 <div className="text-neutral-900 flex flex-col items-center lg:items-start">
-                                    <div className="text-2xl">{language.contact.contact.heading}</div>
-                                    <div className="text-[2.5rem] font-bold">{language.contact.contact.title}</div>
+                                    <div className="text-2xl">{props.heading}</div>
+                                    <div className="text-[2.5rem] font-bold">{props.title}</div>
                                 </div>
 
                                 {/* Form */}
@@ -56,8 +56,8 @@ export default function Contact2({language,contactButton,image}){
                                                 </div>
 
                                                 <div className="">
-                                                    <a href= {contactButton}>
-                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{language.contact.contact.button.title}</button>
+                                                    <a href= {props.contactButton}>
+                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{props.title}</button>
                                                     </a>
                                                 </div>
 

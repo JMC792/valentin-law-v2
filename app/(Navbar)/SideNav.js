@@ -78,13 +78,6 @@ export default function SideNav(props){
                                     {props.links[4]}
                                 </div>
                             </Link>
-
-                            {/* Link 6 */}
-                            <Link href={'/'} locale={props.links[6]}>
-                                <div className='offcanvas-text'>
-                                    {props.links[6]}
-                                </div>
-                            </Link>
                             
                         </div>
 

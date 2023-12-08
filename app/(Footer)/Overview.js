@@ -1,10 +1,6 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import call from "public/icons/call2.svg";
-import email from "public/icons/email.svg";
-import location from "public/icons/location_on_white.svg";
-import language from "dictionaries/en.json";
 
 export default function Overview(props) {
   return (

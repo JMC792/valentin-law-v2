@@ -1,17 +1,18 @@
 import { Fragment } from "react";
 import Hero3 from "./Hero3.js";
-import en from "dictionaries/en.json"
+import slug from "public/locales/english/slug.json"
 import Article from "./Article.js";
-import about4 from "public/images/arianeMacias.jpg"
+import about4 from "public/images/portfolio/portfolio1.jpg"
 import { getBlogBySlug } from "lib/api";
 
+
 export const metadata = {
-    title: "Post",
+    title: "Portfolio",
     description: '...',
 }
 
 export default function Page({params}){
-
+    
     const blogPost = getBlogBySlug({params});
 
     if (!blogPost) {
@@ -21,8 +22,8 @@ export default function Page({params}){
     return(
         <Fragment>
             <Hero3
-                heroTitle={en.blog.post.hero.title}
-                heroSubtitle={en.blog.post.hero.subtitle}
+                heroTitle={slug.hero.title}
+                heroSubtitl={slug.hero.subtitle}
             />
             <Article 
                 blogData={blogPost}

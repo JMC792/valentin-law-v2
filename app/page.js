@@ -5,14 +5,14 @@ import About from "app/(homepage)/SBS-Left";
 import Mission from "app/(homepage)/SBS-Right";
 import Testimonials from "app/(homepage)/Testimonials";
 import Services from "app/(homepage)/Services";
-import Pricing from "./(homepage)/Pricing";
-import Newsletter from "app/(homepage)/Newsletter";
 import List from "./portfolio/List";
-import Stat from "app/(homepage)/Stat";
 
-import data from "public/data/portfolio.json"
-//Locales
+//Locales/Data
 import language from "/public/locales/english/homepage.json";
+import about from "/public/locales/english/about.json";
+import services from "/public/locales/english/services.json";
+import data from "public/data/portfolio.json"
+
 //icons
 import SBS_Right from "public/images/homepage/about1.2.png";
 import SBS_Left from "public/images/homepage/sbs2.1.png";
@@ -20,6 +20,7 @@ import SBS_Left from "public/images/homepage/sbs2.1.png";
 import image1 from "public/images/homepage/testimonial_1.svg";
 import image3 from "/public/images/homepage/jesus.svg"
 import image2 from "/public/images/homepage/person3.svg"
+
 import portfolio1 from "/public/images/portfolio/portfolio1.jpg";
 import portfolio2 from "/public/images/portfolio/portfolio2.jpg";
 import portfolio3 from "/public/images/portfolio/portfolio3.jpg";
@@ -38,40 +39,40 @@ export default function Page() {
             />
             {/* <Pricing/> */}
             <About 
-              heading={language.index.about.heading} 
-              title={language.index.about.title} 
-              paragraph={language.index.about.paragraph} 
-              button={language.index.about.button.title}
-              buttonLink={language.index.about.button.link}
+              heading={about.about1.heading} 
+              title={about.about1.title} 
+              paragraph={about.about1.paragraph} 
+              button={about.about1.button.title}
+              buttonLink={about.about1.button.link}
               image={SBS_Right}
             />
             <Services
-              heading={language.index.services.heading}
-              title={language.index.services.title}
-              paragraph={language.index.services.paragraph}
+              heading={services.services.heading}
+              title={services.services.title}
+              paragraph={services.services.paragraph}
               service={[
                 //Fundamentals 
                 [
-                    language.index.services.one.image,
-                    language.index.services.one.title,
-                    language.index.services.one.paragraph,
+                    services.services.one.image,
+                    services.services.one.title,
+                    services.services.one.paragraph,
                 ],
                 //Advanced 
                 [
-                    language.index.services.two.image,
-                    language.index.services.two.title,
-                    language.index.services.two.paragraph
+                    services.services.two.image,
+                    services.services.two.title,
+                    services.services.two.paragraph
                 ],
                 //Private 
                 [
-                    language.index.services.three.image,
-                    language.index.services.three.title,
-                    language.index.services.three.paragraph
+                    services.services.three.image,
+                    services.services.three.title,
+                    services.services.three.paragraph
                 ],
                 //Muay Thai 
                 [
-                    language.index.services.four.image,
-                    language.index.services.four.title,
+                    services.services.four.image,
+                    services.services.four.title,
                     language.index.services.four.paragraph
                 ]
                 ]}
@@ -85,49 +86,6 @@ export default function Page() {
               buttonLink={language.index.mission.button.link}
               image={SBS_Left}
             />
-            {/* <Stat
-                stat = {[
-                    //Monday
-                    [
-                        language.index.stat.days.monday,
-                        [language.index.stat.class.gi,language.index.stat.times.time1],
-                        [language.index.stat.class.nogi,language.index.stat.times.time3],
-                        [language.index.stat.class.fundamentals,language.index.stat.times.time4],
-                    ],
-                    //Tuesday
-                    [
-                        language.index.stat.days.tuesday,
-                        [language.index.stat.class.kidsgi,language.index.stat.times.time2],
-                        [language.index.stat.class.fundamentals,language.index.stat.times.time3],
-                        [language.index.stat.class.advanced,language.index.stat.times.time4],
-                    ],
-                    //Wednesday
-                    [
-                        language.index.stat.days.wednesday,
-                        [language.index.stat.class.gi,language.index.stat.times.time1],
-                        [language.index.stat.class.kidsgi,language.index.stat.times.time2],
-                        [language.index.stat.class.muaythai,language.index.stat.times.time7],
-                        [language.index.stat.class.nogi,language.index.stat.times.time5],
-                    ],
-                    //Thursday
-                    [language.index.stat.days.thursday],
-                    //Friday
-                    [
-                        language.index.stat.days.friday,
-                        [language.index.stat.class.openmat,language.index.stat.times.time7]
-                    ],
-                    //Saturday
-                    [
-                        language.index.stat.days.saturday,
-                        [language.index.stat.class.openmat,language.index.stat.times.time6]
-                    ],
-                    //Sunday
-                    [
-                        language.index.stat.days.sunday,
-                        language.index.stat.class.closed
-                    ],
-                ]}
-            /> */}
             <Testimonials 
               language = {language}
               heading={language.index.testimonial.heading}
@@ -139,14 +97,6 @@ export default function Page() {
               images={[portfolio1,portfolio2,portfolio3,portfolio4,portfolio5,portfolio6]}
               blogData={data}
             />
-            {/* <Newsletter 
-              heading={language.index.newsletter.heading} 
-              title={language.index.newsletter.title} 
-              sentence={language.index.newsletter.sentence}
-              button={language.index.newsletter.button.title}
-              buttonLink={language.index.newsletter.button.link}
-              background = {"bg-back-7"}
-            /> */}
         </Fragment>
   );
 }

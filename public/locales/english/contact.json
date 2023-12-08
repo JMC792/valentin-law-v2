@@ -1,13 +1,22 @@
 {
     "metadata": {
         "title": "Contact Us",
-        "description": ""
+        "description": "",
+        "keywords": {
+            "1": "contact",
+            "2": "Next Js",
+            "3": "Reach",
+            "4": "Javascript",
+            "5": "contact html template",
+            "6": "contact us page"
+
+        }
     },
     "hero": {
         "title": "Contact Us",
         "subtitle": "contact"
     },
-    "contact": {
+    "form": {
         "heading" : "Contact Us",
         "title" : "Help Us Make Change",
         "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",

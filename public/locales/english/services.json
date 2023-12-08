@@ -17,22 +17,22 @@
             "title": "Diverse Photography Services",
             "paragraph": "Specializing in Commercial, Real Estate, Graduation, and Aerial Photography, we offer a wide array of professional photography services to meet all your needs",
             "one":{
-                "image": "/icons/Homepage/svg2.1.svg",
+                "image": "/icons/services/svg2.1.svg",
                 "title": "Commercials",
                 "paragraph": "Elevating brands with striking commercial photography that tells your story and showcases your business in the best light"
             },
             "two":{
-                "image": "/icons/Homepage/svg2.2.svg",
+                "image": "/icons/services/svg2.2.svg",
                 "title": "Real Estate",
                 "paragraph": "Capturing the essence of properties with exceptional real estate photography that highlights every unique space and detail."
             },
             "three":{
-                "image": "/icons/Homepage/svg2.3.svg",
+                "image": "/icons/services/svg2.3.svg",
                 "title": "Graduation",
                 "paragraph": "Immortalizing graduation milestones with vibrant and expressive photography that celebrates your academic achievements"
             },
             "four":{
-                "image": "/icons/services/thai.svg",
+                "image": "/icons/services/aerial.svg",
                 "title": "Aerial",
                 "paragraph": "Elevating perspectives with breathtaking aerial photography, showcasing landscapes and structures from a stunning bird's-eye view."
             },
@@ -42,8 +42,8 @@
             }
         },
         "section2": {
-            "heading": "Self-Defense and Fitness",
-            "title": "Empower Yourself with Self-Defense and Fitness Training",
+            "heading": "Capturing the Essence of Charlotte",
+            "title": "Highlighting your local expertise and connection to the Charlotte area",
             "paragraph": "Elevate your physical and mental well-being with our comprehensive self-defense and fitness programs. From striking techniques to situational awareness, we provide practical skills that not only keep you safe but also improve your overall health.",
             "button": {
                 "title": "Learn More",

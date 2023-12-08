@@ -1,11 +1,11 @@
 {
     "overview": {
-        "title" : "Checkmat NC",
-        "paragraph" : "Checkmat NC is a premier Brazilian Jiu-Jitsu gym located in the heart of Charlotte, North Carolina. Our expert instructors are committed to providing comprehensive training in both the art and science of Brazilian Jiu-Jitsu, offering a safe and welcoming environment for practitioners of all skill levels. With a curriculum designed to enhance physical fitness, mental resilience, and self-defense capabilities, Checkmat NC is more than just a gym—it's a community dedicated to empowering individuals through the transformative power of martial arts",
+        "title" : "Krispy Captures",
+        "paragraph" : "Krispy Captures, led by the passionate and skilled Pedro Garcia, is a dynamic photography company based in Charlotte, North Carolina, specializing in vivid and memorable imagery. With over three years of experience, Pedro, a young Hispanic male, brings a fresh and innovative approach to capturing life's most precious moments",
         "phoneNumber" : "(513)-206-2764",
         "email" : "Checkmatnc@gmail.com",
         "address" : "9044 Lawyers Rd Suite G, Charlotte, NC 28227",
-        "addressLink" : "Checkmatnc@gmail.com"
+        "addressLink" : ""
     },
     "usefulLinks": {
         "title": "Useful Links",
@@ -23,7 +23,7 @@
         },
         "media2" : {
             "title": "Youtube",
-            "link": "https://www.youtube.com/@checkmatnc7843"
+            "link": "https://www.youtube.com/@krispycaptures"
         },
         "media3" : {
             "title":"Facebook",
@@ -38,13 +38,13 @@
             "link": "https://www.tiktok.com/@krispycaptures"
         }
     },
-    "legal": {
+    "contact": {
         "title" : "Contact",
-        "link1" : {
+        "phone" : {
             "title":"(980)-298-9007",
             "link": "tel: (980)-298-9007"
         },
-        "link2" : {
+        "email" : {
             "title":"vote4pedrog@gmail.com",
             "link": "mailto: vote4pedrog@gmail.com"
         }

@@ -1,9 +1,4 @@
 {
-    "link1": "home",
-    "link2": "about",
-    "link3": "portfolio",
-    "link4": "contact",
-    "link5": "service",
     "locale": {
         "spanish": {
             "title": "spanish",
@@ -11,8 +6,7 @@
         }
     },
     "call": {
-        "title": "Call-Us",
-        "number": "(980)-298-9007"
+        "title": "Call-Us"
     },
     "external": {
         "title": "merch",

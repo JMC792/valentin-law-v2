@@ -1,0 +1,21 @@
+{
+    "metadata": {
+        "title": "Portfolio",
+        "description": ""
+    },
+    "hero": {
+        "title": "blog",
+        "subtitle": "blog"
+    },
+    "list":{
+        "title": "Our Articles",
+        "subtitle": "Take a looks at our things we did ",
+        "sentence": "Aenean tincidunt id mauris idology auctor. Donec at ligula lacus. Nulla dig nissimmi quis neque interdum."
+    },
+    "post": {
+        "hero": {
+            "title": "blog",
+            "subtitle": "post"
+        }
+    }
+}
