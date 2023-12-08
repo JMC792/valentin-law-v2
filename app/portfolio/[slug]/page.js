@@ -5,7 +5,6 @@ import Article from "./Article.js";
 import about4 from "public/images/portfolio/portfolio1.jpg"
 import { getBlogBySlug } from "lib/api";
 
-const blogPost = getBlogBySlug({params});
 
 export const metadata = {
     title: "Portfolio",
@@ -13,7 +12,8 @@ export const metadata = {
 }
 
 export default function Page({params}){
-
+    
+    const blogPost = getBlogBySlug({params});
 
     if (!blogPost) {
     return <div>Blog post not found</div>;
