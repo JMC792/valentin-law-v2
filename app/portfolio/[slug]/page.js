@@ -2,13 +2,13 @@ import { Fragment } from "react";
 import Hero3 from "./Hero3.js";
 import slug from "public/locales/english/slug.json"
 import Article from "./Article.js";
-import about4 from "public/images/arianeMacias.jpg"
+import about4 from "public/images/portfolio/portfolio1.jpg"
 import { getBlogBySlug } from "lib/api";
 
 const blogPost = getBlogBySlug({params});
 
 export const metadata = {
-    title: "Post",
+    title: "Portfolio",
     description: '...',
 }
 

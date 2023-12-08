@@ -4,7 +4,6 @@ import Navbar from 'app/(Navbar)/Navbar';
 import layout from '/public/locales/english/layout.json';
 
 // Data
-import navbar from '/public/locales/english/navbar.json';
 import footer from '/public/locales/english/footer.json';
 
 import '@styles/globals.css'

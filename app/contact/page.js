@@ -16,9 +16,8 @@ import tick from "public/icons/tick.svg"
 import contact1 from "public/icons/contact/contact1.svg";
 
 export const metadata = {
-  title: [about.metadata.title],
-  description: [about.metadata.description],
-  Keywords: [about.metadata.keywords]
+  title: "Contact Us",
+  description: [contact.metadata.description],
 }
 
 

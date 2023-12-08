@@ -12,7 +12,7 @@ import image5 from "public/images/portfolio/portfolio5.jpg"
 import image6 from "public/images/portfolio/portfolio6.1.jpg"
 
 export const metadata = {
-    title: [portfolio.metadata.title],
+    title: "Portfolio",
     description: [portfolio.metadata.description],
 }
 
