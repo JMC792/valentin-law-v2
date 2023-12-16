@@ -31,40 +31,37 @@ export default function Contact2(props){
                                 </div>
 
                                 {/* Form */}
-                                <div className="bg-neutral-100 rounded-xl">
-                                        <form className="p-8" data-netlify="true">
-                                            <div className="grid gap-y-4">
-                                                
-                                                <div className="grid gap-y-2 ">
-                                                    <label htmlFor="name" className="block text-neutral-900 font-bold">Name</label>
-                                                    <input type="text" id="name" name="name" placeholder="Name" className=" text-neutral-900 rounded-lg p-2" required/>
-                                                </div>
+                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" method="POST" name="contact">
+                                        <div className="grid gap-y-4">
                                             
-                                                <div className="grid gap-y-2">
-                                                    <label htmlFor="email" className="block text-neutral-900 font-bold">Email:</label>
-                                                    <input type="email" id="email" name="email" placeholder="Email"  className=" text-neutral-900 rounded-lg p-2" required/>
-                                                </div>
-                                                
-                                                <div className="grid gap-y-2">
-                                                    <label htmlFor="phone" className="block text-neutral-900 font-bold">Phone:</label>
-                                                    <input type="tel" id="phone" name="phone" placeholder="Phone" className=" text-neutral-900 rounded-lg p-2" required/>
-                                                </div>
-                                                
-                                                <div className="grid gap-y-2">
-                                                    <label htmlFor="message" className="block text-neutral-900 font-bold">Message:</label>
-                                                    <textarea id="message" name="message" rows="4" placeholder="Message" className=" text-neutral-900 rounded-lg p-2" required></textarea>
-                                                </div>
-
-                                                <div className="">
-                                                    <a href= {props.contactButton}>
-                                                        <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">{props.title}</button>
-                                                    </a>
-                                                </div>
-
-                                            </div>
+                                            <p className="grid gap-y-2 ">
+                                                <label name="name" className="block text-neutral-900 font-bold">Name</label>
+                                                <input type="text" id="name" name="name" placeholder="Name" className=" text-neutral-900 rounded-lg p-2" required/>
+                                            </p>
+                                        
+                                            <p className="grid gap-y-2">
+                                                <label name="email" className="block text-neutral-900 font-bold">Email:</label>
+                                                <input type="email" id="email" name="email" placeholder="Email"  className=" text-neutral-900 rounded-lg p-2" required/>
+                                            </p>
                                             
-                                        </form>
-                                </div>
+                                            <p className="grid gap-y-2">
+                                                <label name="phone" className="block text-neutral-900 font-bold">Phone:</label>
+                                                <input type="tel" id="phone" name="phone" placeholder="Phone" className=" text-neutral-900 rounded-lg p-2" required/>
+                                            </p>
+                                            
+                                            <p className="grid gap-y-2">
+                                                <label name="message" className="block text-neutral-900 font-bold">Message:</label>
+                                                <textarea id="message" name="message" rows="4" placeholder="Message" className=" text-neutral-900 rounded-lg p-2" required></textarea>
+                                            </p>
+
+                                            <p>
+                                                <button type="submit" className="border rounded-lg bg-blue-700 py-4 px-12 text-white">Submit</button>
+                                            </p>
+
+                                        </div>
+                                        
+                                    </form>
+
 
                             </div>
                             
