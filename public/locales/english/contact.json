@@ -18,7 +18,7 @@
     },
     "form": {
         "heading" : "Contact Us",
-        "title" : "Help Us Make Change",
+        "title" : "Lets Connect!",
         "paragraph" : "We encourage all of those who are part of our church family to give—not out of obligation but out of a spirit of worship. Your gifts allow God's work to be done in our midst, in our community, and in the world around us.",
         "button" : {
             "title": "Submit",
@@ -43,15 +43,6 @@
             "date": "vote4pedrog@gmail.com",
             "time": "",
             "alt": "email"
-        }
-    },
-    "newsletter": {
-        "heading": "Subscribe Us",
-        "title" : " Subscribe Your Email for Newsletter & Promotion",
-        "sentence": "Nulla dig nissimmi quis neque interdum. An Ohio man allegedly punched his lawyer in the face in court Tuesday upon finding out he was sentenced.",
-        "button2": {
-            "title": "Subscribe Now",
-            "link": ""
         }
     }
 }
