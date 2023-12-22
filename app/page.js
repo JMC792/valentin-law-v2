@@ -14,8 +14,8 @@ import services from "/public/locales/english/services.json";
 import data from "public/data/portfolio.json"
 
 //icons
-import SBS_Right from "public/images/homepage/about1.2.png";
-import SBS_Left from "public/images/homepage/sbs2.1.png";
+import SBS_Right from "public/images/homepage/about1.2.webp";
+import SBS_Left from "public/images/homepage/sbs2.1.webp";
 //images
 import image1 from "public/images/homepage/testimonial_1.svg";
 import image3 from "/public/images/homepage/jesus.svg"
