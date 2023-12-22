@@ -15,11 +15,11 @@
         "services": {
             "heading": "Our Services",
             "title": "Diverse Photography Services",
-            "paragraph": "Specializing in Commercial, Real Estate, Graduation, and Aerial Photography, we offer a wide array of professional photography services to meet all your needs",
+            "paragraph": "Specializing in Automotive, Real Estate, Graduation, and Aerial Photography, we offer a wide array of professional photography services to meet all your needs",
             "one":{
                 "image": "/icons/services/svg2.1.svg",
-                "title": "Commercials",
-                "paragraph": "Elevating brands with striking commercial photography that tells your story and showcases your business in the best light"
+                "title": "Automotive",
+                "paragraph": "We offer exceptional automotive photography services, showcasing the elegance and sophistication of luxury vehicles. Our expertise brings out the unique character of each model, enhancing your brand's visual appeal"
             },
             "two":{
                 "image": "/icons/services/svg2.2.svg",

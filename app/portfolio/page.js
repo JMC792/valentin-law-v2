@@ -3,13 +3,13 @@ import { Fragment } from "react";
 import List from "app/portfolio/List.js";
 
 import portfolio from "/public/locales/english/portfolio.json"
-import image2 from "public/images/portfolio/portfolio1.jpg"
+import image2 from "public/images/portfolio/portfolio1.webp"
 import data from "public/data/portfolio.json"
 import image1 from "public/images/portfolio/portfolio2.jpg"
-import image3 from "public/images/portfolio/portfolio3.jpg"
-import image4 from "public/images/portfolio/portfolio4.jpg"
-import image5 from "public/images/portfolio/portfolio5.jpg"
-import image6 from "public/images/portfolio/portfolio6.1.jpg"
+import image3 from "public/images/portfolio/portfolio3.webp"
+import image4 from "public/images/portfolio/portfolio4.webp"
+import image5 from "public/images/portfolio/portfolio5.webp"
+import image6 from "public/images/portfolio/portfolio6.webp"
 
 export const metadata = {
     title: "Portfolio",

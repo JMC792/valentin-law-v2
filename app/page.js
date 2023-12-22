@@ -21,12 +21,12 @@ import image1 from "public/images/homepage/testimonial_1.svg";
 import image3 from "/public/images/homepage/jesus.svg"
 import image2 from "/public/images/homepage/person3.svg"
 
-import portfolio1 from "/public/images/portfolio/portfolio1.jpg";
-import portfolio2 from "/public/images/portfolio/portfolio2.jpg";
-import portfolio3 from "/public/images/portfolio/portfolio3.jpg";
-import portfolio4 from "/public/images/portfolio/portfolio4.jpg";
-import portfolio5 from "/public/images/portfolio/portfolio5.jpg";
-import portfolio6 from "/public/images/portfolio/portfolio6.1.jpg";
+import portfolio1 from "/public/images/portfolio/portfolio1.webp";
+import portfolio2 from "/public/images/portfolio/portfolio2.webp";
+import portfolio3 from "/public/images/portfolio/portfolio3.webp";
+import portfolio4 from "/public/images/portfolio/portfolio4.webp";
+import portfolio5 from "/public/images/portfolio/portfolio5.webp";
+import portfolio6 from "/public/images/portfolio/portfolio6.webp";
 
 export default function Page() {
   return (
