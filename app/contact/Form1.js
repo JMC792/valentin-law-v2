@@ -31,8 +31,22 @@ export default function Contact2(props){
                                 </div>
 
                                 {/* Form */}
-                                    <form className="p-8 bg-neutral-100 rounded-xl" data-netlify="true" method="POST" name="contact">
+                                    <form 
+                                        className="p-8 bg-neutral-100 rounded-xl" 
+                                        data-netlify="true" 
+                                        method="POST" 
+                                        name="contact" 
+                                        netlify-honeypot="bot-field"
+                                    >
                                         <div className="grid gap-y-4">
+
+                                            <input type="hidden" name="form-name" value="contact" />
+
+                                            <p class="hidden">
+                                                <label>
+                                                Dont fill this out if youre human: <input name="bot-field" />
+                                                </label>
+                                            </p>
                                             
                                             <p className="grid gap-y-2 ">
                                                 <label name="name" className="block text-neutral-900 font-bold">Name</label>

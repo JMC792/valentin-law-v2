@@ -7,8 +7,8 @@ import About2 from "app/(homepage)/SBS-Right.js";
 import Stat2 from "app/about/Stat2.js";
 import About1 from "app/(homepage)/SBS-Left.js";
 //Images
-import about1 from "public/images/about/about1.jpg"
-import about2 from "public/images/homepage/about1.2.png";
+import about1 from "public/images/about/about1.webp"
+import about2 from "public/images/homepage/about1.2.webp";
 
 //SVG
 import phone from "public/icons/phone2.svg"
